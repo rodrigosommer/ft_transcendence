@@ -1,0 +1,759 @@
+{
+  "app": {
+    "name": "Who knows best?",
+    "short": "WKB",
+    "tagline": "Myth or truth. You have seconds to decide.",
+    "loading": "Loading…"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…",
+    "close": "Close",
+    "back": "Back",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "remove": "Remove",
+    "retry": "Try again",
+    "search": "Search",
+    "none": "None",
+    "you": "You",
+    "bot": "Bot",
+    "level": "Level",
+    "xp": "XP",
+    "points": "points",
+    "seconds": "s",
+    "online": "Online",
+    "offline": "Offline",
+    "copy": "Copy",
+    "copied": "Copied",
+    "language": "Language",
+    "optional": "optional",
+    "discard": "Discard"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "system": "Follow the system",
+    "dark": "Dark"
+  },
+  "welcome": {
+    "eyebrow": "A card game about what is true",
+    "lead": "One statement, a few seconds. Call it true or call it a myth before anyone else at the table does.",
+    "heroCard": "A day on Venus is longer than a year on Venus.",
+    "ctaPlay": "Play now",
+    "ctaSignup": "Create an account",
+    "ctaLogin": "I already have an account",
+    "tryTitle": "Your turn",
+    "tryLead": "A real card from the deck. Green means you were right. What the statement turned out to be is a separate question, and it gets its own colour.",
+    "tryPrompt": "Which is it?",
+    "tryAgain": "Deal it again",
+    "deckTitle": "Eight suits, one deck",
+    "deckLead": "Every category is printed with its own mark, so you know what you are being asked about before you have finished reading the card.",
+    "roomTitle": "Bring friends, or bots that answer like people",
+    "roomBody": "Share a six character code and play the same deck at the same moment. Empty seats take bots that answer at human speed and get things wrong the way people do.",
+    "roomCode": "K7QMZX",
+    "roomSeats": "Two to eight players to a room.",
+    "recordTitle": "A record that sticks",
+    "recordBody": "Every match feeds your statistics, your level, and a leaderboard that does not forget.",
+    "languagesTitle": "Three languages, two rooms",
+    "languagesBody": "The interface and the cards, in whichever you read fastest. The table is lit or dark, and either can change mid match.",
+    "languagesList": "English, Français, Português",
+    "closingTitle": "So, who knows best?",
+    "cards": {
+      "science": {
+        "statement": "We only use ten percent of our brains.",
+        "fact": "Imaging shows activity across virtually the whole brain, including during sleep."
+      },
+      "space": {
+        "statement": "Neptune was found by mathematics before anyone looked for it.",
+        "fact": "Its position was predicted from wobbles in Uranus's orbit, then confirmed within a degree."
+      },
+      "history": {
+        "statement": "Vikings wore horned helmets into battle.",
+        "fact": "Not one has been found in a Viking grave. The horns come from a 19th century opera costume."
+      },
+      "sports": {
+        "statement": "An Olympic gold medal is mostly silver.",
+        "fact": "Silver, with about six grams of gold on the outside. The last solid gold was awarded in 1912."
+      },
+      "geography": {
+        "statement": "The summit of Everest is the point furthest from the centre of the Earth.",
+        "fact": "That is Chimborazo, in Ecuador. The planet bulges at the equator."
+      },
+      "arts": {
+        "statement": "Van Gogh sold almost nothing while he was alive.",
+        "fact": "One confirmed sale, The Red Vineyard, against some nine hundred paintings."
+      },
+      "technology": {
+        "statement": "Deleting a file wipes it from the disk straight away.",
+        "fact": "It normally just drops the entry. The bytes sit there until something overwrites them."
+      },
+      "culture": {
+        "statement": "The wedding ring sits on the left hand because Rome believed a vein ran from it to the heart.",
+        "fact": "The vena amoris. The anatomy was wrong, but the custom outlived it."
+      }
+    }
+  },
+  "nav": {
+    "play": "Play",
+    "tournaments": "Tournaments",
+    "leaderboard": "Leaderboard",
+    "stats": "Statistics",
+    "friends": "Friends",
+    "profile": "Profile",
+    "logout": "Log out",
+    "login": "Log in",
+    "signup": "Sign up",
+    "menu": "Menu"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Log in to join a room.",
+    "signupTitle": "Create your account",
+    "signupSubtitle": "Pick a name your opponents will see.",
+    "email": "Email",
+    "password": "Password",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "displayName": "Display name",
+    "submitLogin": "Log in",
+    "submitSignup": "Sign up",
+    "noAccount": "No account yet?",
+    "hasAccount": "Already have an account?",
+    "orContinueWith": "or continue with",
+    "google": "Google",
+    "github": "GitHub",
+    "42": "42 Intra",
+    "passwordHint": "At least 10 characters, with a letter and a digit.",
+    "changePassword": "Change password",
+    "passwordChanged": "Password updated. Other sessions were signed out.",
+    "demoTitle": "Demo accounts",
+    "demoHint": "Password for all three: {{password}}",
+    "oauthFailed": "Sign-in with the provider did not complete. Please try again.",
+    "oauthAccountExists": "An account with this email already exists. Sign in with your password instead.",
+    "signingIn": "Signing you in…",
+    "accountCreated": "Your account is ready. Log in to start playing."
+  },
+  "setup": {
+    "eyebrow": "First time here",
+    "title": "Welcome, {{name}}",
+    "lead": "A few quick choices before your first round. None of them are permanent: the language and the theme sit in the header, and your name and face are on your profile page.",
+    "nameTitle": "Your name",
+    "nameLabel": "Display name",
+    "nameHint": "This is the name on the scoreboard and in the room.",
+    "languageTitle": "Language",
+    "languageHint": "The interface, and the cards wherever a translation exists.",
+    "themeTitle": "Light or dark",
+    "themeHint": "The card is always paper. This is the room it sits in.",
+    "submit": "Start playing",
+    "skip": "Skip for now",
+    "avatarTitle": "Pick a face",
+    "avatarHint": "Sixteen of them, two per card suit. Or keep the initials."
+  },
+  "validation": {
+    "email": {
+      "required": "Enter your email address.",
+      "invalid": "That does not look like an email address.",
+      "tooLong": "That email address is too long."
+    },
+    "password": {
+      "required": "Enter your password.",
+      "tooShort": "Use at least 10 characters.",
+      "tooLong": "That password is too long.",
+      "needsLetter": "Include at least one letter.",
+      "needsDigit": "Include at least one digit."
+    },
+    "displayName": {
+      "tooShort": "Use at least 3 characters.",
+      "tooLong": "Use at most 24 characters.",
+      "invalidChars": "Start with a letter or digit. Latin letters (accents are fine), digits, spaces, dots, dashes and underscores only."
+    },
+    "roomName": {
+      "tooShort": "Use at least 3 characters.",
+      "tooLong": "Use at most 40 characters."
+    },
+    "roomCode": {
+      "length": "A room code is 6 characters.",
+      "invalidChars": "Letters and digits only."
+    },
+    "cardCount": {
+      "range": "Pick between 5 and 40 cards."
+    },
+    "maxPlayers": {
+      "range": "Between 2 and 8 players."
+    },
+    "categories": {
+      "requiredForCategoryMode": "Choose a category for this room."
+    },
+    "tournamentName": {
+      "tooShort": "Use at least 3 characters.",
+      "tooLong": "Use at most 40 characters."
+    },
+    "confirm": {
+      "required": "Type your display name to confirm."
+    }
+  },
+  "error": {
+    "unauthorized": "You need to be logged in.",
+    "tokenInvalid": "Your session is no longer valid.",
+    "forbidden": "You are not allowed to do that.",
+    "notFound": "Not found.",
+    "validation": "Please check the highlighted fields.",
+    "alreadyExists": "That is already taken.",
+    "badRequest": "That request could not be processed.",
+    "internal": "Something went wrong on our side.",
+    "rateLimited": "Too many attempts. Please wait a moment.",
+    "payloadTooLarge": "That file is too large.",
+    "network": "Cannot reach the server.",
+    "auth": {
+      "accountExists": "An account with those details already exists.",
+      "invalidCredentials": "Email or password is incorrect.",
+      "noSession": "You are not signed in.",
+      "sessionExpired": "Your session expired. Please log in again.",
+      "wrongPassword": "That is not your current password.",
+      "noPasswordSet": "This account signs in with a provider and has no password yet."
+    },
+    "oauth": {
+      "notConfigured": "That provider is not configured on this server.",
+      "exchangeFailed": "The provider rejected the sign-in.",
+      "profileFailed": "Could not read your profile from the provider.",
+      "noEmail": "The provider did not share a verified email address."
+    },
+    "avatar": {
+      "missing": "Choose an image first.",
+      "tooLarge": "Images must be 2 MB or smaller.",
+      "unsupportedType": "Use a PNG, JPEG or WebP image."
+    },
+    "friends": {
+      "self": "You cannot add yourself.",
+      "blocked": "That is not possible right now."
+    },
+    "room": {
+      "notFound": "No room with that code.",
+      "full": "That room is full.",
+      "matchInProgress": "A match is already running in that room.",
+      "notEnoughCards": "The card set does not have enough cards for those settings.",
+      "unknownCategory": "That category does not exist.",
+      "creationFailed": "Could not create the room. Please try again.",
+      "botAlreadyIn": "That opponent is already in the room.",
+      "cannotRemoveHost": "The host cannot be removed.",
+      "removed": "The host removed you from the room.",
+      "tooMany": "You have created a lot of rooms in the last hour. Join an existing one or try again later."
+    },
+    "match": {
+      "alreadyRunning": "A match is already running.",
+      "hostOnly": "Only the host can do that.",
+      "needsTwoPlayers": "You need at least two players. Add an opponent.",
+      "roomFull": "There are more players than the room allows.",
+      "notEnoughCards": "Not enough cards for these settings.",
+      "voteFailed": "Your answer could not be saved. Please answer again.",
+      "aborted": "The match was stopped because of a problem on our side. The host can start a new one."
+    },
+    "tournament": {
+      "hostOnly": "Only the organiser can do that.",
+      "alreadyStarted": "This tournament has already started.",
+      "full": "This tournament is full.",
+      "needsFullBracket": "Fill every seat before starting.",
+      "notEnoughBots": "There are not enough opponents to fill the bracket.",
+      "wrongPlayers": "Only the two drawn players can play this match. Add the opponent shown in the bracket.",
+      "tooMany": "You already have three tournaments open for registration. Start or fill one of them first."
+    },
+    "ws": {
+      "badTicket": "Your connection could not be authenticated.",
+      "badPayload": "The server could not read that message.",
+      "notInRoom": "You are not in a room.",
+      "alreadyJoined": "This connection already joined a room.",
+      "unknownEvent": "Unsupported action."
+    },
+    "serviceUnavailable": "The server is not answering. This usually passes in a moment.",
+    "account": {
+      "confirmMismatch": "That does not match your display name."
+    }
+  },
+  "lobby": {
+    "title": "Rooms",
+    "subtitle": "Join a public room or create your own.",
+    "createRoom": "Create a room",
+    "joinByCode": "Join with a code",
+    "codePlaceholder": "ABC123",
+    "join": "Join",
+    "empty": "No public rooms right now. Create the first one.",
+    "players": "{{count}} / {{max}} players",
+    "inLobby": "Waiting",
+    "inMatch": "Playing",
+    "hostedBy": "Hosted by {{name}}",
+    "connecting": "Connecting…",
+    "disconnected": "Connection lost. Reconnecting…"
+  },
+  "createRoom": {
+    "title": "New room",
+    "name": "Room name",
+    "namePlaceholder": "Friday night quiz",
+    "visibility": "Visibility",
+    "public": "Public",
+    "publicHint": "Listed in the lobby for anyone to join.",
+    "private": "Private",
+    "privateHint": "Reachable only with the invite code.",
+    "mode": "Mode",
+    "general": "General knowledge",
+    "generalHint": "Cards drawn from every category.",
+    "category": "Single category",
+    "categoryHint": "A separate room dedicated to one category.",
+    "difficulty": "Difficulty",
+    "difficultyHint": "{{window}}s to answer · {{cards}} cards",
+    "categories": "Categories",
+    "categoriesHint": "Leave empty to use every category.",
+    "cardCount": "Cards per match",
+    "maxPlayers": "Maximum players",
+    "modifiers": "Modifiers",
+    "comboEnabled": "Combo multiplier",
+    "comboHint": "Consecutive correct answers raise your score, up to +50%.",
+    "doubleCardEnabled": "Double-value cards",
+    "doubleHint": "Every fifth card is worth twice as much, win or lose.",
+    "answerWindow": "Answer window",
+    "available": "{{count}} cards available with these settings",
+    "create": "Create room",
+    "resetDefaults": "Reset to defaults"
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  },
+  "room": {
+    "code": "Room code",
+    "shareHint": "Share this code to invite someone.",
+    "players": "Players",
+    "settings": "Settings",
+    "addOpponent": "Add an opponent",
+    "opponents": "Computer opponents",
+    "start": "Start match",
+    "startHint": "Only the host can start.",
+    "waitingForHost": "Waiting for the host to start…",
+    "host": "Host",
+    "nowHost": "The host left, so the room is yours now.",
+    "leave": "Leave room",
+    "needMorePlayers": "Add at least one more player to start.",
+    "botStrength": "Accuracy {{value}}% · reacts in ~{{ms}}s",
+    "botStrengths": "Strong at: {{list}}",
+    "editSettings": "Edit settings",
+    "settingsSaved": "Settings updated.",
+    "lineDropped": "The line dropped",
+    "lineDroppedBody": "Reconnecting to the table. Your score and the card in play are both safe."
+  },
+  "match": {
+    "countdown": "Get ready…",
+    "cardOf": "Card {{position}} of {{total}}",
+    "truth": "Truth",
+    "myth": "Myth",
+    "waiting": "Waiting for the others…",
+    "timeUp": "Time is up",
+    "correct": "Correct",
+    "wrong": "Wrong",
+    "noAnswer": "No answer",
+    "itWasTrue": "It was true",
+    "itWasFalse": "It was a myth",
+    "inFact": "In fact:",
+    "nextIn": "Next card in {{seconds}}s",
+    "combo": "Combo ×{{value}}",
+    "comboBroken": "Combo lost",
+    "doubleCard": "Double value",
+    "finalScoreboard": "Final scoreboard",
+    "winner": "{{name}} wins",
+    "tie": "It is a tie",
+    "playAgain": "Back to the room",
+    "xpGained": "+{{value}} XP",
+    "levelUp": "Level {{level}} reached",
+    "achievementUnlocked": "Achievement unlocked",
+    "reactionUntrusted": "Reaction time could not be verified, so the slowest time was used.",
+    "sourceRef": "Source: {{ref}}",
+    "translationFallback": "Shown in {{locale}}, with no translation available yet.",
+    "advanced": "You advance to the next round",
+    "eliminated": "You are out of the tournament",
+    "reconnected": "Reconnected. You missed {{count}} card(s).",
+    "disconnectedPlayer": "{{name}} lost connection"
+  },
+  "scoreboard": {
+    "title": "Scoreboard",
+    "rank": "#",
+    "player": "Player",
+    "score": "Score",
+    "streak": "Streak"
+  },
+  "profile": {
+    "title": "Profile",
+    "editTitle": "Edit profile",
+    "avatar": "Avatar",
+    "uploadAvatar": "Upload an image",
+    "removeAvatar": "Use the default avatar",
+    "avatarHint": "PNG, JPEG or WebP, up to 2 MB.",
+    "memberSince": "Member since {{date}}",
+    "displayNameUpdated": "Profile updated.",
+    "security": "Security",
+    "dangerZone": "Account",
+    "yourProgress": "Progress",
+    "toNextLevel": "{{into}} / {{needed}} XP to level {{level}}",
+    "avatarChoose": "Stock avatars",
+    "avatarChooseHint": "Two per card suit. Picking one replaces an uploaded picture.",
+    "avatarNone": "Initials, generated from your name",
+    "unsaved": "Unsaved changes",
+    "dataTitle": "Your data",
+    "exportBody": "Download everything this application stores about you: your account, your statistics, every match and every answer, your achievements and your friends. One JSON file, formatted to be read.",
+    "exportAction": "Download my data",
+    "deleteBody": "Delete your account and everything attached to it. Your matches, answers, achievements, friendships and statistics go with it. This cannot be undone.",
+    "deleteAction": "Delete my account",
+    "deleteWarning": "This is permanent. There is no way to restore the account afterwards.",
+    "deleteConfirmLabel": "Type {{name}} to confirm",
+    "deleteFinal": "Delete permanently"
+  },
+  "friends": {
+    "title": "Friends",
+    "subtitle": "Add people and see who is online.",
+    "searchPlaceholder": "Search by display name",
+    "yourFriends": "Your friends",
+    "incoming": "Requests received",
+    "outgoing": "Requests sent",
+    "add": "Add friend",
+    "accept": "Accept",
+    "decline": "Decline",
+    "removeFriend": "Remove",
+    "block": "Block",
+    "blocked": "Blocked",
+    "pending": "Pending",
+    "empty": "No friends yet. Search for someone above.",
+    "noResults": "Nobody matches that name.",
+    "requestSent": "Request sent."
+  },
+  "stats": {
+    "title": "Statistics",
+    "matches": "Matches",
+    "wins": "Wins",
+    "losses": "Losses",
+    "winRate": "Win rate",
+    "accuracy": "Accuracy",
+    "answers": "Answers",
+    "bestCombo": "Best combo",
+    "bestScore": "Best score",
+    "totalScore": "Total score",
+    "fastestCorrect": "Fastest correct answer",
+    "byCategory": "Accuracy by category",
+    "history": "Match history",
+    "noHistory": "No finished matches yet.",
+    "opponents": "Opponents",
+    "rank": "Rank",
+    "date": "Date",
+    "achievements": "Achievements",
+    "unlockedOn": "Unlocked {{date}}",
+    "locked": "Locked",
+    "progressionTitle": "Score over your last matches"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "subtitle": "Ranked by total score across finished matches.",
+    "empty": "Nobody has finished a match yet.",
+    "player": "Player",
+    "matches": "Matches",
+    "wins": "Wins",
+    "score": "Score",
+    "accuracy": "Accuracy"
+  },
+  "tournament": {
+    "title": "Tournaments",
+    "subtitle": "Single-elimination brackets.",
+    "create": "New tournament",
+    "name": "Tournament name",
+    "namePlaceholder": "Saturday cup",
+    "size": "Bracket size",
+    "players": "{{count}} players",
+    "cardCount": "Cards per match",
+    "registered": "{{count}} of {{size}} registered",
+    "join": "Join",
+    "leave": "Leave",
+    "fillWithBots": "Fill remaining seats",
+    "start": "Start tournament",
+    "status": {
+      "registration": "Registration open",
+      "running": "In progress",
+      "finished": "Finished"
+    },
+    "bracket": "Bracket",
+    "round": "Round {{number}}",
+    "final": "Final",
+    "semifinal": "Semi-final",
+    "quarterfinal": "Quarter-final",
+    "waiting": "Waiting",
+    "ready": "Ready to play",
+    "playing": "In progress",
+    "finishedMatch": "Finished",
+    "yourMatch": "Your match is ready",
+    "joinMatch": "Join your match",
+    "champion": "{{name}} wins the tournament",
+    "empty": "No tournaments yet.",
+    "byes": "Seats are filled with computer opponents so a bracket can always start.",
+    "botMatchNote": "Matches between two computer opponents are resolved immediately using the same scoring rules."
+  },
+  "categories": {
+    "geography": "Geography",
+    "history": "History",
+    "science": "Science & Nature",
+    "technology": "Technology & Computing",
+    "arts": "Arts & Literature",
+    "sports": "Sports & Games",
+    "culture": "Society & Culture",
+    "space": "Space & Astronomy"
+  },
+  "avatars": {
+    "sports-trophy": "The trophy",
+    "sports-player": "The player",
+    "history-sphinx": "The sphinx",
+    "history-centurion": "The centurion",
+    "science-dna": "The helix",
+    "science-goggles": "The researcher",
+    "space-visitor": "The visitor",
+    "space-helmet": "The astronaut",
+    "technology-machine": "The machine",
+    "technology-headset": "The engineer",
+    "arts-quill": "Quill and inkpot",
+    "arts-beret": "The painter",
+    "geography-compass": "The compass rose",
+    "geography-explorer": "The explorer",
+    "culture-mask": "The mask",
+    "culture-singer": "The singer"
+  },
+  "achievements": {
+    "first-match": {
+      "name": "Opening Hand",
+      "description": "Finish your first match."
+    },
+    "regular": {
+      "name": "Regular",
+      "description": "Finish ten matches."
+    },
+    "first-win": {
+      "name": "First Blood",
+      "description": "Win a match."
+    },
+    "champion": {
+      "name": "Champion",
+      "description": "Win five matches."
+    },
+    "century": {
+      "name": "Century",
+      "description": "Answer 100 cards correctly."
+    },
+    "polymath": {
+      "name": "Polymath",
+      "description": "Answer 300 cards correctly."
+    },
+    "combo-5": {
+      "name": "On a Roll",
+      "description": "Reach a combo of five."
+    },
+    "combo-10": {
+      "name": "Unstoppable",
+      "description": "Reach a combo of ten."
+    },
+    "sharpshooter": {
+      "name": "Sharpshooter",
+      "description": "Hold 80% accuracy over at least 50 answers."
+    },
+    "flawless": {
+      "name": "Flawless",
+      "description": "Finish a match of ten cards or more without a single mistake."
+    },
+    "quickdraw": {
+      "name": "Quickdraw",
+      "description": "Answer correctly in under 1.5 seconds."
+    },
+    "scholar": {
+      "name": "Scholar",
+      "description": "Reach level 5."
+    },
+    "cartographer": {
+      "name": "Cartographer",
+      "description": "Answer 25 geography cards correctly."
+    },
+    "stargazer": {
+      "name": "Stargazer",
+      "description": "Answer 25 space cards correctly."
+    }
+  },
+  "bot": {
+    "byte": "Runs on caffeine and changelogs.",
+    "atlas": "Has never lost an argument about borders.",
+    "nova": "Would rather be looking up.",
+    "muse": "Reads the footnotes first.",
+    "pixel": "Knows every rule and half the records.",
+    "sage": "Slow, steady, hard to catch out.",
+    "rookie": "Enthusiastic. Not always right.",
+    "oracle": "Rarely wrong. Never smug about it."
+  },
+  "legal": {
+    "lastUpdated": "Last updated: {{date}}",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "WKB is a student project built for the 42 curriculum. This page explains exactly what the application stores about you, why it stores it, and how to get rid of it. It is written to be read, not to be skipped.",
+      "sections": [
+        {
+          "heading": "Who runs this service",
+          "body": [
+            "WKB is operated by the student who built it, as coursework for the 42 School ft_transcendence project. It is not a commercial service and there is no company behind it.",
+            "For any question about your data, contact the account that hosts the instance you are using."
+          ]
+        },
+        {
+          "heading": "What we collect",
+          "body": [
+            "Account details: your email address, your display name, the password you chose (stored only as an Argon2id hash, never in readable form), your interface language, and the date you signed up.",
+            "Optional profile data: an avatar image, if you upload one.",
+            "If you sign in with 42, Google or GitHub: the provider's account identifier, your email address, your name, and your profile picture URL, as supplied by that provider. Signing in with 42 reads only the `public` scope of your intra profile, and the picture stays hosted by 42 rather than being copied here.",
+            "Gameplay data: the rooms and matches you take part in, every answer you give with its timing, your scores, your combos, your final placements, your experience points and level, the achievements you unlock, and which facts you have already been shown.",
+            "Social data: friend requests you send or receive, and users you block.",
+            "Technical data: the timestamp of your last activity, used only to show whether you appear online, and the round-trip latency of your live connection, used to validate reaction times fairly."
+          ]
+        },
+        {
+          "heading": "Why we collect it",
+          "body": [
+            "To let you sign in and keep you signed in.",
+            "To run matches: score answers, keep the scoreboard consistent, and let you reconnect to a match in progress without losing your place.",
+            "To make sure you are never shown the same fact twice.",
+            "To display your statistics, your match history and the leaderboard.",
+            "To validate reaction times, so that a slow connection does not cost you points and a modified client cannot claim an impossible one."
+          ]
+        },
+        {
+          "heading": "What we never do",
+          "body": [
+            "We do not sell your data, share it with advertisers, or transfer it to any third party.",
+            "We do not use analytics or tracking scripts. There are no third-party cookies.",
+            "We do not send you marketing email. The application does not send email at all.",
+            "We do not profile you beyond the game statistics shown to you on your own profile page."
+          ]
+        },
+        {
+          "heading": "Cookies",
+          "body": [
+            "One cookie is set: a session refresh token. It is httpOnly, marked Secure, restricted to this site with SameSite=Strict, and scoped to the authentication endpoints only.",
+            "A second, short-lived cookie is set only while a 42, Google or GitHub sign-in is in progress, to protect that exchange against cross-site request forgery. It is deleted as soon as the sign-in completes.",
+            "Neither cookie is used for tracking, and no cookie is set before you sign in."
+          ]
+        },
+        {
+          "heading": "How long we keep it",
+          "body": [
+            "Account and gameplay data are kept for as long as the account exists.",
+            "Session refresh tokens expire after 30 days, and are revoked immediately when you log out or change your password.",
+            "Because this is a coursework project, the database may be reset without notice between evaluation sessions."
+          ]
+        },
+        {
+          "heading": "Your rights",
+          "body": [
+            "You can view everything the application holds about you from your profile page, and download all of it as a single JSON file under Your data: your account, your statistics, every match and every answer, your achievements and your friends.",
+            "You can correct your display name, language and avatar at any time from the same page.",
+            "You can delete your account yourself, from your profile page under Your data. It asks you to type your display name back and re-enter your password first, because it cannot be undone. Deleting a user removes their profile, sessions, answers, match participation, friendships and achievements, because every one of those tables cascades on delete.",
+            "If you are in the European Union, these correspond to your rights of access, rectification and erasure under the GDPR."
+          ]
+        },
+        {
+          "heading": "Security",
+          "body": [
+            "Passwords are hashed with Argon2id and a per-password random salt. Nobody, including the operator, can read them.",
+            "Session refresh tokens are stored only as keyed hashes, so a copy of the database is not enough to impersonate you.",
+            "Every connection between your browser and the server uses HTTPS.",
+            "This is a student project and makes no claim to production-grade security. Please do not reuse a password you use anywhere else."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "These terms cover the use of WKB, a student project built for the 42 curriculum. By creating an account you accept them.",
+      "sections": [
+        {
+          "heading": "What this service is",
+          "body": [
+            "WKB is a real-time multiplayer quiz game. Players are shown a statement and vote on whether it is a myth or the truth, within a time limit. Scores depend on correctness and speed.",
+            "It is coursework, provided free of charge, with no guarantee of availability, no support commitment, and no warranty of any kind."
+          ]
+        },
+        {
+          "heading": "Your account",
+          "body": [
+            "You must provide a valid email address and choose a display name that other players will see.",
+            "You are responsible for keeping your password confidential and for everything done through your account.",
+            "One person, one account. Do not create accounts to impersonate somebody else."
+          ]
+        },
+        {
+          "heading": "Acceptable use",
+          "body": [
+            "Choose a display name that is not offensive, and an avatar that is neither offensive nor infringing. The operator may remove either without notice.",
+            "Do not attempt to modify the client to gain an advantage. Scoring, timing and card selection are all decided by the server; attempts to forge reaction times are detected and discarded, and repeated attempts may result in the account being removed.",
+            "Do not attempt to disrupt the service for other players, overload it, or gain access to accounts that are not yours."
+          ]
+        },
+        {
+          "heading": "Game content",
+          "body": [
+            "The card set consists of statements of verifiable fact, each traceable to a source reference stored alongside it. It contains no claims about private individuals and no unverifiable rumours.",
+            "Mistakes are possible. If you find a card whose stated answer is wrong, please report it to the operator so it can be corrected or deactivated.",
+            "Cards are provided for entertainment. Do not rely on them as a source of truth for anything that matters."
+          ]
+        },
+        {
+          "heading": "Content licence and attribution",
+          "body": [
+            "The card set shipped with this project is released under the Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0). Any redistribution or derivative card set must carry the same licence and the same attribution.",
+            "The card-generation tooling included in this repository can additionally build a card set from the Open Trivia Database, which is itself licensed CC BY-SA 4.0. Where such content is used, that attribution applies and the share-alike obligation propagates.",
+            "The application source code is released separately under the MIT licence; see the LICENSE file in the repository."
+          ]
+        },
+        {
+          "heading": "Availability and changes",
+          "body": [
+            "The service may be taken down, reset, or changed at any time, including deletion of all accounts and match history.",
+            "These terms may be updated. The date at the top of this page shows when they last changed."
+          ]
+        },
+        {
+          "heading": "Liability",
+          "body": [
+            "The service is provided \"as is\". To the fullest extent permitted by law, the operator is not liable for any loss arising from its use or unavailability.",
+            "Nothing in these terms limits liability that cannot be limited by law."
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "attribution": "Card set licensed under CC BY-SA 4.0.",
+    "project": "A 42 ft_transcendence project."
+  },
+  "notFound": {
+    "title": "Nobody is out here",
+    "body": "This page is not on any of our maps, and the visitor has not seen it either.",
+    "home": "Back to the start"
+  },
+  "crash": {
+    "title": "The hand went down",
+    "body": "Something broke mid-deal. Nothing you did caused it, and nothing you had is lost.",
+    "reload": "Deal again"
+  },
+  "dead": {
+    "roomStatement": "A room is waiting behind the code {{code}}.",
+    "roomBody": "Nothing is using that code. The room may have finished, or the code may be one letter out.",
+    "removedStatement": "You are still sitting at that table.",
+    "removedBody": "The host removed you from the room. You can join another one, or start your own.",
+    "fullStatement": "There is a free seat at that table.",
+    "fullBody": "That room is full. Rooms hold eight at the most, and that one has eight.",
+    "tournamentStatement": "This bracket exists.",
+    "tournamentBody": "No tournament has that number. It may have been removed before anyone played it.",
+    "backToLobby": "Find another room",
+    "backToTournaments": "Back to the tournaments"
+  }
+}

@@ -1,0 +1,432 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+ * Archivo, self-hosted. No request leaves the machine for a font: an external
+ * font host is a dependency at evaluation time and a third party on the
+ * privacy page. One variable file per range covers every weight used.
+ * SIL Open Font License 1.1 — see public/fonts/OFL.txt.
+ * ------------------------------------------------------------------------ */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('/fonts/archivo-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('/fonts/archivo-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@layer base {
+  /*LIGHT - the almanac. Warm paper room, ochre spot, dark ink.*/
+  :root {
+    color-scheme: light;
+    --paper: 236 229 211;
+    --surface: 255 253 247;
+    --surface-2: 233 224 203;
+    --rule: 216 207 184;
+    --rule-strong: 182 170 144;
+    --ink: 27 23 19;
+    --ink-soft: 68 61 51;
+    --muted: 109 101 85;
+    --spot: 138 93 20;
+    --spot-strong: 109 73 16;
+    --spot-wash: 240 229 207;
+    /* The outcome pair. Green is "you were right", red is "you were wrong" and in this palette they mean nothing else */
+    --correct: 44 102 71;
+    --correct-wash: 226 236 229;
+    --wrong: 154 49 35;
+    --wrong-wash: 244 227 224;
+    --truth: 26 78 118;
+    --truth-wash: 220 231 240;
+    --myth: 108 52 130;
+    --myth-wash: 236 227 241;
+    --shadow: 60 48 30;
+    /* The deck behind the card sits between the room and the card itself. */
+    --deck-near: 214 203 176;
+    --deck-far: 195 183 153;
+    /* Selection follows the spot colour other than the browser default. */
+    --select: 230 214 180;
+  }
+
+  /* DARK - a lit table in a dark room.*/
+  :root[data-theme='dark'] {
+    color-scheme: dark;
+    --paper: 22 19 28;
+    --surface: 28 24 38;
+    --surface-2: 38 32 50;
+    --rule: 44 38 55;
+    --rule-strong: 69 60 90;
+    --ink: 244 239 228;
+    --ink-soft: 207 198 210;
+    --muted: 161 150 173;
+    --spot: 224 173 85;
+    --spot-strong: 240 196 119;
+    --spot-wash: 42 34 51;
+    --correct: 121 211 170;
+    --correct-wash: 27 42 36;
+    --wrong: 240 145 127;
+    --wrong-wash: 43 30 28;
+    --truth: 138 192 235;
+    --truth-wash: 24 34 46;
+    --myth: 206 164 233;
+    --myth-wash: 38 29 48;
+    --shadow: 0 0 0;
+    --deck-near: 95 90 81;
+    --deck-far: 60 57 51;
+    --select: 74 62 36;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+      color-scheme: dark;
+      --paper: 22 19 28;
+      --surface: 28 24 38;
+      --surface-2: 38 32 50;
+      --rule: 44 38 55;
+      --rule-strong: 69 60 90;
+      --ink: 244 239 228;
+      --ink-soft: 207 198 210;
+      --muted: 161 150 173;
+      --spot: 224 173 85;
+      --spot-strong: 240 196 119;
+      --spot-wash: 42 34 51;
+      --correct: 121 211 170;
+      --correct-wash: 27 42 36;
+      --wrong: 240 145 127;
+      --wrong-wash: 43 30 28;
+      --truth: 138 192 235;
+      --truth-wash: 24 34 46;
+      --myth: 206 164 233;
+      --myth-wash: 38 29 48;
+      --shadow: 0 0 0;
+      --deck-near: 95 90 81;
+      --deck-far: 60 57 51;
+      --select: 74 62 36;
+    }
+  }
+
+  /* The card. Identical under both themes, because it is paper */
+  :root {
+    --card: 250 245 233;
+    --card-rule: 245 239 224;
+    --card-edge: 207 192 162;
+    --card-ink: 27 23 19;
+    --card-soft: 93 85 72;
+    --card-dim: 143 134 116;
+    /* Overwritten per card by the suit in use. Sports is the default. */
+    --cat: 47 111 82;
+    --cat-wash: 219 231 222;
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-paper text-ink antialiased;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+  }
+  .tabular,
+  table {
+    font-variant-numeric: tabular-nums;
+  }
+  :focus-visible {
+    @apply outline-none;
+    box-shadow: 0 0 0 2px rgb(var(--paper)), 0 0 0 4px rgb(var(--spot));
+  }
+  ::selection {
+    background: rgb(var(--select));
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-delay: -1ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+    .animate-spin {
+      animation-duration: 1s !important;
+      animation-delay: 0s !important;
+      animation-iteration-count: infinite !important;
+    }
+    @keyframes deal-quiet {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .deal-in {
+      animation: deal-quiet 140ms ease-out backwards !important;
+    }
+    .deck-settle {
+      animation: none !important;
+    }
+  }
+}
+
+@layer components {
+  /* A panel is a sheet in the room, opaque */
+  .panel {
+    @apply rounded-lg border border-rule bg-surface;
+  }
+  .panel-pad {
+    @apply panel p-5 sm:p-6;
+  }
+  .section-title {
+    @apply mb-3 text-base font-semibold text-ink;
+  }
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-ink-soft;
+  }
+  .input {
+    @apply w-full rounded border border-rule-strong bg-surface px-3 py-2 text-ink
+           transition-colors focus:border-spot focus:outline-none;
+  }
+  .input::placeholder {
+    color: rgb(var(--muted) / 0.7);
+  }
+  .input:focus {
+    box-shadow: inset 0 0 0 1px rgb(var(--spot));
+  }
+  .input-error {
+    @apply border-wrong;
+  }
+  .hint {
+    @apply mt-1.5 text-xs text-muted;
+  }
+  .error-text {
+    @apply mt-1.5 text-xs text-wrong;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded border border-rule bg-surface-2
+           px-2 py-0.5 text-xs font-medium text-ink-soft;
+  }
+  .chip-accent {
+    @apply border-spot/35 bg-spot-wash text-spot-strong;
+  }
+  .chip-correct {
+    @apply border-correct/35 bg-correct-wash text-correct;
+  }
+  .chip-wrong {
+    @apply border-wrong/35 bg-wrong-wash text-wrong;
+  }
+  .table-head {
+    @apply border-b border-rule px-3 py-2 text-left text-xs font-semibold text-muted;
+  }
+  .table-cell {
+    @apply px-3 py-2.5 text-sm;
+  }
+  .data {
+    @apply font-mono tabular-nums;
+  }
+  .rule-heading {
+    @apply flex items-center gap-3 text-xs font-medium text-muted;
+  }
+  .rule-heading::after {
+    content: '';
+    @apply h-px flex-1 bg-rule;
+  }
+  .slider {
+    /* 24px minimum, because a slider is a target like any other and WCAG 2.2 SC 2.5.8 does not exempt it. The thumb is 20px in a 22px box otherwise,
+    which fails by two pixels on a control that is dragged. */
+    @apply w-full cursor-pointer bg-transparent py-2;
+    min-height: 24px;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .slider::-webkit-slider-runnable-track {
+    height: 6px;
+    border-radius: 4px;
+    background: rgb(var(--surface-2));
+    border: 1px solid rgb(var(--rule));
+  }
+  .slider::-moz-range-track {
+    height: 6px;
+    border-radius: 4px;
+    background: rgb(var(--surface-2));
+    border: 1px solid rgb(var(--rule));
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -8px;
+    border-radius: 6px;
+    background: rgb(var(--spot));
+    border: 1px solid rgb(var(--spot-strong));
+    transition: filter 120ms ease-out, transform 120ms ease-out;
+  }
+  .slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(var(--spot-strong));
+    background: rgb(var(--spot));
+    transition: filter 120ms ease-out, transform 120ms ease-out;
+  }
+  .slider:hover::-webkit-slider-thumb { filter: brightness(1.12); }
+  .slider:hover::-moz-range-thumb { filter: brightness(1.12); }
+  .slider:active::-webkit-slider-thumb { transform: scale(0.94); }
+  .slider:active::-moz-range-thumb { transform: scale(0.94); }
+}
+
+/* The deck. Card stock, suits and motion, paired with theme/cardStyle.ts. Deleting this block and that file removes the decoration completely; 
+the 'prefers reduced motion' rule in the base layer already disables the motion for anyone who has asked for less of it.*/
+@layer components {
+  /* The face of the card in play. Always paper, in both themes. */
+  .card-face {
+    @apply relative overflow-hidden rounded-lg border;
+    background: rgb(var(--card));
+    border-color: rgb(var(--card-edge));
+    color: rgb(var(--card-ink));
+    box-shadow: 0 18px 34px -18px rgb(var(--shadow) / 0.55);
+  }
+  /* Faint ruled paper. Two solid creams, not an alpha stripe. */
+  .card-face::before {
+    content: '';
+    @apply pointer-events-none absolute inset-0;
+    background-image: repeating-linear-gradient(
+      0deg,
+      rgb(var(--card)) 0 25px,
+      rgb(var(--card-rule)) 25px 26px
+    );
+  }
+  /* The suit's colour along the top edge, like a printed deck's back. */
+  .card-band {
+    @apply pointer-events-none absolute inset-x-0 top-0 h-1;
+    background: rgb(var(--cat));
+  }
+  /* The inner keyline a playing card carries inside its trim. */
+  .card-keyline {
+    @apply pointer-events-none absolute rounded border;
+    inset: 11px;
+    border-color: rgb(var(--cat) / 0.34);
+  }
+  /* The rest of the deck, squared off behind the card in play. */
+  .deck-sheet {
+    @apply pointer-events-none absolute rounded-lg border;
+    top: 0;
+    left: 0;
+    right: 1.5rem;
+    bottom: 1.25rem;
+    border-color: rgb(var(--card-edge));
+  }
+  @keyframes deal-in {
+    /* Face down in the stack, squared with the sheets behind it. */
+    0% {
+      opacity: 0;
+      transform: translate(30px, 26px) rotate(-6deg) scale(0.955);
+    }
+    /* Readable a fifth of the way in. */
+    18% {
+      opacity: 1;
+    }
+    62% {
+      opacity: 1;
+      transform: translate(-6px, -10px) rotate(1.6deg) scale(1.022);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0) rotate(0deg) scale(1);
+    }
+  }
+  .deal-in {
+    animation: deal-in 500ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  }
+  /* The sheets settle back down as the top card leaves them. */
+  @keyframes deck-settle {
+    0% { transform: translate(calc(var(--dx) - 4px), calc(var(--dy) - 6px)); }
+    100% { transform: translate(var(--dx), var(--dy)); }
+  }
+  .deck-settle {
+    animation: deck-settle 500ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+  }
+  @keyframes drift {
+    0%,
+    100% {
+      transform: translateY(-5px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+  }
+  .drift {
+    animation: drift 3.4s ease-in-out infinite;
+  }
+  /* Offset, so the three do not bob in lockstep like one object. */
+  .drift-slow {
+    animation-duration: 4.6s;
+    animation-direction: reverse;
+  }
+  /* The verdict lands like a rubber stamp rather than fading in. */
+  @keyframes stamp {
+    0% { opacity: 0; transform: scale(1.11) rotate(-1.4deg); }
+    55% { opacity: 1; transform: scale(0.985) rotate(0.2deg); }
+    100% { opacity: 1; transform: scale(1) rotate(0deg); }
+  }
+  .stamp {
+    animation: stamp 260ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  @keyframes tick-up {
+    0% { opacity: 0; transform: translateY(5px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .tick-up {
+    animation: tick-up 220ms ease-out both;
+  }
+  @keyframes urgency {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+  }
+
+  .urgency {
+    animation: urgency 900ms ease-in-out infinite;
+  }
+  @keyframes retrying {
+    0%,
+    100% {
+      opacity: 0.35;
+    }
+    50% {
+      opacity: 0.9;
+    }
+  }
+  .retrying {
+    animation: retrying 1.9s ease-in-out infinite;
+  }
+  .press {
+    transition: filter 120ms ease-out, transform 120ms ease-out,
+      background-color 120ms ease-out, border-color 120ms ease-out;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .press:hover:not(:disabled) {
+      filter: brightness(1.09);
+    }
+  }
+  .press:active:not(:disabled) {
+    transform: translateY(1px);
+    filter: brightness(0.96);
+    transition-duration: 0s;
+  }
+}

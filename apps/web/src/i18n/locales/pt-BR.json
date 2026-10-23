@@ -1,0 +1,759 @@
+{
+  "app": {
+    "name": "Who knows best?",
+    "short": "WKB",
+    "tagline": "Mito ou verdade. Você tem segundos para decidir.",
+    "loading": "Carregando…"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "saving": "Salvando…",
+    "close": "Fechar",
+    "back": "Voltar",
+    "confirm": "Confirmar",
+    "delete": "Excluir",
+    "remove": "Remover",
+    "retry": "Tentar de novo",
+    "search": "Buscar",
+    "none": "Nenhuma",
+    "you": "Você",
+    "bot": "Bot",
+    "level": "Nível",
+    "xp": "XP",
+    "points": "pontos",
+    "seconds": "s",
+    "online": "Online",
+    "offline": "Offline",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "language": "Idioma",
+    "optional": "opcional",
+    "discard": "Descartar"
+  },
+  "theme": {
+    "label": "Tema",
+    "light": "Claro",
+    "system": "Seguir o sistema",
+    "dark": "Escuro"
+  },
+  "welcome": {
+    "eyebrow": "Um jogo de cartas sobre o que é verdade",
+    "lead": "Uma afirmação, poucos segundos. Diga se é verdade ou se é mito antes de todo mundo na mesa.",
+    "heroCard": "Um dia em Vênus dura mais do que um ano em Vênus.",
+    "ctaPlay": "Jogar agora",
+    "ctaSignup": "Criar uma conta",
+    "ctaLogin": "Já tenho uma conta",
+    "tryTitle": "Sua vez",
+    "tryLead": "Uma carta de verdade do baralho. Verde quer dizer que você acertou. O que a afirmação era de fato é outra pergunta, e ela tem a cor dela.",
+    "tryPrompt": "E então?",
+    "tryAgain": "Dar outra carta",
+    "deckTitle": "Oito naipes, um baralho",
+    "deckLead": "Cada categoria tem a sua própria marca, então você sabe do que se trata antes mesmo de terminar de ler a carta.",
+    "roomTitle": "Com amigos, ou com bots que respondem como gente",
+    "roomBody": "Compartilhe um código de seis caracteres e joguem o mesmo baralho no mesmo instante. Os lugares vazios recebem bots que respondem em ritmo humano e erram como gente erra.",
+    "roomCode": "K7QMZX",
+    "roomSeats": "De dois a oito jogadores por sala.",
+    "recordTitle": "Um histórico que fica",
+    "recordBody": "Cada partida alimenta suas estatísticas, seu nível e um ranking que não esquece.",
+    "languagesTitle": "Três idiomas, duas salas",
+    "languagesBody": "A interface e as cartas, no idioma que você lê mais rápido. A mesa fica clara ou escura, e dá para trocar no meio da partida.",
+    "languagesList": "English, Français, Português",
+    "closingTitle": "Então, quem sabe mais?",
+    "cards": {
+      "science": {
+        "statement": "Usamos apenas dez por cento do nosso cérebro.",
+        "fact": "Exames de imagem mostram atividade em praticamente todo o cérebro, inclusive durante o sono."
+      },
+      "space": {
+        "statement": "Netuno foi encontrado pela matemática antes de alguém procurá-lo.",
+        "fact": "Sua posição foi prevista a partir de desvios na órbita de Urano e confirmada com um grau de precisão."
+      },
+      "history": {
+        "statement": "Os vikings usavam capacetes com chifres em batalha.",
+        "fact": "Nenhum foi achado em uma sepultura viking. Os chifres vêm de um figurino de ópera do século XIX."
+      },
+      "sports": {
+        "statement": "Uma medalha de ouro olímpica é quase toda de prata.",
+        "fact": "Prata, com cerca de seis gramas de ouro por fora. A última de ouro maciço foi entregue em 1912."
+      },
+      "geography": {
+        "statement": "O cume do Everest é o ponto mais distante do centro da Terra.",
+        "fact": "Esse é o Chimborazo, no Equador. O planeta é mais largo na linha do equador."
+      },
+      "arts": {
+        "statement": "Van Gogh quase não vendeu nada enquanto viveu.",
+        "fact": "Uma venda confirmada, A Vinha Vermelha, para cerca de novecentas pinturas."
+      },
+      "technology": {
+        "statement": "Apagar um arquivo o remove do disco na hora.",
+        "fact": "Normalmente só a entrada é removida. Os bytes ficam lá até algo sobrescrevê-los."
+      },
+      "culture": {
+        "statement": "A aliança fica na mão esquerda porque Roma acreditava que dali saía uma veia até o coração.",
+        "fact": "A vena amoris. A anatomia estava errada, mas o costume sobreviveu a ela."
+      }
+    }
+  },
+  "nav": {
+    "play": "Jogar",
+    "tournaments": "Torneios",
+    "leaderboard": "Ranking",
+    "stats": "Estatísticas",
+    "friends": "Amigos",
+    "profile": "Perfil",
+    "logout": "Sair",
+    "login": "Entrar",
+    "signup": "Criar conta",
+    "menu": "Menu"
+  },
+  "auth": {
+    "loginTitle": "Bem-vindo de volta",
+    "loginSubtitle": "Entre para participar de uma sala.",
+    "signupTitle": "Crie sua conta",
+    "signupSubtitle": "Escolha um nome que seus adversários vão ver.",
+    "email": "E-mail",
+    "password": "Senha",
+    "currentPassword": "Senha atual",
+    "newPassword": "Nova senha",
+    "displayName": "Nome de exibição",
+    "submitLogin": "Entrar",
+    "submitSignup": "Criar conta",
+    "noAccount": "Ainda não tem conta?",
+    "hasAccount": "Já tem uma conta?",
+    "orContinueWith": "ou continue com",
+    "google": "Google",
+    "github": "GitHub",
+    "42": "42 Intra",
+    "passwordHint": "Ao menos 10 caracteres, com uma letra e um dígito.",
+    "changePassword": "Alterar senha",
+    "passwordChanged": "Senha atualizada. As outras sessões foram encerradas.",
+    "demoTitle": "Contas de demonstração",
+    "demoHint": "Senha para as três: {{password}}",
+    "oauthFailed": "O login com o provedor não foi concluído. Tente novamente.",
+    "oauthAccountExists": "Já existe uma conta com este e-mail. Entre com a sua senha.",
+    "signingIn": "Entrando…",
+    "accountCreated": "Sua conta está pronta. Entre para começar a jogar."
+  },
+  "setup": {
+    "eyebrow": "Primeira vez por aqui",
+    "title": "Boas-vindas, {{name}}",
+    "lead": "Algumas escolhas rápidas antes da primeira partida. Nenhuma é definitiva: idioma e tema ficam no cabeçalho, e seu nome e seu rosto ficam no seu perfil.",
+    "nameTitle": "Seu nome",
+    "nameLabel": "Nome de exibição",
+    "nameHint": "É este o nome que aparece no placar e na sala.",
+    "languageTitle": "Idioma",
+    "languageHint": "A interface e as cartas, sempre que houver tradução.",
+    "themeTitle": "Claro ou escuro",
+    "themeHint": "A carta é sempre de papel. Isto aqui é a sala em volta.",
+    "submit": "Começar a jogar",
+    "skip": "Depois eu vejo",
+    "avatarTitle": "Escolha um rosto",
+    "avatarHint": "São dezesseis, dois por naipe. Ou fique com as iniciais."
+  },
+  "validation": {
+    "email": {
+      "required": "Informe seu e-mail.",
+      "invalid": "Isso não parece um e-mail.",
+      "tooLong": "Esse e-mail é longo demais."
+    },
+    "password": {
+      "required": "Informe sua senha.",
+      "tooShort": "Use ao menos 10 caracteres.",
+      "tooLong": "Essa senha é longa demais.",
+      "needsLetter": "Inclua ao menos uma letra.",
+      "needsDigit": "Inclua ao menos um dígito."
+    },
+    "displayName": {
+      "tooShort": "Use ao menos 3 caracteres.",
+      "tooLong": "Use no máximo 24 caracteres.",
+      "invalidChars": "Comece com uma letra ou um dígito. Apenas letras latinas (acentos são aceitos), dígitos, espaços, pontos, hifens e sublinhados."
+    },
+    "roomName": {
+      "tooShort": "Use ao menos 3 caracteres.",
+      "tooLong": "Use no máximo 40 caracteres."
+    },
+    "roomCode": {
+      "length": "O código da sala tem 6 caracteres.",
+      "invalidChars": "Apenas letras e dígitos."
+    },
+    "cardCount": {
+      "range": "Escolha entre 5 e 40 cartas."
+    },
+    "maxPlayers": {
+      "range": "Entre 2 e 8 jogadores."
+    },
+    "categories": {
+      "requiredForCategoryMode": "Escolha uma categoria para esta sala."
+    },
+    "tournamentName": {
+      "tooShort": "Use ao menos 3 caracteres.",
+      "tooLong": "Use no máximo 40 caracteres."
+    },
+    "confirm": {
+      "required": "Digite seu nome de exibição para confirmar."
+    }
+  },
+  "error": {
+    "unauthorized": "Você precisa estar conectado.",
+    "tokenInvalid": "Sua sessão não é mais válida.",
+    "forbidden": "Você não tem permissão para isso.",
+    "notFound": "Não encontrado.",
+    "validation": "Verifique os campos destacados.",
+    "alreadyExists": "Isso já está em uso.",
+    "badRequest": "Não foi possível processar essa solicitação.",
+    "internal": "Algo deu errado do nosso lado.",
+    "rateLimited": "Tentativas demais. Aguarde um instante.",
+    "payloadTooLarge": "Esse arquivo é grande demais.",
+    "network": "Não foi possível alcançar o servidor.",
+    "auth": {
+      "accountExists": "Já existe uma conta com esses dados.",
+      "invalidCredentials": "E-mail ou senha incorretos.",
+      "noSession": "Você não está autenticado.",
+      "sessionExpired": "Sua sessão expirou. Entre novamente.",
+      "wrongPassword": "Essa não é a sua senha atual.",
+      "noPasswordSet": "Esta conta entra por um provedor e ainda não tem senha."
+    },
+    "oauth": {
+      "notConfigured": "Esse provedor não está configurado neste servidor.",
+      "exchangeFailed": "O provedor recusou o login.",
+      "profileFailed": "Não foi possível ler seu perfil no provedor.",
+      "noEmail": "O provedor não compartilhou um e-mail verificado."
+    },
+    "avatar": {
+      "missing": "Escolha uma imagem primeiro.",
+      "tooLarge": "As imagens devem ter no máximo 2 MB.",
+      "unsupportedType": "Use uma imagem PNG, JPEG ou WebP."
+    },
+    "friends": {
+      "self": "Você não pode adicionar a si mesmo.",
+      "blocked": "Isso não é possível agora."
+    },
+    "room": {
+      "notFound": "Nenhuma sala com esse código.",
+      "full": "Essa sala está cheia.",
+      "matchInProgress": "Já há uma partida em andamento nessa sala.",
+      "notEnoughCards": "O conjunto de cartas não tem cartas suficientes para essas opções.",
+      "unknownCategory": "Essa categoria não existe.",
+      "creationFailed": "Não foi possível criar a sala. Tente de novo.",
+      "botAlreadyIn": "Esse adversário já está na sala.",
+      "cannotRemoveHost": "O anfitrião não pode ser removido.",
+      "removed": "O anfitrião removeu você da sala.",
+      "tooMany": "Você criou muitas salas na última hora. Entre em uma sala existente ou tente mais tarde."
+    },
+    "match": {
+      "alreadyRunning": "Já há uma partida em andamento.",
+      "hostOnly": "Só o anfitrião pode fazer isso.",
+      "needsTwoPlayers": "São necessários ao menos dois jogadores. Adicione um adversário.",
+      "roomFull": "Há mais jogadores do que a sala permite.",
+      "notEnoughCards": "Cartas insuficientes para essas opções.",
+      "voteFailed": "Não foi possível salvar sua resposta. Responda de novo.",
+      "aborted": "A partida foi interrompida por um problema do nosso lado. O anfitrião pode começar uma nova."
+    },
+    "tournament": {
+      "hostOnly": "Só o organizador pode fazer isso.",
+      "alreadyStarted": "Este torneio já começou.",
+      "full": "Este torneio está cheio.",
+      "needsFullBracket": "Preencha todas as vagas antes de começar.",
+      "notEnoughBots": "Não há adversários suficientes para completar a chave.",
+      "wrongPlayers": "Somente os dois jogadores sorteados podem jogar esta partida. Adicione o adversário mostrado na chave.",
+      "tooMany": "Você já tem três torneios com inscrições abertas. Comece ou complete um deles primeiro."
+    },
+    "ws": {
+      "badTicket": "Não foi possível autenticar sua conexão.",
+      "badPayload": "O servidor não conseguiu ler essa mensagem.",
+      "notInRoom": "Você não está em uma sala.",
+      "alreadyJoined": "Esta conexão já entrou em uma sala.",
+      "unknownEvent": "Ação não suportada."
+    },
+    "serviceUnavailable": "O servidor não está respondendo. Costuma passar em um instante.",
+    "account": {
+      "confirmMismatch": "Isso não corresponde ao seu nome de exibição."
+    }
+  },
+  "lobby": {
+    "title": "Salas",
+    "subtitle": "Entre em uma sala pública ou crie a sua.",
+    "createRoom": "Criar sala",
+    "joinByCode": "Entrar com um código",
+    "codePlaceholder": "ABC123",
+    "join": "Entrar",
+    "empty": "Nenhuma sala pública no momento. Crie a primeira.",
+    "players": "{{count}} / {{max}} jogadores",
+    "inLobby": "Aguardando",
+    "inMatch": "Jogando",
+    "hostedBy": "Anfitrião: {{name}}",
+    "connecting": "Conectando…",
+    "disconnected": "Conexão perdida. Reconectando…"
+  },
+  "createRoom": {
+    "title": "Nova sala",
+    "name": "Nome da sala",
+    "namePlaceholder": "Quiz de sexta à noite",
+    "visibility": "Visibilidade",
+    "public": "Pública",
+    "publicHint": "Aparece na lista de salas, aberta a qualquer pessoa.",
+    "private": "Privada",
+    "privateHint": "Acessível apenas com o código de convite.",
+    "mode": "Modo",
+    "general": "Conhecimentos gerais",
+    "generalHint": "Cartas sorteadas de todas as categorias.",
+    "category": "Categoria única",
+    "categoryHint": "Uma sala separada dedicada a uma categoria.",
+    "difficulty": "Dificuldade",
+    "difficultyHint": "{{window}}s para responder · {{cards}} cartas",
+    "categories": "Categorias",
+    "categoriesHint": "Deixe vazio para usar todas as categorias.",
+    "cardCount": "Cartas por partida",
+    "maxPlayers": "Máximo de jogadores",
+    "modifiers": "Modificadores",
+    "comboEnabled": "Multiplicador de combo",
+    "comboHint": "Acertos consecutivos aumentam sua pontuação, até +50%.",
+    "doubleCardEnabled": "Cartas de valor dobrado",
+    "doubleHint": "A cada cinco cartas, uma vale o dobro, tanto no acerto quanto no erro.",
+    "answerWindow": "Tempo de resposta",
+    "available": "{{count}} cartas disponíveis com essas opções",
+    "create": "Criar sala",
+    "resetDefaults": "Restaurar padrões"
+  },
+  "difficulty": {
+    "easy": "Fácil",
+    "medium": "Médio",
+    "hard": "Difícil"
+  },
+  "room": {
+    "code": "Código da sala",
+    "shareHint": "Compartilhe este código para convidar alguém.",
+    "players": "Jogadores",
+    "settings": "Configurações",
+    "addOpponent": "Adicionar adversário",
+    "opponents": "Adversários do computador",
+    "start": "Iniciar partida",
+    "startHint": "Só o anfitrião pode iniciar a partida.",
+    "waitingForHost": "Aguardando o anfitrião iniciar a partida…",
+    "host": "Anfitrião",
+    "nowHost": "O anfitrião saiu, então a sala agora é sua.",
+    "leave": "Sair da sala",
+    "needMorePlayers": "Adicione ao menos mais um jogador para começar.",
+    "botStrength": "Precisão {{value}}% · responde em ~{{ms}}s",
+    "botStrengths": "Forte em: {{list}}",
+    "editSettings": "Editar configurações",
+    "settingsSaved": "Configurações atualizadas.",
+    "lineDropped": "A conexão caiu",
+    "lineDroppedBody": "Reconectando à mesa. Sua pontuação e a carta em jogo estão a salvo."
+  },
+  "match": {
+    "countdown": "Prepare-se…",
+    "cardOf": "Carta {{position}} de {{total}}",
+    "truth": "Verdade",
+    "myth": "Mito",
+    "waiting": "Aguardando os outros…",
+    "timeUp": "Tempo esgotado",
+    "correct": "Correto",
+    "wrong": "Errado",
+    "noAnswer": "Sem resposta",
+    "itWasTrue": "Era verdade",
+    "itWasFalse": "Era um mito",
+    "inFact": "Na verdade:",
+    "nextIn": "Próxima carta em {{seconds}}s",
+    "combo": "Combo ×{{value}}",
+    "comboBroken": "Combo perdido",
+    "doubleCard": "Valor dobrado",
+    "finalScoreboard": "Placar final",
+    "winner": "{{name}} vence",
+    "tie": "Empate",
+    "playAgain": "Voltar para a sala",
+    "xpGained": "+{{value}} XP",
+    "levelUp": "Nível {{level}} alcançado",
+    "achievementUnlocked": "Conquista desbloqueada",
+    "reactionUntrusted": "Não foi possível verificar seu tempo de reação, então valeu o tempo mais lento.",
+    "sourceRef": "Fonte: {{ref}}",
+    "translationFallback": "Exibida em {{locale}}, ainda sem tradução.",
+    "advanced": "Você avança para a próxima rodada",
+    "eliminated": "Você está fora do torneio",
+    "reconnected": "Reconectado. Você perdeu {{count}} carta(s).",
+    "disconnectedPlayer": "{{name}} perdeu a conexão"
+  },
+  "scoreboard": {
+    "title": "Placar",
+    "rank": "#",
+    "player": "Jogador",
+    "score": "Pontos",
+    "streak": "Sequência"
+  },
+  "profile": {
+    "title": "Perfil",
+    "editTitle": "Editar perfil",
+    "avatar": "Avatar",
+    "uploadAvatar": "Enviar uma imagem",
+    "removeAvatar": "Usar o avatar padrão",
+    "avatarHint": "PNG, JPEG ou WebP, até 2 MB.",
+    "memberSince": "Membro desde {{date}}",
+    "displayNameUpdated": "Perfil atualizado.",
+    "security": "Segurança",
+    "dangerZone": "Conta",
+    "yourProgress": "Progresso",
+    "toNextLevel": "{{into}} / {{needed}} XP para o nível {{level}}",
+    "avatarChoose": "Avatares prontos",
+    "avatarChooseHint": "Dois por naipe. Escolher um substitui a foto enviada.",
+    "avatarNone": "Iniciais, geradas a partir do seu nome",
+    "unsaved": "Alterações não salvas",
+    "dataTitle": "Seus dados",
+    "exportBody": "Baixe tudo o que o aplicativo guarda sobre você: sua conta, suas estatísticas, cada partida e cada resposta, suas conquistas e seus amigos. Um arquivo JSON, formatado para ser lido.",
+    "exportAction": "Baixar meus dados",
+    "deleteBody": "Exclua sua conta e tudo ligado a ela. Suas partidas, respostas, conquistas, amizades e estatísticas vão junto. Não há como desfazer.",
+    "deleteAction": "Excluir minha conta",
+    "deleteWarning": "Isto é permanente. Não há como restaurar a conta depois.",
+    "deleteConfirmLabel": "Digite {{name}} para confirmar",
+    "deleteFinal": "Excluir permanentemente"
+  },
+  "friends": {
+    "title": "Amigos",
+    "subtitle": "Adicione pessoas e veja quem está online.",
+    "searchPlaceholder": "Buscar pelo nome de exibição",
+    "yourFriends": "Seus amigos",
+    "incoming": "Pedidos recebidos",
+    "outgoing": "Pedidos enviados",
+    "add": "Adicionar amigo",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "removeFriend": "Remover",
+    "block": "Bloquear",
+    "blocked": "Bloqueado",
+    "pending": "Pendente",
+    "empty": "Você ainda não tem amigos. Use a busca acima para encontrar alguém.",
+    "noResults": "Ninguém corresponde a esse nome.",
+    "requestSent": "Pedido enviado."
+  },
+  "stats": {
+    "title": "Estatísticas",
+    "matches": "Partidas",
+    "wins": "Vitórias",
+    "losses": "Derrotas",
+    "winRate": "Taxa de vitória",
+    "accuracy": "Precisão",
+    "answers": "Respostas",
+    "bestCombo": "Melhor combo",
+    "bestScore": "Melhor pontuação",
+    "totalScore": "Pontuação total",
+    "fastestCorrect": "Resposta correta mais rápida",
+    "byCategory": "Precisão por categoria",
+    "history": "Histórico de partidas",
+    "noHistory": "Nenhuma partida concluída ainda.",
+    "opponents": "Adversários",
+    "rank": "Posição",
+    "date": "Data",
+    "achievements": "Conquistas",
+    "unlockedOn": "Desbloqueada em {{date}}",
+    "locked": "Bloqueada",
+    "progressionTitle": "Pontuação nas últimas partidas"
+  },
+  "leaderboard": {
+    "title": "Ranking",
+    "subtitle": "Classificado pela pontuação total em partidas concluídas.",
+    "empty": "Ninguém concluiu uma partida ainda.",
+    "player": "Jogador",
+    "matches": "Partidas",
+    "wins": "Vitórias",
+    "score": "Pontos",
+    "accuracy": "Precisão"
+  },
+  "tournament": {
+    "title": "Torneios",
+    "subtitle": "Chaves de eliminação simples.",
+    "create": "Novo torneio",
+    "name": "Nome do torneio",
+    "namePlaceholder": "Copa de sábado",
+    "size": "Tamanho da chave",
+    "players": "{{count}} jogadores",
+    "cardCount": "Cartas por partida",
+    "registered": "{{count}} de {{size}} inscritos",
+    "join": "Participar",
+    "leave": "Sair",
+    "fillWithBots": "Preencher as vagas restantes",
+    "start": "Iniciar torneio",
+    "status": {
+      "registration": "Inscrições abertas",
+      "running": "Em andamento",
+      "finished": "Encerrado"
+    },
+    "bracket": "Chave",
+    "round": "Rodada {{number}}",
+    "final": "Final",
+    "semifinal": "Semifinal",
+    "quarterfinal": "Quartas de final",
+    "waiting": "Aguardando",
+    "ready": "Pronta para jogar",
+    "playing": "Em andamento",
+    "finishedMatch": "Encerrada",
+    "yourMatch": "Sua partida está pronta",
+    "joinMatch": "Entrar na sua partida",
+    "champion": "{{name}} vence o torneio",
+    "empty": "Nenhum torneio ainda.",
+    "byes": "As vagas que sobram são preenchidas com adversários do computador, para que a chave sempre possa começar.",
+    "botMatchNote": "Partidas entre dois adversários do computador são resolvidas na hora, com as mesmas regras de pontuação."
+  },
+  "categories": {
+    "geography": "Geografia",
+    "history": "História",
+    "science": "Ciência e Natureza",
+    "technology": "Tecnologia e Computação",
+    "arts": "Artes e Literatura",
+    "sports": "Esportes e Jogos",
+    "culture": "Sociedade e Cultura",
+    "space": "Espaço e Astronomia"
+  },
+  "avatars": {
+    "sports-trophy": "O troféu",
+    "sports-player": "A jogadora",
+    "history-sphinx": "A esfinge",
+    "history-centurion": "O centurião",
+    "science-dna": "A hélice",
+    "science-goggles": "A pesquisadora",
+    "space-visitor": "A visitante",
+    "space-helmet": "O astronauta",
+    "technology-machine": "A máquina",
+    "technology-headset": "A engenheira",
+    "arts-quill": "Pena e tinteiro",
+    "arts-beret": "O pintor",
+    "geography-compass": "A rosa dos ventos",
+    "geography-explorer": "A exploradora",
+    "culture-mask": "A máscara",
+    "culture-singer": "O cantor"
+  },
+  "achievements": {
+    "first-match": {
+      "name": "Primeira Mão",
+      "description": "Conclua sua primeira partida."
+    },
+    "regular": {
+      "name": "Frequentador",
+      "description": "Conclua dez partidas."
+    },
+    "first-win": {
+      "name": "Primeiro Sangue",
+      "description": "Vença uma partida."
+    },
+    "champion": {
+      "name": "Campeão",
+      "description": "Vença cinco partidas."
+    },
+    "century": {
+      "name": "Centena",
+      "description": "Acerte 100 cartas."
+    },
+    "polymath": {
+      "name": "Erudito",
+      "description": "Acerte 300 cartas."
+    },
+    "combo-5": {
+      "name": "Embalado",
+      "description": "Alcance um combo de cinco."
+    },
+    "combo-10": {
+      "name": "Imparável",
+      "description": "Alcance um combo de dez."
+    },
+    "sharpshooter": {
+      "name": "Pontaria Certeira",
+      "description": "Mantenha 80% de acerto em pelo menos 50 respostas."
+    },
+    "flawless": {
+      "name": "Impecável",
+      "description": "Conclua uma partida de dez cartas ou mais sem errar nenhuma."
+    },
+    "quickdraw": {
+      "name": "Gatilho Rápido",
+      "description": "Acerte em menos de 1,5 segundo."
+    },
+    "scholar": {
+      "name": "Estudioso",
+      "description": "Alcance o nível 5."
+    },
+    "cartographer": {
+      "name": "Cartógrafo",
+      "description": "Acerte 25 cartas de geografia."
+    },
+    "stargazer": {
+      "name": "Observador de Estrelas",
+      "description": "Acerte 25 cartas sobre o espaço."
+    }
+  },
+  "bot": {
+    "byte": "Movido a cafeína e changelogs.",
+    "atlas": "Nunca perdeu uma discussão sobre fronteiras.",
+    "nova": "Preferia estar olhando para cima.",
+    "muse": "Lê as notas de rodapé primeiro.",
+    "pixel": "Sabe todas as regras e metade dos recordes.",
+    "sage": "Devagar, constante, difícil de pegar no erro.",
+    "rookie": "Entusiasmado. Nem sempre certo.",
+    "oracle": "Raramente erra. E nunca se gaba."
+  },
+  "legal": {
+    "lastUpdated": "Última atualização: {{date}}",
+    "privacy": {
+      "title": "Política de Privacidade",
+      "intro": "WKB é um projeto acadêmico feito como parte do curso da 42. Esta página explica exatamente o que a aplicação guarda sobre você, por quê, e como se livrar disso. Foi escrita para ser lida, não para ser pulada.",
+      "sections": [
+        {
+          "heading": "Quem opera este serviço",
+          "body": [
+            "O WKB é operado pelo estudante que o construiu, como trabalho do projeto ft_transcendence da 42. Não é um serviço comercial e não há empresa por trás dele.",
+            "Para qualquer dúvida sobre seus dados, contate quem hospeda a instância que você está usando."
+          ]
+        },
+        {
+          "heading": "O que coletamos",
+          "body": [
+            "Dados da conta: seu e-mail, seu nome de exibição, a senha que você escolheu (guardada apenas como hash Argon2id, nunca em forma legível), o idioma da interface e a data de cadastro.",
+            "Dados opcionais de perfil: uma imagem de avatar, se você enviar uma.",
+            "Se você entrar com 42, Google ou GitHub: o identificador da conta no provedor, seu e-mail, seu nome e a URL da sua foto de perfil, conforme fornecidos por ele. O login com 42 lê apenas o escopo “public” do seu perfil da intra, e a foto continua hospedada pela 42 em vez de ser copiada para cá.",
+            "Dados de jogo: as salas e partidas de que você participa, cada resposta dada com seu tempo, suas pontuações, seus combos, suas colocações finais, seus pontos de experiência e nível, as conquistas desbloqueadas e quais fatos você já viu.",
+            "Dados sociais: pedidos de amizade enviados ou recebidos e usuários bloqueados.",
+            "Dados técnicos: o horário da sua última atividade, usado só para indicar se você aparece online, e a latência da sua conexão em tempo real, usada para validar tempos de reação de forma justa."
+          ]
+        },
+        {
+          "heading": "Por que coletamos",
+          "body": [
+            "Para permitir que você entre e permaneça conectado.",
+            "Para executar as partidas: pontuar respostas, manter o placar consistente e permitir que você se reconecte a uma partida em andamento sem perder seu lugar.",
+            "Para garantir que você nunca veja o mesmo fato duas vezes.",
+            "Para exibir suas estatísticas, seu histórico de partidas e o ranking.",
+            "Para validar tempos de reação, de modo que uma conexão lenta não custe pontos e um cliente modificado não possa alegar um tempo impossível."
+          ]
+        },
+        {
+          "heading": "O que nunca fazemos",
+          "body": [
+            "Não vendemos seus dados, não os compartilhamos com anunciantes nem os transferimos a terceiros.",
+            "Não usamos scripts de análise ou rastreamento. Não há cookies de terceiros.",
+            "Não enviamos e-mail de marketing. A aplicação não envia e-mail algum.",
+            "Não traçamos perfis além das estatísticas de jogo exibidas na sua própria página de perfil."
+          ]
+        },
+        {
+          "heading": "Cookies",
+          "body": [
+            "Um cookie é definido: um token de renovação de sessão. Ele é httpOnly, marcado como Secure, restrito a este site com SameSite=Strict e limitado apenas aos endpoints de autenticação.",
+            "Um segundo cookie, de curta duração, é definido apenas enquanto um login com 42, Google ou GitHub está em andamento, para proteger essa troca contra falsificação de requisição entre sites. Ele é apagado assim que o login termina.",
+            "Nenhum dos dois é usado para rastreamento, e nenhum cookie é definido antes de você entrar."
+          ]
+        },
+        {
+          "heading": "Por quanto tempo guardamos",
+          "body": [
+            "Dados de conta e de jogo são mantidos enquanto a conta existir.",
+            "Tokens de renovação de sessão expiram em 30 dias e são revogados imediatamente quando você sai ou troca a senha.",
+            "Por ser um projeto acadêmico, o banco de dados pode ser zerado sem aviso entre sessões de avaliação."
+          ]
+        },
+        {
+          "heading": "Seus direitos",
+          "body": [
+            "Você pode ver tudo o que a aplicação guarda sobre você na sua página de perfil: seus dados, suas estatísticas, seu histórico completo de partidas e suas conquistas.",
+            "Você pode corrigir seu nome de exibição, idioma e avatar a qualquer momento na mesma página.",
+            "Você pode excluir sua conta você mesmo, na sua página de perfil, em Seus dados. Antes é preciso digitar seu nome de exibição e a sua senha, porque a ação não pode ser desfeita. Excluir um usuário remove seu perfil, sessões, respostas, participação em partidas, amizades e conquistas, porque todas essas tabelas são apagadas em cascata.",
+            "Se você está na União Europeia, isso corresponde aos seus direitos de acesso, retificação e apagamento previstos no RGPD."
+          ]
+        },
+        {
+          "heading": "Segurança",
+          "body": [
+            "As senhas passam por Argon2id, cada uma com um sal aleatório próprio. Ninguém, nem quem opera o serviço, consegue lê-las.",
+            "Tokens de renovação de sessão são guardados apenas como hashes com chave, de modo que uma cópia do banco não basta para se passar por você.",
+            "Toda conexão entre seu navegador e o servidor usa HTTPS.",
+            "Este é um projeto acadêmico e não pretende ter segurança de nível de produção. Por favor, não reutilize uma senha que você usa em outro lugar."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Termos de Serviço",
+      "intro": "Estes termos regem o uso do WKB, um projeto acadêmico feito como parte do curso da 42. Ao criar uma conta, você os aceita.",
+      "sections": [
+        {
+          "heading": "O que é este serviço",
+          "body": [
+            "WKB é um jogo de perguntas e respostas multijogador em tempo real. Os jogadores veem uma afirmação e votam se ela é mito ou verdade, dentro de um limite de tempo. A pontuação depende do acerto e da velocidade.",
+            "É um trabalho acadêmico, oferecido gratuitamente, sem garantia de disponibilidade, sem compromisso de suporte e sem garantia de qualquer espécie."
+          ]
+        },
+        {
+          "heading": "Sua conta",
+          "body": [
+            "Você deve informar um e-mail válido e escolher um nome de exibição que os outros jogadores verão.",
+            "Você é responsável por manter sua senha em sigilo e por tudo o que for feito por meio da sua conta.",
+            "Uma pessoa, uma conta. Não crie contas para se passar por outra pessoa."
+          ]
+        },
+        {
+          "heading": "Uso aceitável",
+          "body": [
+            "Escolha um nome de exibição que não seja ofensivo e um avatar que não seja ofensivo nem infrinja direitos. Quem opera o serviço pode remover qualquer um dos dois sem aviso.",
+            "Não tente modificar o cliente para obter vantagem. Pontuação, tempo e escolha das cartas são decididos pelo servidor; tentativas de falsificar tempos de reação são detectadas e descartadas, e tentativas repetidas podem levar à remoção da conta.",
+            "Não tente atrapalhar o serviço para outros jogadores, sobrecarregá-lo ou acessar contas que não são suas."
+          ]
+        },
+        {
+          "heading": "Conteúdo do jogo",
+          "body": [
+            "O conjunto de cartas é formado por afirmações de fato verificável, cada uma ligada a uma referência de origem guardada junto dela. Não contém afirmações sobre particulares nem boatos não verificáveis.",
+            "Erros são possíveis. Se você encontrar uma carta cuja resposta declarada esteja errada, avise quem opera o serviço para que seja corrigida ou desativada.",
+            "As cartas servem ao entretenimento. Não as use como fonte de verdade para nada que importe."
+          ]
+        },
+        {
+          "heading": "Licença de conteúdo e atribuição",
+          "body": [
+            "O conjunto de cartas distribuído com este projeto está sob a licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0). Qualquer redistribuição ou conjunto derivado deve manter a mesma licença e a mesma atribuição.",
+            "A ferramenta de geração de cartas incluída neste repositório também pode montar um conjunto a partir da Open Trivia Database, que por sua vez é licenciada como CC BY-SA 4.0. Onde esse conteúdo for usado, aquela atribuição se aplica e a obrigação de compartilhar igual se propaga.",
+            "O código-fonte da aplicação é publicado separadamente sob a licença MIT; veja o arquivo LICENSE no repositório."
+          ]
+        },
+        {
+          "heading": "Disponibilidade e mudanças",
+          "body": [
+            "O serviço pode ser desligado, zerado ou alterado a qualquer momento, inclusive com exclusão de todas as contas e do histórico de partidas.",
+            "Estes termos podem ser atualizados. A data no topo desta página mostra quando mudaram pela última vez."
+          ]
+        },
+        {
+          "heading": "Responsabilidade",
+          "body": [
+            "O serviço é fornecido \"como está\". Na máxima extensão permitida por lei, quem o opera não se responsabiliza por qualquer perda decorrente de seu uso ou indisponibilidade.",
+            "Nada nestes termos limita responsabilidades que a lei não permite limitar."
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "attribution": "Conjunto de cartas licenciado sob CC BY-SA 4.0.",
+    "project": "Um projeto ft_transcendence da 42."
+  },
+  "notFound": {
+    "title": "Não tem ninguém por aqui",
+    "body": "Esta página não está em nenhum dos nossos mapas, e a visitante também não a viu.",
+    "home": "Voltar ao início"
+  },
+  "crash": {
+    "title": "A mão caiu na mesa",
+    "body": "Algo quebrou no meio da distribuição. Não foi você, e nada do que você tinha se perdeu.",
+    "reload": "Distribuir de novo"
+  },
+  "dead": {
+    "roomStatement": "Existe uma sala esperando atrás do código {{code}}.",
+    "roomBody": "Nenhuma sala usa esse código. Ela pode ter terminado, ou pode faltar uma letra.",
+    "removedStatement": "Você ainda está sentado naquela mesa.",
+    "removedBody": "O anfitrião removeu você da sala. Dá para entrar em outra, ou criar a sua.",
+    "fullStatement": "Ainda tem lugar naquela mesa.",
+    "fullBody": "Essa sala está cheia. Cada sala comporta oito no máximo, e essa tem oito.",
+    "tournamentStatement": "Este chaveamento existe.",
+    "tournamentBody": "Nenhum torneio tem esse número. Pode ter sido removido antes de alguém jogar.",
+    "backToLobby": "Procurar outra sala",
+    "backToTournaments": "Voltar aos torneios"
+  }
+}
