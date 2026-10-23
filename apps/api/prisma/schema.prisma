@@ -1,0 +1,461 @@
+// Database schema for Who knows best?
+//
+// Grouped in the order the application needs them:
+//   1. card set   2. users   3. rooms & matches   4. module tables
+// Every relation is explicit; see README "Database Schema" for the diagram.
+
+generator client {
+  provider = "prisma-client-js"
+  // Pinned so the engine generated at build time matches the runtime image.
+  // Leaving this to auto-detection produced a client built for openssl-1.1.x
+  // inside a bookworm (openssl-3.0.x) container.
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// 1. Card set
+// ---------------------------------------------------------------------------
+
+enum Difficulty {
+  easy
+  medium
+  hard
+}
+
+enum CardForm {
+  affirmative
+  negated
+}
+
+model Category {
+  id    Int    @id @default(autoincrement())
+  slug  String @unique
+  name  String
+
+  facts Facts[]
+  rooms Room[]
+
+  @@map("categories")
+}
+
+/// A unit of knowledge. Variety is measured in facts, never in cards:
+/// a player who knows the fact answers both of its wordings reflexively.
+model Facts {
+  id         Int        @id @default(autoincrement())
+  categoryId Int        @map("category_id")
+  difficulty Difficulty
+  /// Where the statement comes from, e.g. "opentdb:9:<sha1>" or "curated:geo-014".
+  /// Unique, so re-running the seed updates a fact instead of duplicating it.
+  sourceRef  String     @unique @map("source_ref")
+  license    String
+  verifiedAt DateTime?  @map("verified_at")
+  active     Boolean    @default(true)
+
+  category  Category       @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  cards     Card[]
+  seenBy    UserSeenFact[]
+
+  @@index([categoryId, difficulty, active])
+  @@map("facts")
+}
+
+/// One wording of a fact, with its truth label. Each fact has exactly two:
+/// an affirmative and a negated form, with opposite labels. The pair exists
+/// for 50/50 balance control, not to inflate the card set.
+model Card {
+  id     Int      @id @default(autoincrement())
+  factId Int      @map("fact_id")
+  text   String
+  isTrue Boolean  @map("is_true")
+  form   CardForm
+
+  fact         Facts             @relation(fields: [factId], references: [id], onDelete: Cascade)
+  translations CardTranslation[]
+  matchCards   MatchCard[]
+
+  @@unique([factId, form])
+  @@index([factId, isTrue])
+  @@map("cards")
+}
+
+model CardTranslation {
+  cardId Int    @map("card_id")
+  locale String
+  text   String
+
+  card Card @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@id([cardId, locale])
+  @@map("card_translations")
+}
+
+// ---------------------------------------------------------------------------
+// 2. Users
+// ---------------------------------------------------------------------------
+
+enum FriendshipStatus {
+  pending
+  accepted
+  blocked
+}
+
+model User {
+  id           Int       @id @default(autoincrement())
+  email        String    @unique
+  /// Argon2id. Null for bots and for OAuth-only accounts.
+  passwordHash String?   @map("password_hash")
+  /// Also unique without regard to case, through an index on lower(display_name) that Prisma
+  /// cannot express. It is created in migration 20261013120000_display_name_case_insensitive.
+  displayName  String    @unique @map("display_name")
+  avatarUrl    String?   @map("avatar_url")
+  locale       String    @default("en")
+  /// Reserved for the 2FA reserve module; the column exists so enabling it
+  /// later is a feature, not a migration of live user data.
+  totpSecret   String?   @map("totp_secret")
+  lastSeenAt   DateTime? @map("last_seen_at")
+  /// When the account finished the first-run setup. Null means the next
+  /// sign-in still owes them that screen, on whichever device they use.
+  onboardedAt  DateTime? @map("onboarded_at")
+  isBot        Boolean   @default(false) @map("is_bot")
+  xp           Int       @default(0)
+  level        Int       @default(1)
+  createdAt    DateTime  @default(now()) @map("created_at")
+
+  oauthAccounts    OAuthAccount[]
+  refreshTokens    RefreshToken[]
+  friendshipsFrom  Friendship[]          @relation("friendshipUser")
+  friendshipsTo    Friendship[]          @relation("friendshipFriend")
+  seenFacts        UserSeenFact[]
+  botProfile       BotProfile?
+  hostedRooms      Room[]                @relation("roomHost")
+  matchPlayers     MatchPlayer[]
+  tournamentSeats  TournamentParticipant[]
+  achievements     UserAchievement[]
+
+  @@index([isBot])
+  @@map("users")
+}
+
+/// Separate from `users` because one account may have both a password and one
+/// or more linked providers.
+model OAuthAccount {
+  id             Int      @id @default(autoincrement())
+  userId         Int      @map("user_id")
+  provider       String
+  providerUserId String   @map("provider_user_id")
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerUserId])
+  @@map("oauth_accounts")
+}
+
+/// Refresh tokens are stored hashed so a database leak cannot mint sessions.
+model RefreshToken {
+  id        Int       @id @default(autoincrement())
+  userId    Int       @map("user_id")
+  tokenHash String    @unique @map("token_hash")
+  expiresAt DateTime  @map("expires_at")
+  revokedAt DateTime? @map("revoked_at")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("refresh_tokens")
+}
+
+model Friendship {
+  userId    Int              @map("user_id")
+  friendId  Int              @map("friend_id")
+  status    FriendshipStatus @default(pending)
+  createdAt DateTime         @default(now()) @map("created_at")
+
+  user   User @relation("friendshipUser", fields: [userId], references: [id], onDelete: Cascade)
+  friend User @relation("friendshipFriend", fields: [friendId], references: [id], onDelete: Cascade)
+
+  @@id([userId, friendId])
+  @@index([friendId])
+  @@map("friendships")
+}
+
+/// Guarantees a player never sees the same fact twice, and feeds the
+/// per-category accuracy in the statistics module.
+model UserSeenFact {
+  userId     Int      @map("user_id")
+  factId     Int      @map("fact_id")
+  lastSeenAt DateTime @default(now()) @map("last_seen_at")
+
+  user User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  fact Facts @relation(fields: [factId], references: [id], onDelete: Cascade)
+
+  @@id([userId, factId])
+  @@map("user_seen_facts")
+}
+
+/// The parameters that make a bot feel like a person rather than a coin flip.
+model BotProfile {
+  id                Int    @id @default(autoincrement())
+  userId            Int    @unique @map("user_id")
+  label             String
+  /// { "<category slug>": 0.0-1.0 }, plus a "_default" entry.
+  accuracyByCategory Json  @map("accuracy_by_category")
+  reactionMsMean    Int    @map("reaction_ms_mean")
+  reactionMsStddev  Int    @map("reaction_ms_stddev")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("bot_profiles")
+}
+
+// ---------------------------------------------------------------------------
+// 3. Rooms and matches
+// ---------------------------------------------------------------------------
+
+enum RoomVisibility {
+  public
+  private
+}
+
+enum RoomMode {
+  general
+  category
+}
+
+enum RoomStatus {
+  lobby
+  playing
+  finished
+}
+
+model Room {
+  id         Int            @id @default(autoincrement())
+  code       String         @unique
+  name       String
+  visibility RoomVisibility @default(public)
+  mode       RoomMode       @default(general)
+  categoryId Int?           @map("category_id")
+  difficulty Difficulty     @default(medium)
+  hostUserId Int            @map("host_user_id")
+  status     RoomStatus     @default(lobby)
+  maxPlayers Int            @default(6) @map("max_players")
+  createdAt  DateTime       @default(now()) @map("created_at")
+
+  host     User          @relation("roomHost", fields: [hostUserId], references: [id], onDelete: Cascade)
+  category Category?     @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  settings RoomSettings?
+  matches  Match[]
+
+  @@index([visibility, status])
+  @@map("rooms")
+}
+
+model RoomSettings {
+  roomId            Int     @id @map("room_id")
+  cardCount         Int     @default(20) @map("card_count")
+  /// Empty means "every category" (general mode).
+  categoryIds       Int[]   @map("category_ids")
+  answerWindowMs    Int     @default(10000) @map("answer_window_ms")
+  comboEnabled      Boolean @default(true) @map("combo_enabled")
+  doubleCardEnabled Boolean @default(false) @map("double_card_enabled")
+
+  room Room @relation(fields: [roomId], references: [id], onDelete: Cascade)
+
+  @@map("room_settings")
+}
+
+model Match {
+  id           Int       @id @default(autoincrement())
+  roomId       Int       @map("room_id")
+  tournamentId Int?      @map("tournament_id")
+  startedAt    DateTime  @default(now()) @map("started_at")
+  endedAt      DateTime? @map("ended_at")
+  cardCount    Int       @map("card_count")
+
+  room       Room        @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  tournament Tournament? @relation(fields: [tournamentId], references: [id], onDelete: SetNull)
+  cards      MatchCard[]
+  players    MatchPlayer[]
+  matchup    TournamentMatchup?
+
+  @@index([roomId])
+  @@index([tournamentId])
+  @@map("matches")
+}
+
+/// The whole match is drawn up front, not one card at a time. That is what
+/// makes reconnection a lookup instead of a state reconstruction.
+model MatchCard {
+  id         Int       @id @default(autoincrement())
+  matchId    Int       @map("match_id")
+  cardId     Int       @map("card_id")
+  position   Int
+  isDouble   Boolean   @default(false) @map("is_double")
+  servedAt   DateTime? @map("served_at")
+  deadlineAt DateTime? @map("deadline_at")
+  revealedAt DateTime? @map("revealed_at")
+
+  match   Match    @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  card    Card     @relation(fields: [cardId], references: [id], onDelete: Restrict)
+  answers Answer[]
+
+  @@unique([matchId, position])
+  @@map("match_cards")
+}
+
+/// Exists independently of the socket. A player who drops keeps their row and
+/// their score; only `connected` changes.
+model MatchPlayer {
+  id             Int       @id @default(autoincrement())
+  matchId        Int       @map("match_id")
+  userId         Int       @map("user_id")
+  score          Int       @default(0)
+  comboCurrent   Int       @default(0) @map("combo_current")
+  comboMax       Int       @default(0) @map("combo_max")
+  connected      Boolean   @default(true)
+  disconnectedAt DateTime? @map("disconnected_at")
+  finalRank      Int?      @map("final_rank")
+
+  match   Match    @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answers Answer[]
+
+  @@unique([matchId, userId])
+  @@index([userId])
+  @@map("match_players")
+}
+
+enum VoteChoice {
+  truth
+  myth
+}
+
+model Answer {
+  id                 Int        @id @default(autoincrement())
+  matchCardId        Int        @map("match_card_id")
+  matchPlayerId      Int        @map("match_player_id")
+  choice             VoteChoice
+  serverReceivedAt   DateTime   @default(now()) @map("server_received_at")
+  /// What the client reported.
+  clientReactionMs   Int        @map("client_reaction_ms")
+  /// The server's moving average of round-trip time for that connection.
+  rttMs              Int        @map("rtt_ms")
+  /// What the server actually scored. Differs from the reported value when
+  /// the report fell outside the physically possible window.
+  acceptedReactionMs Int        @map("accepted_reaction_ms")
+  reactionTrusted    Boolean    @default(true) @map("reaction_trusted")
+  isCorrect          Boolean    @map("is_correct")
+  pointsAwarded      Int        @map("points_awarded")
+
+  matchCard   MatchCard   @relation(fields: [matchCardId], references: [id], onDelete: Cascade)
+  matchPlayer MatchPlayer @relation(fields: [matchPlayerId], references: [id], onDelete: Cascade)
+
+  /// One vote per player per card, enforced by the database rather than by
+  /// application-level checks.
+  @@unique([matchCardId, matchPlayerId])
+  @@index([matchPlayerId])
+  @@map("answers")
+}
+
+// ---------------------------------------------------------------------------
+// 4. Module tables
+// ---------------------------------------------------------------------------
+
+enum TournamentStatus {
+  registration
+  running
+  finished
+}
+
+model Tournament {
+  id         Int              @id @default(autoincrement())
+  name       String
+  status     TournamentStatus @default(registration)
+  difficulty Difficulty       @default(medium)
+  cardCount  Int              @default(10) @map("card_count")
+  size       Int              @default(4)
+  createdById Int?            @map("created_by_id")
+  winnerId   Int?             @map("winner_id")
+  createdAt  DateTime         @default(now()) @map("created_at")
+
+  participants TournamentParticipant[]
+  matches      Match[]
+  matchups     TournamentMatchup[]
+
+  @@map("tournaments")
+}
+
+model TournamentParticipant {
+  tournamentId Int       @map("tournament_id")
+  userId       Int       @map("user_id")
+  seed         Int
+  eliminatedAt DateTime? @map("eliminated_at")
+  /// Bracket round the participant is currently in (1 = first round).
+  round        Int       @default(1)
+
+  tournament Tournament @relation(fields: [tournamentId], references: [id], onDelete: Cascade)
+  user       User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([tournamentId, userId])
+  @@map("tournament_participants")
+}
+
+enum MatchupStatus {
+  pending
+  ready
+  playing
+  finished
+}
+
+/// One node of the bracket. Storing pairings explicitly is what makes the
+/// matchup order inspectable instead of implied by a seeding formula.
+model TournamentMatchup {
+  id           Int           @id @default(autoincrement())
+  tournamentId Int           @map("tournament_id")
+  round        Int
+  /// Position within the round, left to right in the bracket drawing.
+  slot         Int
+  playerAId    Int?          @map("player_a_id")
+  playerBId    Int?          @map("player_b_id")
+  roomId       Int?          @unique @map("room_id")
+  matchId      Int?          @unique @map("match_id")
+  winnerId     Int?          @map("winner_id")
+  status       MatchupStatus @default(pending)
+
+  tournament Tournament @relation(fields: [tournamentId], references: [id], onDelete: Cascade)
+  match      Match?     @relation(fields: [matchId], references: [id], onDelete: SetNull)
+
+  @@unique([tournamentId, round, slot])
+  @@map("tournament_matchups")
+}
+
+model Achievement {
+  id          Int    @id @default(autoincrement())
+  slug        String @unique
+  name        String
+  description String
+  /// { "kind": "...", ...thresholds }. Evaluated by apps/api/src/services/achievements.ts
+  criteria    Json
+
+  unlocks UserAchievement[]
+
+  @@map("achievements")
+}
+
+model UserAchievement {
+  userId        Int      @map("user_id")
+  achievementId Int      @map("achievement_id")
+  unlockedAt    DateTime @default(now()) @map("unlocked_at")
+
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
+
+  @@id([userId, achievementId])
+  @@map("user_achievements")
+}
