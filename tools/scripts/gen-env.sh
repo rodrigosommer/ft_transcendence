@@ -10,17 +10,20 @@ if [ -f .env ]; then
   exit 0
 fi
 
-if ! command -v openssl >/dev/null 2>&1; then
-  echo "  openssl not found; copying .env.example verbatim." >&2
+# Through the wrapper: an installed openssl is not always one that runs.
+ssl() { sh "$ROOT/tools/scripts/openssl.sh" "$@"; }
+
+if ! ssl version >/dev/null; then
+  echo "  no usable openssl; copying .env.example verbatim." >&2
   echo "  Replace every 'replace_with_*' and 'change_me_*' value by hand." >&2
   cp .env.example .env
   exit 0
 fi
 
-ACCESS_SECRET="$(openssl rand -hex 48)"
-REFRESH_SECRET="$(openssl rand -hex 48)"
+ACCESS_SECRET="$(ssl rand -hex 48)"
+REFRESH_SECRET="$(ssl rand -hex 48)"
 # Restricted alphabet: the password is interpolated into a DATABASE_URL.
-DB_PASSWORD="$(openssl rand -base64 32 | tr -dc 'A-Za-z0-9' | cut -c1-32)"
+DB_PASSWORD="$(ssl rand -base64 32 | tr -dc 'A-Za-z0-9' | cut -c1-32)"
 
 sed \
   -e "s|^JWT_ACCESS_SECRET=.*|JWT_ACCESS_SECRET=${ACCESS_SECRET}|" \

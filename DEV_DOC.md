@@ -313,6 +313,7 @@ docker run --rm -v "$PWD":/w -w /w --network wkb_wkb \
 | Static host for the SPA | 'apps/web/nginx.conf' |
 | Certificate generation | 'tools/scripts/gen-certs.sh' |
 | Secret generation | 'tools/scripts/gen-env.sh' |
+| Running openssl where it won't load as installed | 'tools/scripts/openssl.sh' |
 | API startup sequence | 'apps/api/docker-entrypoint.sh' |
  
 ## Tests

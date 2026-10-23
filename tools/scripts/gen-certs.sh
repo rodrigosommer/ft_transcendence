@@ -52,13 +52,16 @@ fi
 
 mkdir -p "$CERT_DIR"
 
-if ! command -v openssl >/dev/null 2>&1; then
-  echo "  openssl not found; cannot issue a certificate." >&2
+# Through the wrapper: an installed openssl is not always one that runs.
+ssl() { sh "$ROOT/tools/scripts/openssl.sh" "$@"; }
+
+if ! ssl version >/dev/null; then
+  echo "  cannot issue a certificate without a working openssl." >&2
   exit 1
 fi
 
 # SAN entries matter: Chrome rejects certificates that only carry a CN.
-openssl req -x509 -nodes -newkey rsa:2048 \
+ssl req -x509 -nodes -newkey rsa:2048 \
   -keyout "$CERT_DIR/wkb.key" \
   -out    "$CERT_DIR/wkb.crt" \
   -days 825 \
