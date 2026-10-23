@@ -1,0 +1,24 @@
+# Secrets. 'make' generates .env from .env.example, the only one committed.
+.env
+.env.*
+!.env.example
+
+# Issued by 'make certs'. The key is private, and every machine makes its own.
+infra/nginx/certs/
+
+# Installed by 'make deps', compiled by 'make typecheck' and cardgen.
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Avatars uploaded when the api runs outside Docker. Personal data.
+apps/api/uploads/
+
+*.log
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
