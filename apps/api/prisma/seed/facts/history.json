@@ -1,0 +1,205 @@
+{
+  "category": { "slug": "history", "name": "History" },
+  "license": "CC BY-SA 4.0",
+  "facts": [
+    { "ref": "his-001", "difficulty": "easy",
+      "en": { "t": "The Great Pyramid of Giza was built in Egypt.", "f": "The Great Pyramid of Giza was built in Greece." },
+      "pt-BR": { "t": "A Grande Pirâmide de Gizé foi construída no Egito.", "f": "A Grande Pirâmide de Gizé foi construída na Grécia." },
+      "fr": { "t": "La grande pyramide de Gizeh a été construite en Égypte.", "f": "La grande pyramide de Gizeh a été construite en Grèce." } },
+
+    { "ref": "his-002", "difficulty": "easy",
+      "en": { "t": "The Second World War ended in 1945.", "f": "The Second World War ended in 1935." },
+      "pt-BR": { "t": "A Segunda Guerra Mundial terminou em 1945.", "f": "A Segunda Guerra Mundial terminou em 1935." },
+      "fr": { "t": "La Seconde Guerre mondiale s'est terminée en 1945.", "f": "La Seconde Guerre mondiale s'est terminée en 1935." } },
+
+    { "ref": "his-003", "difficulty": "easy",
+      "en": { "t": "The Berlin Wall fell in 1989.", "f": "The Berlin Wall fell in 1979." },
+      "pt-BR": { "t": "O Muro de Berlim caiu em 1989.", "f": "O Muro de Berlim caiu em 1979." },
+      "fr": { "t": "Le mur de Berlin est tombé en 1989.", "f": "Le mur de Berlin est tombé en 1979." } },
+
+    { "ref": "his-004", "difficulty": "easy",
+      "en": { "t": "The Roman Empire had its capital at Rome.", "f": "The Roman Empire had its capital at Athens." },
+      "pt-BR": { "t": "O Império Romano tinha sua capital em Roma.", "f": "O Império Romano tinha sua capital em Atenas." },
+      "fr": { "t": "L'Empire romain avait sa capitale à Rome.", "f": "L'Empire romain avait sa capitale à Athènes." } },
+
+    { "ref": "his-005", "difficulty": "easy",
+      "en": { "t": "Brazil was colonised by Portugal.", "f": "Brazil was colonised by Spain." },
+      "pt-BR": { "t": "O Brasil foi colonizado por Portugal.", "f": "O Brasil foi colonizado pela Espanha." },
+      "fr": { "t": "Le Brésil a été colonisé par le Portugal.", "f": "Le Brésil a été colonisé par l'Espagne." } },
+
+    { "ref": "his-006", "difficulty": "easy",
+      "en": { "t": "The French Revolution began in 1789.", "f": "The French Revolution began in 1689." },
+      "pt-BR": { "t": "A Revolução Francesa começou em 1789.", "f": "A Revolução Francesa começou em 1689." },
+      "fr": { "t": "La Révolution française a commencé en 1789.", "f": "La Révolution française a commencé en 1689." } },
+
+    { "ref": "his-007", "difficulty": "easy",
+      "en": { "t": "The Titanic sank on its maiden voyage.", "f": "The Titanic sank on its tenth voyage." },
+      "pt-BR": { "t": "O Titanic afundou em sua viagem inaugural.", "f": "O Titanic afundou em sua décima viagem." },
+      "fr": { "t": "Le Titanic a coulé lors de son voyage inaugural.", "f": "Le Titanic a coulé lors de son dixième voyage." } },
+
+    { "ref": "his-008", "difficulty": "easy",
+      "en": { "t": "The printing press was developed in Europe by Johannes Gutenberg.", "f": "The printing press was developed in Europe by Galileo Galilei." },
+      "pt-BR": { "t": "A prensa tipográfica foi desenvolvida na Europa por Johannes Gutenberg.", "f": "A prensa tipográfica foi desenvolvida na Europa por Galileu Galilei." },
+      "fr": { "t": "L'imprimerie a été développée en Europe par Johannes Gutenberg.", "f": "L'imprimerie a été développée en Europe par Galilée." } },
+
+    { "ref": "his-009", "difficulty": "easy",
+      "en": { "t": "The Hundred Years' War was fought between England and France.", "f": "The Hundred Years' War was fought between England and Sweden." },
+      "pt-BR": { "t": "A Guerra dos Cem Anos foi travada entre Inglaterra e França.", "f": "A Guerra dos Cem Anos foi travada entre Inglaterra e Suécia." },
+      "fr": { "t": "La guerre de Cent Ans a opposé l'Angleterre et la France.", "f": "La guerre de Cent Ans a opposé l'Angleterre et la Suède." } },
+
+    { "ref": "his-010", "difficulty": "easy",
+      "en": { "t": "The Inca Empire was centred in the Andes.", "f": "The Inca Empire was centred in the Amazon basin." },
+      "pt-BR": { "t": "O Império Inca tinha seu centro nos Andes.", "f": "O Império Inca tinha seu centro na bacia amazônica." },
+      "fr": { "t": "L'Empire inca était centré dans les Andes.", "f": "L'Empire inca était centré dans le bassin amazonien." } },
+
+    { "ref": "his-011", "difficulty": "easy",
+      "en": { "t": "The Cold War was a rivalry between the United States and the Soviet Union.", "f": "The Cold War was a rivalry between the United States and Japan." },
+      "pt-BR": { "t": "A Guerra Fria foi uma rivalidade entre os Estados Unidos e a União Soviética.", "f": "A Guerra Fria foi uma rivalidade entre os Estados Unidos e o Japão." },
+      "fr": { "t": "La guerre froide fut une rivalité entre les États-Unis et l'Union soviétique.", "f": "La guerre froide fut une rivalité entre les États-Unis et le Japon." } },
+
+    { "ref": "his-012", "difficulty": "easy",
+      "en": { "t": "Ancient Egyptians wrote using hieroglyphs.", "f": "Ancient Egyptians wrote using the Latin alphabet." },
+      "pt-BR": { "t": "Os antigos egípcios escreviam com hieróglifos.", "f": "Os antigos egípcios escreviam com o alfabeto latino." },
+      "fr": { "t": "Les Égyptiens de l'Antiquité écrivaient avec des hiéroglyphes.", "f": "Les Égyptiens de l'Antiquité écrivaient avec l'alphabet latin." } },
+
+    { "ref": "his-013", "difficulty": "medium",
+      "en": { "t": "The Magna Carta was sealed in 1215.", "f": "The Magna Carta was sealed in 1415." },
+      "pt-BR": { "t": "A Carta Magna foi selada em 1215.", "f": "A Carta Magna foi selada em 1415." },
+      "fr": { "t": "La Grande Charte a été scellée en 1215.", "f": "La Grande Charte a été scellée en 1415." } },
+
+    { "ref": "his-014", "difficulty": "medium",
+      "en": { "t": "Constantinople fell to the Ottomans in 1453.", "f": "Constantinople fell to the Ottomans in 1553." },
+      "pt-BR": { "t": "Constantinopla caiu diante dos otomanos em 1453.", "f": "Constantinopla caiu diante dos otomanos em 1553." },
+      "fr": { "t": "Constantinople est tombée aux mains des Ottomans en 1453.", "f": "Constantinople est tombée aux mains des Ottomans en 1553." } },
+
+    { "ref": "his-015", "difficulty": "medium",
+      "en": { "t": "The Industrial Revolution began in Britain.", "f": "The Industrial Revolution began in Russia." },
+      "pt-BR": { "t": "A Revolução Industrial começou na Grã-Bretanha.", "f": "A Revolução Industrial começou na Rússia." },
+      "fr": { "t": "La révolution industrielle a commencé en Grande-Bretagne.", "f": "La révolution industrielle a commencé en Russie." } },
+
+    { "ref": "his-016", "difficulty": "medium",
+      "en": { "t": "Brazil declared independence in 1822.", "f": "Brazil declared independence in 1922." },
+      "pt-BR": { "t": "O Brasil declarou independência em 1822.", "f": "O Brasil declarou independência em 1922." },
+      "fr": { "t": "Le Brésil a déclaré son indépendance en 1822.", "f": "Le Brésil a déclaré son indépendance en 1922." } },
+
+    { "ref": "his-017", "difficulty": "medium",
+      "en": { "t": "The Rosetta Stone helped scholars decipher Egyptian hieroglyphs.", "f": "The Rosetta Stone helped scholars decipher Mayan glyphs." },
+      "pt-BR": { "t": "A Pedra de Roseta ajudou os estudiosos a decifrar os hieróglifos egípcios.", "f": "A Pedra de Roseta ajudou os estudiosos a decifrar os glifos maias." },
+      "fr": { "t": "La pierre de Rosette a permis de déchiffrer les hiéroglyphes égyptiens.", "f": "La pierre de Rosette a permis de déchiffrer les glyphes mayas." } },
+
+    { "ref": "his-018", "difficulty": "medium",
+      "en": { "t": "The Silk Road connected China with the Mediterranean world.", "f": "The Silk Road connected China with southern Africa." },
+      "pt-BR": { "t": "A Rota da Seda ligava a China ao mundo mediterrâneo.", "f": "A Rota da Seda ligava a China à África austral." },
+      "fr": { "t": "La route de la soie reliait la Chine au monde méditerranéen.", "f": "La route de la soie reliait la Chine à l'Afrique australe." } },
+
+    { "ref": "his-019", "difficulty": "medium",
+      "en": { "t": "The Treaty of Versailles was signed in 1919.", "f": "The Treaty of Versailles was signed in 1929." },
+      "pt-BR": { "t": "O Tratado de Versalhes foi assinado em 1919.", "f": "O Tratado de Versalhes foi assinado em 1929." },
+      "fr": { "t": "Le traité de Versailles a été signé en 1919.", "f": "Le traité de Versailles a été signé en 1929." } },
+
+    { "ref": "his-020", "difficulty": "medium",
+      "en": { "t": "The Aztec capital was Tenochtitlan.", "f": "The Aztec capital was Cusco." },
+      "pt-BR": { "t": "A capital asteca era Tenochtitlán.", "f": "A capital asteca era Cusco." },
+      "fr": { "t": "La capitale aztèque était Tenochtitlan.", "f": "La capitale aztèque était Cusco." } },
+
+    { "ref": "his-021", "difficulty": "medium",
+      "en": { "t": "The Renaissance began in Italy.", "f": "The Renaissance began in Norway." },
+      "pt-BR": { "t": "O Renascimento começou na Itália.", "f": "O Renascimento começou na Noruega." },
+      "fr": { "t": "La Renaissance a commencé en Italie.", "f": "La Renaissance a commencé en Norvège." } },
+
+    { "ref": "his-022", "difficulty": "medium",
+      "en": { "t": "The Ottoman Empire was dissolved after the First World War.", "f": "The Ottoman Empire was dissolved after the Napoleonic Wars." },
+      "pt-BR": { "t": "O Império Otomano foi dissolvido após a Primeira Guerra Mundial.", "f": "O Império Otomano foi dissolvido após as Guerras Napoleônicas." },
+      "fr": { "t": "L'Empire ottoman a été dissous après la Première Guerre mondiale.", "f": "L'Empire ottoman a été dissous après les guerres napoléoniennes." } },
+
+    { "ref": "his-023", "difficulty": "medium",
+      "en": { "t": "The Great Wall of China was built over many centuries.", "f": "The Great Wall of China was built in a single decade." },
+      "pt-BR": { "t": "A Grande Muralha da China foi construída ao longo de muitos séculos.", "f": "A Grande Muralha da China foi construída em uma única década." },
+      "fr": { "t": "La Grande Muraille de Chine a été bâtie sur de nombreux siècles.", "f": "La Grande Muraille de Chine a été bâtie en une seule décennie." } },
+
+    { "ref": "his-024", "difficulty": "medium",
+      "en": { "t": "Apartheid was a system of racial segregation in South Africa.", "f": "Apartheid was a system of racial segregation in Australia." },
+      "pt-BR": { "t": "O apartheid foi um sistema de segregação racial na África do Sul.", "f": "O apartheid foi um sistema de segregação racial na Austrália." },
+      "fr": { "t": "L'apartheid était un système de ségrégation raciale en Afrique du Sud.", "f": "L'apartheid était un système de ségrégation raciale en Australie." } },
+
+    { "ref": "his-025", "difficulty": "medium",
+      "en": { "t": "The Marshall Plan funded the reconstruction of Western Europe.", "f": "The Marshall Plan funded the reconstruction of Southeast Asia." },
+      "pt-BR": { "t": "O Plano Marshall financiou a reconstrução da Europa Ocidental.", "f": "O Plano Marshall financiou a reconstrução do Sudeste Asiático." },
+      "fr": { "t": "Le plan Marshall a financé la reconstruction de l'Europe de l'Ouest.", "f": "Le plan Marshall a financé la reconstruction de l'Asie du Sud-Est." } },
+
+    { "ref": "his-026", "difficulty": "medium",
+      "en": { "t": "The Portuguese navigator Vasco da Gama reached India by sea.", "f": "The Portuguese navigator Vasco da Gama reached Australia by sea." },
+      "pt-BR": { "t": "O navegador português Vasco da Gama chegou à Índia por via marítima.", "f": "O navegador português Vasco da Gama chegou à Austrália por via marítima." },
+      "fr": { "t": "Le navigateur portugais Vasco de Gama a atteint l'Inde par la mer.", "f": "Le navigateur portugais Vasco de Gama a atteint l'Australie par la mer." } },
+
+    { "ref": "his-027", "difficulty": "hard",
+      "en": { "t": "The Battle of Hastings took place in 1066.", "f": "The Battle of Hastings took place in 1166." },
+      "pt-BR": { "t": "A Batalha de Hastings ocorreu em 1066.", "f": "A Batalha de Hastings ocorreu em 1166." },
+      "fr": { "t": "La bataille de Hastings a eu lieu en 1066.", "f": "La bataille de Hastings a eu lieu en 1166." } },
+
+    { "ref": "his-028", "difficulty": "hard",
+      "en": { "t": "The Treaty of Tordesillas divided newly explored lands between Portugal and Spain.", "f": "The Treaty of Tordesillas divided newly explored lands between France and England." },
+      "pt-BR": { "t": "O Tratado de Tordesilhas dividiu as terras recém-exploradas entre Portugal e Espanha.", "f": "O Tratado de Tordesilhas dividiu as terras recém-exploradas entre França e Inglaterra." },
+      "fr": { "t": "Le traité de Tordesillas a partagé les terres nouvellement explorées entre le Portugal et l'Espagne.", "f": "Le traité de Tordesillas a partagé les terres nouvellement explorées entre la France et l'Angleterre." } },
+
+    { "ref": "his-029", "difficulty": "hard",
+      "en": { "t": "The Meiji Restoration transformed Japan in the nineteenth century.", "f": "The Meiji Restoration transformed Japan in the fifteenth century." },
+      "pt-BR": { "t": "A Restauração Meiji transformou o Japão no século XIX.", "f": "A Restauração Meiji transformou o Japão no século XV." },
+      "fr": { "t": "La restauration de Meiji a transformé le Japon au XIXe siècle.", "f": "La restauration de Meiji a transformé le Japon au XVe siècle." } },
+
+    { "ref": "his-030", "difficulty": "hard",
+      "en": { "t": "The Library of Alexandria stood in Egypt.", "f": "The Library of Alexandria stood in Syria." },
+      "pt-BR": { "t": "A Biblioteca de Alexandria ficava no Egito.", "f": "A Biblioteca de Alexandria ficava na Síria." },
+      "fr": { "t": "La bibliothèque d'Alexandrie se trouvait en Égypte.", "f": "La bibliothèque d'Alexandrie se trouvait en Syrie." } },
+
+    { "ref": "his-031", "difficulty": "hard",
+      "en": { "t": "The Hanseatic League was a trading confederation in northern Europe.", "f": "The Hanseatic League was a trading confederation in North Africa." },
+      "pt-BR": { "t": "A Liga Hanseática foi uma confederação comercial no norte da Europa.", "f": "A Liga Hanseática foi uma confederação comercial no norte da África." },
+      "fr": { "t": "La Ligue hanséatique était une confédération commerciale d'Europe du Nord.", "f": "La Ligue hanséatique était une confédération commerciale d'Afrique du Nord." } },
+
+    { "ref": "his-032", "difficulty": "hard",
+      "en": { "t": "The Codex of Hammurabi originated in Mesopotamia.", "f": "The Codex of Hammurabi originated in ancient China." },
+      "pt-BR": { "t": "O Código de Hamurábi teve origem na Mesopotâmia.", "f": "O Código de Hamurábi teve origem na China antiga." },
+      "fr": { "t": "Le code de Hammurabi est né en Mésopotamie.", "f": "Le code de Hammurabi est né en Chine ancienne." } },
+
+    { "ref": "his-033", "difficulty": "hard",
+      "en": { "t": "The Thirty Years' War ended with the Peace of Westphalia.", "f": "The Thirty Years' War ended with the Peace of Utrecht." },
+      "pt-BR": { "t": "A Guerra dos Trinta Anos terminou com a Paz de Vestfália.", "f": "A Guerra dos Trinta Anos terminou com a Paz de Utrecht." },
+      "fr": { "t": "La guerre de Trente Ans s'est achevée par les traités de Westphalie.", "f": "La guerre de Trente Ans s'est achevée par le traité d'Utrecht." } },
+
+    { "ref": "his-034", "difficulty": "hard",
+      "en": { "t": "Byzantium was the earlier name of Constantinople.", "f": "Byzantium was the earlier name of Alexandria." },
+      "pt-BR": { "t": "Bizâncio era o nome anterior de Constantinopla.", "f": "Bizâncio era o nome anterior de Alexandria." },
+      "fr": { "t": "Byzance était l'ancien nom de Constantinople.", "f": "Byzance était l'ancien nom d'Alexandrie." } },
+
+    { "ref": "his-035", "difficulty": "hard",
+      "en": { "t": "The Mali Empire grew wealthy from trans-Saharan trade.", "f": "The Mali Empire grew wealthy from Baltic amber trade." },
+      "pt-BR": { "t": "O Império do Mali enriqueceu com o comércio transaariano.", "f": "O Império do Mali enriqueceu com o comércio de âmbar do Báltico." },
+      "fr": { "t": "L'Empire du Mali s'est enrichi grâce au commerce transsaharien.", "f": "L'Empire du Mali s'est enrichi grâce au commerce de l'ambre de la Baltique." } },
+
+    { "ref": "his-036", "difficulty": "hard",
+      "en": { "t": "The Domesday Book was a survey of England ordered after the Norman conquest.", "f": "The Domesday Book was a survey of Ireland ordered after the Viking conquest." },
+      "pt-BR": { "t": "O Domesday Book foi um levantamento da Inglaterra ordenado após a conquista normanda.", "f": "O Domesday Book foi um levantamento da Irlanda ordenado após a conquista viking." },
+      "fr": { "t": "Le Domesday Book était un recensement de l'Angleterre ordonné après la conquête normande.", "f": "Le Domesday Book était un recensement de l'Irlande ordonné après la conquête viking." } },
+
+    { "ref": "his-037", "difficulty": "hard",
+      "en": { "t": "The Antikythera mechanism is an ancient Greek geared device.", "f": "The Antikythera mechanism is an ancient Roman water clock." },
+      "pt-BR": { "t": "O mecanismo de Anticítera é um dispositivo grego antigo com engrenagens.", "f": "O mecanismo de Anticítera é um relógio de água romano antigo." },
+      "fr": { "t": "La machine d'Anticythère est un mécanisme à engrenages de la Grèce antique.", "f": "La machine d'Anticythère est une horloge à eau de la Rome antique." } },
+
+    { "ref": "his-038", "difficulty": "hard",
+      "en": { "t": "The Suez Canal opened in 1869.", "f": "The Suez Canal opened in 1919." },
+      "pt-BR": { "t": "O Canal de Suez foi inaugurado em 1869.", "f": "O Canal de Suez foi inaugurado em 1919." },
+      "fr": { "t": "Le canal de Suez a été inauguré en 1869.", "f": "Le canal de Suez a été inauguré en 1919." } },
+
+    { "ref": "his-039", "difficulty": "hard",
+      "en": { "t": "The Kingdom of Aksum was located in the Horn of Africa.", "f": "The Kingdom of Aksum was located in the Iberian Peninsula." },
+      "pt-BR": { "t": "O Reino de Axum ficava no Chifre da África.", "f": "O Reino de Axum ficava na Península Ibérica." },
+      "fr": { "t": "Le royaume d'Aksoum se situait dans la Corne de l'Afrique.", "f": "Le royaume d'Aksoum se situait dans la péninsule Ibérique." } },
+
+    { "ref": "his-040", "difficulty": "hard",
+      "en": { "t": "The Council of Nicaea was held in the fourth century.", "f": "The Council of Nicaea was held in the tenth century." },
+      "pt-BR": { "t": "O Concílio de Niceia ocorreu no século IV.", "f": "O Concílio de Niceia ocorreu no século X." },
+      "fr": { "t": "Le concile de Nicée s'est tenu au IVe siècle.", "f": "Le concile de Nicée s'est tenu au Xe siècle." } }
+  ]
+}

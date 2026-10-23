@@ -1,0 +1,205 @@
+{
+  "category": { "slug": "geography", "name": "Geography" },
+  "license": "CC BY-SA 4.0",
+  "facts": [
+    { "ref": "geo-001", "difficulty": "easy",
+      "en": { "t": "The Nile flows northward.", "f": "The Nile flows southward." },
+      "pt-BR": { "t": "O Nilo corre para o norte.", "f": "O Nilo corre para o sul." },
+      "fr": { "t": "Le Nil coule vers le nord.", "f": "Le Nil coule vers le sud." } },
+
+    { "ref": "geo-002", "difficulty": "easy",
+      "en": { "t": "Canberra is the capital of Australia.", "f": "Sydney is the capital of Australia." },
+      "pt-BR": { "t": "Camberra é a capital da Austrália.", "f": "Sydney é a capital da Austrália." },
+      "fr": { "t": "Canberra est la capitale de l'Australie.", "f": "Sydney est la capitale de l'Australie." } },
+
+    { "ref": "geo-003", "difficulty": "easy",
+      "en": { "t": "The Amazon River runs through South America.", "f": "The Amazon River runs through Central Africa." },
+      "pt-BR": { "t": "O rio Amazonas percorre a América do Sul.", "f": "O rio Amazonas percorre a África Central." },
+      "fr": { "t": "L'Amazone traverse l'Amérique du Sud.", "f": "L'Amazone traverse l'Afrique centrale." } },
+
+    { "ref": "geo-004", "difficulty": "easy",
+      "en": { "t": "Mount Everest stands in the Himalayas.", "f": "Mount Everest stands in the Andes." },
+      "pt-BR": { "t": "O monte Everest fica no Himalaia.", "f": "O monte Everest fica nos Andes." },
+      "fr": { "t": "Le mont Everest se dresse dans l'Himalaya.", "f": "Le mont Everest se dresse dans les Andes." } },
+
+    { "ref": "geo-005", "difficulty": "easy",
+      "en": { "t": "The Sahara covers much of northern Africa.", "f": "The Sahara covers much of southern Africa." },
+      "pt-BR": { "t": "O Saara cobre boa parte do norte da África.", "f": "O Saara cobre boa parte do sul da África." },
+      "fr": { "t": "Le Sahara couvre une grande partie de l'Afrique du Nord.", "f": "Le Sahara couvre une grande partie de l'Afrique australe." } },
+
+    { "ref": "geo-006", "difficulty": "easy",
+      "en": { "t": "Japan is made up of islands.", "f": "Japan is a landlocked country." },
+      "pt-BR": { "t": "O Japão é formado por ilhas.", "f": "O Japão é um país sem litoral." },
+      "fr": { "t": "Le Japon est constitué d'îles.", "f": "Le Japon est un pays sans littoral." } },
+
+    { "ref": "geo-007", "difficulty": "easy",
+      "en": { "t": "The Pacific is the largest ocean on Earth.", "f": "The Atlantic is the largest ocean on Earth." },
+      "pt-BR": { "t": "O Pacífico é o maior oceano da Terra.", "f": "O Atlântico é o maior oceano da Terra." },
+      "fr": { "t": "Le Pacifique est le plus grand océan de la Terre.", "f": "L'Atlantique est le plus grand océan de la Terre." } },
+
+    { "ref": "geo-008", "difficulty": "easy",
+      "en": { "t": "Portugal shares a land border with Spain.", "f": "Portugal shares a land border with France." },
+      "pt-BR": { "t": "Portugal faz fronteira terrestre com a Espanha.", "f": "Portugal faz fronteira terrestre com a França." },
+      "fr": { "t": "Le Portugal partage une frontière terrestre avec l'Espagne.", "f": "Le Portugal partage une frontière terrestre avec la France." } },
+
+    { "ref": "geo-009", "difficulty": "easy",
+      "en": { "t": "The equator crosses Brazil.", "f": "The equator crosses Argentina." },
+      "pt-BR": { "t": "A linha do equador cruza o Brasil.", "f": "A linha do equador cruza a Argentina." },
+      "fr": { "t": "L'équateur traverse le Brésil.", "f": "L'équateur traverse l'Argentine." } },
+
+    { "ref": "geo-010", "difficulty": "easy",
+      "en": { "t": "Iceland lies in the North Atlantic.", "f": "Iceland lies in the Mediterranean." },
+      "pt-BR": { "t": "A Islândia fica no Atlântico Norte.", "f": "A Islândia fica no Mediterrâneo." },
+      "fr": { "t": "L'Islande se situe dans l'Atlantique Nord.", "f": "L'Islande se situe en Méditerranée." } },
+
+    { "ref": "geo-011", "difficulty": "easy",
+      "en": { "t": "The Andes run along the western side of South America.", "f": "The Andes run along the eastern side of South America." },
+      "pt-BR": { "t": "Os Andes se estendem pelo lado oeste da América do Sul.", "f": "Os Andes se estendem pelo lado leste da América do Sul." },
+      "fr": { "t": "Les Andes longent le côté ouest de l'Amérique du Sud.", "f": "Les Andes longent le côté est de l'Amérique du Sud." } },
+
+    { "ref": "geo-012", "difficulty": "easy",
+      "en": { "t": "Lisbon is the capital of Portugal.", "f": "Porto is the capital of Portugal." },
+      "pt-BR": { "t": "Lisboa é a capital de Portugal.", "f": "Porto é a capital de Portugal." },
+      "fr": { "t": "Lisbonne est la capitale du Portugal.", "f": "Porto est la capitale du Portugal." } },
+
+    { "ref": "geo-013", "difficulty": "medium",
+      "en": { "t": "Lake Baikal is the deepest lake in the world.", "f": "Lake Superior is the deepest lake in the world." },
+      "pt-BR": { "t": "O lago Baikal é o lago mais profundo do mundo.", "f": "O lago Superior é o lago mais profundo do mundo." },
+      "fr": { "t": "Le lac Baïkal est le lac le plus profond du monde.", "f": "Le lac Supérieur est le lac le plus profond du monde." } },
+
+    { "ref": "geo-014", "difficulty": "medium",
+      "en": { "t": "The Danube empties into the Black Sea.", "f": "The Danube empties into the Baltic Sea." },
+      "pt-BR": { "t": "O Danúbio deságua no mar Negro.", "f": "O Danúbio deságua no mar Báltico." },
+      "fr": { "t": "Le Danube se jette dans la mer Noire.", "f": "Le Danube se jette dans la mer Baltique." } },
+
+    { "ref": "geo-015", "difficulty": "medium",
+      "en": { "t": "Istanbul sits on two continents.", "f": "Istanbul lies entirely in Asia." },
+      "pt-BR": { "t": "Istambul está situada em dois continentes.", "f": "Istambul está inteiramente na Ásia." },
+      "fr": { "t": "Istanbul s'étend sur deux continents.", "f": "Istanbul se trouve entièrement en Asie." } },
+
+    { "ref": "geo-016", "difficulty": "medium",
+      "en": { "t": "Vatican City is the smallest sovereign state in the world.", "f": "Monaco is the smallest sovereign state in the world." },
+      "pt-BR": { "t": "O Vaticano é o menor Estado soberano do mundo.", "f": "Mônaco é o menor Estado soberano do mundo." },
+      "fr": { "t": "Le Vatican est le plus petit État souverain du monde.", "f": "Monaco est le plus petit État souverain du monde." } },
+
+    { "ref": "geo-017", "difficulty": "medium",
+      "en": { "t": "The shore of the Dead Sea lies below sea level.", "f": "The shore of the Dead Sea lies above sea level." },
+      "pt-BR": { "t": "A margem do mar Morto fica abaixo do nível do mar.", "f": "A margem do mar Morto fica acima do nível do mar." },
+      "fr": { "t": "La rive de la mer Morte se situe sous le niveau de la mer.", "f": "La rive de la mer Morte se situe au-dessus du niveau de la mer." } },
+
+    { "ref": "geo-018", "difficulty": "medium",
+      "en": { "t": "Greenland is part of the Kingdom of Denmark.", "f": "Greenland is part of the Kingdom of Norway." },
+      "pt-BR": { "t": "A Groenlândia faz parte do Reino da Dinamarca.", "f": "A Groenlândia faz parte do Reino da Noruega." },
+      "fr": { "t": "Le Groenland fait partie du royaume du Danemark.", "f": "Le Groenland fait partie du royaume de Norvège." } },
+
+    { "ref": "geo-019", "difficulty": "medium",
+      "en": { "t": "The Strait of Gibraltar separates Europe from Africa.", "f": "The Strait of Gibraltar separates Europe from Asia." },
+      "pt-BR": { "t": "O estreito de Gibraltar separa a Europa da África.", "f": "O estreito de Gibraltar separa a Europa da Ásia." },
+      "fr": { "t": "Le détroit de Gibraltar sépare l'Europe de l'Afrique.", "f": "Le détroit de Gibraltar sépare l'Europe de l'Asie." } },
+
+    { "ref": "geo-020", "difficulty": "medium",
+      "en": { "t": "Bolivia has no sea coast.", "f": "Bolivia has a Pacific coast." },
+      "pt-BR": { "t": "A Bolívia não tem litoral marítimo.", "f": "A Bolívia tem litoral no Pacífico." },
+      "fr": { "t": "La Bolivie n'a pas de littoral maritime.", "f": "La Bolivie possède un littoral sur le Pacifique." } },
+
+    { "ref": "geo-021", "difficulty": "medium",
+      "en": { "t": "The Ural Mountains mark part of the boundary between Europe and Asia.", "f": "The Ural Mountains mark part of the boundary between Europe and Africa." },
+      "pt-BR": { "t": "Os montes Urais marcam parte do limite entre a Europa e a Ásia.", "f": "Os montes Urais marcam parte do limite entre a Europa e a África." },
+      "fr": { "t": "L'Oural marque une partie de la limite entre l'Europe et l'Asie.", "f": "L'Oural marque une partie de la limite entre l'Europe et l'Afrique." } },
+
+    { "ref": "geo-022", "difficulty": "medium",
+      "en": { "t": "Madagascar lies in the Indian Ocean.", "f": "Madagascar lies in the Atlantic Ocean." },
+      "pt-BR": { "t": "Madagascar fica no oceano Índico.", "f": "Madagascar fica no oceano Atlântico." },
+      "fr": { "t": "Madagascar se trouve dans l'océan Indien.", "f": "Madagascar se trouve dans l'océan Atlantique." } },
+
+    { "ref": "geo-023", "difficulty": "medium",
+      "en": { "t": "The Rhine reaches the sea in the Netherlands.", "f": "The Rhine reaches the sea in Italy." },
+      "pt-BR": { "t": "O Reno chega ao mar nos Países Baixos.", "f": "O Reno chega ao mar na Itália." },
+      "fr": { "t": "Le Rhin atteint la mer aux Pays-Bas.", "f": "Le Rhin atteint la mer en Italie." } },
+
+    { "ref": "geo-024", "difficulty": "medium",
+      "en": { "t": "Wellington is the capital of New Zealand.", "f": "Auckland is the capital of New Zealand." },
+      "pt-BR": { "t": "Wellington é a capital da Nova Zelândia.", "f": "Auckland é a capital da Nova Zelândia." },
+      "fr": { "t": "Wellington est la capitale de la Nouvelle-Zélande.", "f": "Auckland est la capitale de la Nouvelle-Zélande." } },
+
+    { "ref": "geo-025", "difficulty": "medium",
+      "en": { "t": "The Caspian Sea is the largest inland body of water on Earth.", "f": "Lake Victoria is the largest inland body of water on Earth." },
+      "pt-BR": { "t": "O mar Cáspio é a maior massa de água interior da Terra.", "f": "O lago Vitória é a maior massa de água interior da Terra." },
+      "fr": { "t": "La mer Caspienne est la plus grande étendue d'eau intérieure de la Terre.", "f": "Le lac Victoria est la plus grande étendue d'eau intérieure de la Terre." } },
+
+    { "ref": "geo-026", "difficulty": "medium",
+      "en": { "t": "Switzerland has no coastline.", "f": "Switzerland has a short Mediterranean coastline." },
+      "pt-BR": { "t": "A Suíça não tem litoral.", "f": "A Suíça tem um pequeno litoral no Mediterrâneo." },
+      "fr": { "t": "La Suisse n'a pas de littoral.", "f": "La Suisse possède un court littoral méditerranéen." } },
+
+    { "ref": "geo-027", "difficulty": "hard",
+      "en": { "t": "Kazakhstan is the largest landlocked country in the world.", "f": "Mongolia is the largest landlocked country in the world." },
+      "pt-BR": { "t": "O Cazaquistão é o maior país sem litoral do mundo.", "f": "A Mongólia é o maior país sem litoral do mundo." },
+      "fr": { "t": "Le Kazakhstan est le plus grand pays sans littoral du monde.", "f": "La Mongolie est le plus grand pays sans littoral du monde." } },
+
+    { "ref": "geo-028", "difficulty": "hard",
+      "en": { "t": "The Congo River crosses the equator twice.", "f": "The Congo River crosses the equator once." },
+      "pt-BR": { "t": "O rio Congo cruza a linha do equador duas vezes.", "f": "O rio Congo cruza a linha do equador uma vez." },
+      "fr": { "t": "Le fleuve Congo traverse l'équateur deux fois.", "f": "Le fleuve Congo traverse l'équateur une seule fois." } },
+
+    { "ref": "geo-029", "difficulty": "hard",
+      "en": { "t": "Ankara is the capital of Türkiye.", "f": "Istanbul is the capital of Türkiye." },
+      "pt-BR": { "t": "Ancara é a capital da Turquia.", "f": "Istambul é a capital da Turquia." },
+      "fr": { "t": "Ankara est la capitale de la Turquie.", "f": "Istanbul est la capitale de la Turquie." } },
+
+    { "ref": "geo-030", "difficulty": "hard",
+      "en": { "t": "The Atacama Desert lies mainly in Chile.", "f": "The Atacama Desert lies mainly in Bolivia." },
+      "pt-BR": { "t": "O deserto do Atacama fica principalmente no Chile.", "f": "O deserto do Atacama fica principalmente na Bolívia." },
+      "fr": { "t": "Le désert d'Atacama se situe principalement au Chili.", "f": "Le désert d'Atacama se situe principalement en Bolivie." } },
+
+    { "ref": "geo-031", "difficulty": "hard",
+      "en": { "t": "The official language of Suriname is Dutch.", "f": "The official language of Suriname is Spanish." },
+      "pt-BR": { "t": "O idioma oficial do Suriname é o neerlandês.", "f": "O idioma oficial do Suriname é o espanhol." },
+      "fr": { "t": "La langue officielle du Suriname est le néerlandais.", "f": "La langue officielle du Suriname est l'espagnol." } },
+
+    { "ref": "geo-032", "difficulty": "hard",
+      "en": { "t": "The Volga is the longest river in Europe.", "f": "The Danube is the longest river in Europe." },
+      "pt-BR": { "t": "O Volga é o rio mais longo da Europa.", "f": "O Danúbio é o rio mais longo da Europa." },
+      "fr": { "t": "La Volga est le plus long fleuve d'Europe.", "f": "Le Danube est le plus long fleuve d'Europe." } },
+
+    { "ref": "geo-033", "difficulty": "hard",
+      "en": { "t": "Lesotho is surrounded entirely by South Africa.", "f": "Lesotho is surrounded entirely by Namibia." },
+      "pt-BR": { "t": "O Lesoto é inteiramente cercado pela África do Sul.", "f": "O Lesoto é inteiramente cercado pela Namíbia." },
+      "fr": { "t": "Le Lesotho est entièrement entouré par l'Afrique du Sud.", "f": "Le Lesotho est entièrement entouré par la Namibie." } },
+
+    { "ref": "geo-034", "difficulty": "hard",
+      "en": { "t": "The Bering Strait separates Russia from Alaska.", "f": "The Bering Strait separates Russia from Japan." },
+      "pt-BR": { "t": "O estreito de Bering separa a Rússia do Alasca.", "f": "O estreito de Bering separa a Rússia do Japão." },
+      "fr": { "t": "Le détroit de Béring sépare la Russie de l'Alaska.", "f": "Le détroit de Béring sépare la Russie du Japon." } },
+
+    { "ref": "geo-035", "difficulty": "hard",
+      "en": { "t": "Naypyidaw is the capital of Myanmar.", "f": "Yangon is the capital of Myanmar." },
+      "pt-BR": { "t": "Nay Pyi Taw é a capital de Mianmar.", "f": "Yangon é a capital de Mianmar." },
+      "fr": { "t": "Naypyidaw est la capitale du Myanmar.", "f": "Rangoun est la capitale du Myanmar." } },
+
+    { "ref": "geo-036", "difficulty": "hard",
+      "en": { "t": "The Mariana Trench lies in the Pacific Ocean.", "f": "The Mariana Trench lies in the Indian Ocean." },
+      "pt-BR": { "t": "A fossa das Marianas fica no oceano Pacífico.", "f": "A fossa das Marianas fica no oceano Índico." },
+      "fr": { "t": "La fosse des Mariannes se trouve dans l'océan Pacifique.", "f": "La fosse des Mariannes se trouve dans l'océan Indien." } },
+
+    { "ref": "geo-037", "difficulty": "hard",
+      "en": { "t": "Cape Verde is an archipelago off the coast of West Africa.", "f": "Cape Verde is an archipelago off the coast of East Africa." },
+      "pt-BR": { "t": "Cabo Verde é um arquipélago ao largo da África Ocidental.", "f": "Cabo Verde é um arquipélago ao largo da África Oriental." },
+      "fr": { "t": "Le Cap-Vert est un archipel au large de l'Afrique de l'Ouest.", "f": "Le Cap-Vert est un archipel au large de l'Afrique de l'Est." } },
+
+    { "ref": "geo-038", "difficulty": "hard",
+      "en": { "t": "The Yenisei River drains into the Arctic Ocean.", "f": "The Yenisei River drains into the Pacific Ocean." },
+      "pt-BR": { "t": "O rio Ienissei deságua no oceano Ártico.", "f": "O rio Ienissei deságua no oceano Pacífico." },
+      "fr": { "t": "L'Ienisseï se jette dans l'océan Arctique.", "f": "L'Ienisseï se jette dans l'océan Pacifique." } },
+
+    { "ref": "geo-039", "difficulty": "hard",
+      "en": { "t": "Andorra lies between France and Spain.", "f": "Andorra lies between France and Italy." },
+      "pt-BR": { "t": "Andorra fica entre a França e a Espanha.", "f": "Andorra fica entre a França e a Itália." },
+      "fr": { "t": "L'Andorre se situe entre la France et l'Espagne.", "f": "L'Andorre se situe entre la France et l'Italie." } },
+
+    { "ref": "geo-040", "difficulty": "hard",
+      "en": { "t": "Sucre is the constitutional capital of Bolivia.", "f": "La Paz is the constitutional capital of Bolivia." },
+      "pt-BR": { "t": "Sucre é a capital constitucional da Bolívia.", "f": "La Paz é a capital constitucional da Bolívia." },
+      "fr": { "t": "Sucre est la capitale constitutionnelle de la Bolivie.", "f": "La Paz est la capitale constitutionnelle de la Bolivie." } }
+  ]
+}

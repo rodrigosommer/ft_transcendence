@@ -1,0 +1,649 @@
+{
+  "category": {
+    "slug": "technology",
+    "name": "Technology & Computing"
+  },
+  "license": "CC BY-SA 4.0",
+  "facts": [
+    {
+      "ref": "tec-001",
+      "difficulty": "easy",
+      "en": {
+        "t": "HTML is a markup language.",
+        "f": "HTML is a database engine."
+      },
+      "pt-BR": {
+        "t": "HTML é uma linguagem de marcação.",
+        "f": "HTML é um mecanismo de banco de dados."
+      },
+      "fr": {
+        "t": "HTML est un langage de balisage.",
+        "f": "HTML est un moteur de base de données."
+      }
+    },
+    {
+      "ref": "tec-002",
+      "difficulty": "easy",
+      "en": {
+        "t": "A byte is made up of eight bits.",
+        "f": "A byte is made up of ten bits."
+      },
+      "pt-BR": {
+        "t": "Um byte é formado por oito bits.",
+        "f": "Um byte é formado por dez bits."
+      },
+      "fr": {
+        "t": "Un octet est composé de huit bits.",
+        "f": "Un octet est composé de dix bits."
+      }
+    },
+    {
+      "ref": "tec-003",
+      "difficulty": "easy",
+      "en": {
+        "t": "The acronym CPU stands for central processing unit.",
+        "f": "The acronym CPU stands for central power unit."
+      },
+      "pt-BR": {
+        "t": "A sigla CPU significa unidade central de processamento.",
+        "f": "A sigla CPU significa unidade central de potência."
+      },
+      "fr": {
+        "t": "Le sigle CPU signifie unité centrale de traitement.",
+        "f": "Le sigle CPU signifie unité centrale de puissance."
+      }
+    },
+    {
+      "ref": "tec-004",
+      "difficulty": "easy",
+      "en": {
+        "t": "Linux is an open-source operating system kernel.",
+        "f": "Linux is a proprietary word processor."
+      },
+      "pt-BR": {
+        "t": "O Linux é um núcleo de sistema operacional de código aberto.",
+        "f": "O Linux é um processador de texto proprietário."
+      },
+      "fr": {
+        "t": "Linux est un noyau de système d'exploitation libre.",
+        "f": "Linux est un traitement de texte propriétaire."
+      }
+    },
+    {
+      "ref": "tec-005",
+      "difficulty": "easy",
+      "en": {
+        "t": "RAM loses its contents when a computer is switched off.",
+        "f": "RAM keeps its contents when a computer is switched off."
+      },
+      "pt-BR": {
+        "t": "A memória RAM perde seu conteúdo quando o computador é desligado.",
+        "f": "A memória RAM mantém seu conteúdo quando o computador é desligado."
+      },
+      "fr": {
+        "t": "La mémoire vive perd son contenu quand l'ordinateur est éteint.",
+        "f": "La mémoire vive conserve son contenu quand l'ordinateur est éteint."
+      }
+    },
+    {
+      "ref": "tec-006",
+      "difficulty": "easy",
+      "en": {
+        "t": "HTTPS encrypts traffic between a browser and a server.",
+        "f": "HTTPS compresses traffic but leaves it unencrypted."
+      },
+      "pt-BR": {
+        "t": "O HTTPS criptografa o tráfego entre navegador e servidor.",
+        "f": "O HTTPS comprime o tráfego, mas o deixa sem criptografia."
+      },
+      "fr": {
+        "t": "HTTPS chiffre le trafic entre un navigateur et un serveur.",
+        "f": "HTTPS compresse le trafic mais le laisse en clair."
+      }
+    },
+    {
+      "ref": "tec-007",
+      "difficulty": "easy",
+      "en": {
+        "t": "Python is a programming language.",
+        "f": "Python is a video codec."
+      },
+      "pt-BR": {
+        "t": "Python é uma linguagem de programação.",
+        "f": "Python é um codec de vídeo."
+      },
+      "fr": {
+        "t": "Python est un langage de programmation.",
+        "f": "Python est un codec vidéo."
+      }
+    },
+    {
+      "ref": "tec-008",
+      "difficulty": "easy",
+      "en": {
+        "t": "A firewall filters network traffic.",
+        "f": "A firewall increases a monitor's refresh rate."
+      },
+      "pt-BR": {
+        "t": "Um firewall filtra o tráfego de rede.",
+        "f": "Um firewall aumenta a taxa de atualização do monitor."
+      },
+      "fr": {
+        "t": "Un pare-feu filtre le trafic réseau.",
+        "f": "Un pare-feu augmente la fréquence de rafraîchissement de l'écran."
+      }
+    },
+    {
+      "ref": "tec-009",
+      "difficulty": "easy",
+      "en": {
+        "t": "The World Wide Web was invented by Tim Berners-Lee.",
+        "f": "The World Wide Web was invented by Alan Turing."
+      },
+      "pt-BR": {
+        "t": "A World Wide Web foi inventada por Tim Berners-Lee.",
+        "f": "A World Wide Web foi inventada por Alan Turing."
+      },
+      "fr": {
+        "t": "Le World Wide Web a été inventé par Tim Berners-Lee.",
+        "f": "Le World Wide Web a été inventé par Alan Turing."
+      }
+    },
+    {
+      "ref": "tec-010",
+      "difficulty": "easy",
+      "en": {
+        "t": "A URL identifies the location of a resource on the web.",
+        "f": "A URL identifies the physical size of a web page."
+      },
+      "pt-BR": {
+        "t": "Uma URL identifica a localização de um recurso na web.",
+        "f": "Uma URL identifica o tamanho físico de uma página web."
+      },
+      "fr": {
+        "t": "Une URL identifie l'emplacement d'une ressource sur le web.",
+        "f": "Une URL identifie la taille physique d'une page web."
+      }
+    },
+    {
+      "ref": "tec-011",
+      "difficulty": "easy",
+      "en": {
+        "t": "Wi-Fi transmits data using radio waves.",
+        "f": "Wi-Fi transmits data using sound waves."
+      },
+      "pt-BR": {
+        "t": "O Wi-Fi transmite dados usando ondas de rádio.",
+        "f": "O Wi-Fi transmite dados usando ondas sonoras."
+      },
+      "fr": {
+        "t": "Le Wi-Fi transmet des données par ondes radio.",
+        "f": "Le Wi-Fi transmet des données par ondes sonores."
+      }
+    },
+    {
+      "ref": "tec-012",
+      "difficulty": "easy",
+      "en": {
+        "t": "An IP address identifies a device on a network.",
+        "f": "An IP address identifies the brand of a device."
+      },
+      "pt-BR": {
+        "t": "Um endereço IP identifica um dispositivo em uma rede.",
+        "f": "Um endereço IP identifica a marca de um dispositivo."
+      },
+      "fr": {
+        "t": "Une adresse IP identifie un appareil sur un réseau.",
+        "f": "Une adresse IP identifie la marque d'un appareil."
+      }
+    },
+    {
+      "ref": "tec-013",
+      "difficulty": "medium",
+      "en": {
+        "t": "SQL is a language for querying relational databases.",
+        "f": "SQL is a language for styling web pages."
+      },
+      "pt-BR": {
+        "t": "SQL é uma linguagem para consultar bancos de dados relacionais.",
+        "f": "SQL é uma linguagem para estilizar páginas web."
+      },
+      "fr": {
+        "t": "SQL est un langage d'interrogation de bases de données relationnelles.",
+        "f": "SQL est un langage de mise en forme de pages web."
+      }
+    },
+    {
+      "ref": "tec-014",
+      "difficulty": "medium",
+      "en": {
+        "t": "Git is a distributed version control system.",
+        "f": "Git is a centralised spreadsheet format."
+      },
+      "pt-BR": {
+        "t": "O Git é um sistema de controle de versão distribuído.",
+        "f": "O Git é um formato centralizado de planilha."
+      },
+      "fr": {
+        "t": "Git est un système de gestion de versions distribué.",
+        "f": "Git est un format de tableur centralisé."
+      }
+    },
+    {
+      "ref": "tec-015",
+      "difficulty": "medium",
+      "en": {
+        "t": "TCP guarantees that packets arrive in order.",
+        "f": "UDP guarantees that packets arrive in order."
+      },
+      "pt-BR": {
+        "t": "O TCP garante que os pacotes cheguem em ordem.",
+        "f": "O UDP garante que os pacotes cheguem em ordem."
+      },
+      "fr": {
+        "t": "TCP garantit que les paquets arrivent dans l'ordre.",
+        "f": "UDP garantit que les paquets arrivent dans l'ordre."
+      }
+    },
+    {
+      "ref": "tec-016",
+      "difficulty": "medium",
+      "en": {
+        "t": "A hash function maps data of any size to a fixed-size value.",
+        "f": "A hash function maps data of any size to a value of the same size."
+      },
+      "pt-BR": {
+        "t": "Uma função de hash mapeia dados de qualquer tamanho para um valor de tamanho fixo.",
+        "f": "Uma função de hash mapeia dados de qualquer tamanho para um valor do mesmo tamanho."
+      },
+      "fr": {
+        "t": "Une fonction de hachage transforme des données de toute taille en une valeur de taille fixe.",
+        "f": "Une fonction de hachage transforme des données de toute taille en une valeur de même taille."
+      }
+    },
+    {
+      "ref": "tec-017",
+      "difficulty": "medium",
+      "en": {
+        "t": "DNS translates domain names into IP addresses.",
+        "f": "DNS translates IP addresses into physical postal addresses."
+      },
+      "pt-BR": {
+        "t": "O DNS traduz nomes de domínio em endereços IP.",
+        "f": "O DNS traduz endereços IP em endereços postais físicos."
+      },
+      "fr": {
+        "t": "Le DNS traduit les noms de domaine en adresses IP.",
+        "f": "Le DNS traduit les adresses IP en adresses postales physiques."
+      }
+    },
+    {
+      "ref": "tec-018",
+      "difficulty": "medium",
+      "en": {
+        "t": "JavaScript and Java are different languages.",
+        "f": "JavaScript is a simplified dialect of Java."
+      },
+      "pt-BR": {
+        "t": "JavaScript e Java são linguagens diferentes.",
+        "f": "JavaScript é um dialeto simplificado de Java."
+      },
+      "fr": {
+        "t": "JavaScript et Java sont des langages différents.",
+        "f": "JavaScript est un dialecte simplifié de Java."
+      }
+    },
+    {
+      "ref": "tec-019",
+      "difficulty": "medium",
+      "en": {
+        "t": "Docker packages applications into containers.",
+        "f": "Docker packages applications into virtual machines with their own kernel."
+      },
+      "pt-BR": {
+        "t": "O Docker empacota aplicações em contêineres.",
+        "f": "O Docker empacota aplicações em máquinas virtuais com núcleo próprio."
+      },
+      "fr": {
+        "t": "Docker empaquette les applications dans des conteneurs.",
+        "f": "Docker empaquette les applications dans des machines virtuelles avec leur propre noyau."
+      }
+    },
+    {
+      "ref": "tec-020",
+      "difficulty": "medium",
+      "en": {
+        "t": "A compiler translates source code before the program runs.",
+        "f": "A compiler translates source code while the program runs."
+      },
+      "pt-BR": {
+        "t": "Um compilador traduz o código-fonte antes de o programa ser executado.",
+        "f": "Um compilador traduz o código-fonte enquanto o programa é executado."
+      },
+      "fr": {
+        "t": "Un compilateur traduit le code source avant l'exécution du programme.",
+        "f": "Un compilateur traduit le code source pendant l'exécution du programme."
+      }
+    },
+    {
+      "ref": "tec-021",
+      "difficulty": "medium",
+      "en": {
+        "t": "Open-source software makes its source code available to anyone.",
+        "f": "Open-source software keeps its source code private by definition."
+      },
+      "pt-BR": {
+        "t": "Software de código aberto disponibiliza seu código-fonte a qualquer pessoa.",
+        "f": "Software de código aberto mantém seu código-fonte privado por definição."
+      },
+      "fr": {
+        "t": "Un logiciel libre met son code source à la disposition de tous.",
+        "f": "Un logiciel libre garde son code source privé par définition."
+      }
+    },
+    {
+      "ref": "tec-022",
+      "difficulty": "medium",
+      "en": {
+        "t": "A cookie is a small piece of data stored by the browser.",
+        "f": "A cookie is a small program executed by the network card."
+      },
+      "pt-BR": {
+        "t": "Um cookie é um pequeno dado armazenado pelo navegador.",
+        "f": "Um cookie é um pequeno programa executado pela placa de rede."
+      },
+      "fr": {
+        "t": "Un cookie est une petite donnée stockée par le navigateur.",
+        "f": "Un cookie est un petit programme exécuté par la carte réseau."
+      }
+    },
+    {
+      "ref": "tec-023",
+      "difficulty": "medium",
+      "en": {
+        "t": "A WebSocket keeps a connection open for two-way communication.",
+        "f": "A WebSocket closes after each message, like a plain HTTP request."
+      },
+      "pt-BR": {
+        "t": "Um WebSocket mantém a conexão aberta para comunicação nos dois sentidos.",
+        "f": "Um WebSocket fecha após cada mensagem, como uma requisição HTTP comum."
+      },
+      "fr": {
+        "t": "Un WebSocket maintient une connexion ouverte pour une communication bidirectionnelle.",
+        "f": "Un WebSocket se ferme après chaque message, comme une requête HTTP ordinaire."
+      }
+    },
+    {
+      "ref": "tec-024",
+      "difficulty": "medium",
+      "en": {
+        "t": "The binary number 1010 equals ten in decimal.",
+        "f": "The binary number 1010 equals twelve in decimal."
+      },
+      "pt-BR": {
+        "t": "O número binário 1010 equivale a dez em decimal.",
+        "f": "O número binário 1010 equivale a doze em decimal."
+      },
+      "fr": {
+        "t": "Le nombre binaire 1010 vaut dix en décimal.",
+        "f": "Le nombre binaire 1010 vaut douze en décimal."
+      }
+    },
+    {
+      "ref": "tec-025",
+      "difficulty": "medium",
+      "en": {
+        "t": "An SSD has no moving parts.",
+        "f": "An SSD stores data on a spinning magnetic disc."
+      },
+      "pt-BR": {
+        "t": "Um SSD não tem partes móveis.",
+        "f": "Um SSD armazena dados em um disco magnético giratório."
+      },
+      "fr": {
+        "t": "Un SSD n'a aucune pièce mobile.",
+        "f": "Un SSD stocke les données sur un disque magnétique rotatif."
+      }
+    },
+    {
+      "ref": "tec-026",
+      "difficulty": "medium",
+      "en": {
+        "t": "Salting a password protects against precomputed hash tables.",
+        "f": "Salting a password makes the hash shorter to store."
+      },
+      "pt-BR": {
+        "t": "Adicionar um salt a uma senha protege contra tabelas de hash pré-computadas.",
+        "f": "Adicionar um salt a uma senha torna o hash mais curto para armazenar."
+      },
+      "fr": {
+        "t": "Le salage d'un mot de passe protège contre les tables de hachage précalculées.",
+        "f": "Le salage d'un mot de passe raccourcit le haché à stocker."
+      }
+    },
+    {
+      "ref": "tec-027",
+      "difficulty": "hard",
+      "en": {
+        "t": "HTTP is a stateless protocol.",
+        "f": "HTTP is a stateful protocol."
+      },
+      "pt-BR": {
+        "t": "O HTTP é um protocolo sem estado.",
+        "f": "O HTTP é um protocolo com estado."
+      },
+      "fr": {
+        "t": "HTTP est un protocole sans état.",
+        "f": "HTTP est un protocole avec état."
+      }
+    },
+    {
+      "ref": "tec-028",
+      "difficulty": "hard",
+      "en": {
+        "t": "Ada Lovelace wrote what is regarded as the first computer algorithm.",
+        "f": "Ada Lovelace built the first electronic transistor."
+      },
+      "pt-BR": {
+        "t": "Ada Lovelace escreveu o que é considerado o primeiro algoritmo de computador.",
+        "f": "Ada Lovelace construiu o primeiro transistor eletrônico."
+      },
+      "fr": {
+        "t": "Ada Lovelace a écrit ce qui est considéré comme le premier algorithme informatique.",
+        "f": "Ada Lovelace a construit le premier transistor électronique."
+      }
+    },
+    {
+      "ref": "tec-029",
+      "difficulty": "hard",
+      "en": {
+        "t": "Quicksort has an average time complexity of n log n.",
+        "f": "Quicksort has an average time complexity of n squared."
+      },
+      "pt-BR": {
+        "t": "O quicksort tem complexidade média de tempo n log n.",
+        "f": "O quicksort tem complexidade média de tempo n ao quadrado."
+      },
+      "fr": {
+        "t": "Le tri rapide a une complexité moyenne en n log n.",
+        "f": "Le tri rapide a une complexité moyenne en n au carré."
+      }
+    },
+    {
+      "ref": "tec-030",
+      "difficulty": "hard",
+      "en": {
+        "t": "IPv6 addresses are 128 bits long.",
+        "f": "IPv6 addresses are 64 bits long."
+      },
+      "pt-BR": {
+        "t": "Os endereços IPv6 têm 128 bits.",
+        "f": "Os endereços IPv6 têm 64 bits."
+      },
+      "fr": {
+        "t": "Les adresses IPv6 font 128 bits.",
+        "f": "Les adresses IPv6 font 64 bits."
+      }
+    },
+    {
+      "ref": "tec-031",
+      "difficulty": "hard",
+      "en": {
+        "t": "In public-key cryptography, the public key encrypts and the private key decrypts.",
+        "f": "In public-key cryptography, the same key both encrypts and decrypts."
+      },
+      "pt-BR": {
+        "t": "Na criptografia de chave pública, a chave pública cifra e a privada decifra.",
+        "f": "Na criptografia de chave pública, a mesma chave cifra e decifra."
+      },
+      "fr": {
+        "t": "En cryptographie à clé publique, la clé publique chiffre et la clé privée déchiffre.",
+        "f": "En cryptographie à clé publique, la même clé chiffre et déchiffre."
+      }
+    },
+    {
+      "ref": "tec-032",
+      "difficulty": "hard",
+      "en": {
+        "t": "A race condition occurs when the result depends on the timing of concurrent operations.",
+        "f": "A race condition occurs when a program runs out of memory."
+      },
+      "pt-BR": {
+        "t": "Uma condição de corrida ocorre quando o resultado depende do tempo de operações concorrentes.",
+        "f": "Uma condição de corrida ocorre quando um programa fica sem memória."
+      },
+      "fr": {
+        "t": "Une situation de compétition survient quand le résultat dépend du moment d'opérations concurrentes.",
+        "f": "Une situation de compétition survient quand un programme manque de mémoire."
+      }
+    },
+    {
+      "ref": "tec-033",
+      "difficulty": "hard",
+      "en": {
+        "t": "UTF-8 encodes characters using one to four bytes.",
+        "f": "UTF-8 encodes every character using exactly two bytes."
+      },
+      "pt-BR": {
+        "t": "O UTF-8 codifica caracteres usando de um a quatro bytes.",
+        "f": "O UTF-8 codifica cada caractere usando exatamente dois bytes."
+      },
+      "fr": {
+        "t": "UTF-8 encode les caractères sur un à quatre octets.",
+        "f": "UTF-8 encode chaque caractère sur exactement deux octets."
+      }
+    },
+    {
+      "ref": "tec-034",
+      "difficulty": "hard",
+      "en": {
+        "t": "Argon2 is a password-hashing function designed to resist parallel attacks.",
+        "f": "Argon2 is a symmetric block cipher designed to replace AES."
+      },
+      "pt-BR": {
+        "t": "O Argon2 é uma função de hash de senha projetada para resistir a ataques paralelos.",
+        "f": "O Argon2 é uma cifra de bloco simétrica criada para substituir o AES."
+      },
+      "fr": {
+        "t": "Argon2 est une fonction de hachage de mots de passe conçue pour résister aux attaques parallèles.",
+        "f": "Argon2 est un chiffrement par blocs symétrique conçu pour remplacer AES."
+      }
+    },
+    {
+      "ref": "tec-035",
+      "difficulty": "hard",
+      "en": {
+        "t": "A foreign key enforces a relationship between two database tables.",
+        "f": "A foreign key encrypts a column in a database table."
+      },
+      "pt-BR": {
+        "t": "Uma chave estrangeira impõe uma relação entre duas tabelas do banco de dados.",
+        "f": "Uma chave estrangeira criptografa uma coluna de uma tabela do banco de dados."
+      },
+      "fr": {
+        "t": "Une clé étrangère impose une relation entre deux tables d'une base de données.",
+        "f": "Une clé étrangère chiffre une colonne d'une table de base de données."
+      }
+    },
+    {
+      "ref": "tec-036",
+      "difficulty": "hard",
+      "en": {
+        "t": "The term bug for a software fault predates electronic computers.",
+        "f": "The term bug for a software fault was coined in the 1990s."
+      },
+      "pt-BR": {
+        "t": "O termo bug para uma falha de software é anterior aos computadores eletrônicos.",
+        "f": "O termo bug para uma falha de software foi criado nos anos 1990."
+      },
+      "fr": {
+        "t": "Le terme bug pour désigner un défaut logiciel est antérieur aux ordinateurs électroniques.",
+        "f": "Le terme bug pour désigner un défaut logiciel a été inventé dans les années 1990."
+      }
+    },
+    {
+      "ref": "tec-037",
+      "difficulty": "hard",
+      "en": {
+        "t": "In Big-O notation, constant time is written O(1).",
+        "f": "In Big-O notation, constant time is written O(n)."
+      },
+      "pt-BR": {
+        "t": "Na notação Big-O, tempo constante se escreve O(1).",
+        "f": "Na notação Big-O, tempo constante se escreve O(n)."
+      },
+      "fr": {
+        "t": "En notation Big-O, le temps constant s'écrit O(1).",
+        "f": "En notation Big-O, le temps constant s'écrit O(n)."
+      }
+    },
+    {
+      "ref": "tec-038",
+      "difficulty": "hard",
+      "en": {
+        "t": "TLS replaced SSL as the standard for encrypted web traffic.",
+        "f": "SSL replaced TLS as the standard for encrypted web traffic."
+      },
+      "pt-BR": {
+        "t": "O TLS substituiu o SSL como padrão para tráfego web criptografado.",
+        "f": "O SSL substituiu o TLS como padrão para tráfego web criptografado."
+      },
+      "fr": {
+        "t": "TLS a remplacé SSL comme standard du trafic web chiffré.",
+        "f": "SSL a remplacé TLS comme standard du trafic web chiffré."
+      }
+    },
+    {
+      "ref": "tec-039",
+      "difficulty": "hard",
+      "en": {
+        "t": "A deadlock happens when processes each wait for a resource the other holds.",
+        "f": "A deadlock happens when a process finishes faster than expected."
+      },
+      "pt-BR": {
+        "t": "Um impasse ocorre quando processos esperam por um recurso que o outro mantém.",
+        "f": "Um impasse ocorre quando um processo termina mais rápido do que o esperado."
+      },
+      "fr": {
+        "t": "Un interblocage survient quand des processus attendent chacun une ressource détenue par l'autre.",
+        "f": "Un interblocage survient quand un processus se termine plus vite que prévu."
+      }
+    },
+    {
+      "ref": "tec-040",
+      "difficulty": "hard",
+      "en": {
+        "t": "The ARPANET was a precursor of the modern internet.",
+        "f": "The ARPANET was a precursor of the modern mobile phone network."
+      },
+      "pt-BR": {
+        "t": "A ARPANET foi precursora da internet moderna.",
+        "f": "A ARPANET foi precursora da rede de telefonia móvel moderna."
+      },
+      "fr": {
+        "t": "ARPANET fut un précurseur de l'internet moderne.",
+        "f": "ARPANET fut un précurseur du réseau de téléphonie mobile moderne."
+      }
+    }
+  ]
+}

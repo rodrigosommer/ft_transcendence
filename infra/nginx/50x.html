@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who knows best?</title>
+<!-- Served by the edge proxy when the application itself cannot be reached, so it has to stand entirely on its own, no stylesheet, no font file, no script,
+  no image. Everything here is inline, and the type falls back to whatever the machine has. The palette is the app's, written out rather than tokenised,
+  because the token stylesheet is one of the things that is not loading. -->
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 20px; padding: 24px; text-align: center;
+    background: #ece5d3; color: #1b1713;
+    font: 400 15px/1.55 Archivo, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .table { width: 104px; height: 136px; border: 2px dashed #b6aa90; border-radius: 9px; opacity: .6; }
+  h1 { margin: 0; font-size: 28px; font-weight: 600; letter-spacing: -.02em; }
+  p { margin: 8px auto 0; max-width: 38ch; font-size: 14px; color: #6d6555; }
+  a {
+    display: inline-block; margin-top: 4px; padding: 10px 17px; border-radius: 8px;
+    background: #8a5d14; border: 1px solid #8a5d14; color: #fffdf7;
+    font-size: 14px; font-weight: 500; text-decoration: none;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #16131c; color: #f4efe4; }
+    p { color: #a196ad; }
+    .table { border-color: #453c5a; }
+    a { background: #e0ad55; border-color: #e0ad55; color: #16131c; }
+  }
+</style>
+</head>
+<body>
+  <div class="table" aria-hidden="true"></div>
+  <div>
+    <h1>Nobody is dealing</h1>
+    <p>The server is not answering. This usually passes in a moment.</p>
+  </div>
+  <a href="/">Try again</a>
+</body>
+</html>

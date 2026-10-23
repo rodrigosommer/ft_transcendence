@@ -1,0 +1,205 @@
+{
+  "category": { "slug": "arts", "name": "Arts & Literature" },
+  "license": "CC BY-SA 4.0",
+  "facts": [
+    { "ref": "art-001", "difficulty": "easy",
+      "en": { "t": "The Mona Lisa was painted by Leonardo da Vinci.", "f": "The Mona Lisa was painted by Michelangelo." },
+      "pt-BR": { "t": "A Mona Lisa foi pintada por Leonardo da Vinci.", "f": "A Mona Lisa foi pintada por Michelangelo." },
+      "fr": { "t": "La Joconde a été peinte par Léonard de Vinci.", "f": "La Joconde a été peinte par Michel-Ange." } },
+
+    { "ref": "art-002", "difficulty": "easy",
+      "en": { "t": "Romeo and Juliet was written by William Shakespeare.", "f": "Romeo and Juliet was written by Charles Dickens." },
+      "pt-BR": { "t": "Romeu e Julieta foi escrita por William Shakespeare.", "f": "Romeu e Julieta foi escrita por Charles Dickens." },
+      "fr": { "t": "Roméo et Juliette a été écrit par William Shakespeare.", "f": "Roméo et Juliette a été écrit par Charles Dickens." } },
+
+    { "ref": "art-003", "difficulty": "easy",
+      "en": { "t": "Beethoven was a composer.", "f": "Beethoven was a sculptor." },
+      "pt-BR": { "t": "Beethoven foi um compositor.", "f": "Beethoven foi um escultor." },
+      "fr": { "t": "Beethoven était un compositeur.", "f": "Beethoven était un sculpteur." } },
+
+    { "ref": "art-004", "difficulty": "easy",
+      "en": { "t": "The Louvre museum is in Paris.", "f": "The Louvre museum is in Vienna." },
+      "pt-BR": { "t": "O museu do Louvre fica em Paris.", "f": "O museu do Louvre fica em Viena." },
+      "fr": { "t": "Le musée du Louvre se trouve à Paris.", "f": "Le musée du Louvre se trouve à Vienne." } },
+
+    { "ref": "art-005", "difficulty": "easy",
+      "en": { "t": "Vincent van Gogh painted The Starry Night.", "f": "Claude Monet painted The Starry Night." },
+      "pt-BR": { "t": "Vincent van Gogh pintou A Noite Estrelada.", "f": "Claude Monet pintou A Noite Estrelada." },
+      "fr": { "t": "Vincent van Gogh a peint La Nuit étoilée.", "f": "Claude Monet a peint La Nuit étoilée." } },
+
+    { "ref": "art-006", "difficulty": "easy",
+      "en": { "t": "A haiku is a short form of poetry from Japan.", "f": "A haiku is a long narrative poem from Iceland." },
+      "pt-BR": { "t": "O haicai é uma forma poética curta originária do Japão.", "f": "O haicai é um longo poema narrativo originário da Islândia." },
+      "fr": { "t": "Le haïku est une forme poétique brève venue du Japon.", "f": "Le haïku est un long poème narratif venu d'Islande." } },
+
+    { "ref": "art-007", "difficulty": "easy",
+      "en": { "t": "Don Quixote was written by Miguel de Cervantes.", "f": "Don Quixote was written by Victor Hugo." },
+      "pt-BR": { "t": "Dom Quixote foi escrito por Miguel de Cervantes.", "f": "Dom Quixote foi escrito por Victor Hugo." },
+      "fr": { "t": "Don Quichotte a été écrit par Miguel de Cervantès.", "f": "Don Quichotte a été écrit par Victor Hugo." } },
+
+    { "ref": "art-008", "difficulty": "easy",
+      "en": { "t": "An orchestra conductor leads the musicians.", "f": "An orchestra conductor tunes the instruments during the concert." },
+      "pt-BR": { "t": "O regente de orquestra conduz os músicos.", "f": "O regente de orquestra afina os instrumentos durante o concerto." },
+      "fr": { "t": "Le chef d'orchestre dirige les musiciens.", "f": "Le chef d'orchestre accorde les instruments pendant le concert." } },
+
+    { "ref": "art-009", "difficulty": "easy",
+      "en": { "t": "The Sistine Chapel ceiling was painted by Michelangelo.", "f": "The Sistine Chapel ceiling was painted by Raphael." },
+      "pt-BR": { "t": "O teto da Capela Sistina foi pintado por Michelangelo.", "f": "O teto da Capela Sistina foi pintado por Rafael." },
+      "fr": { "t": "Le plafond de la chapelle Sixtine a été peint par Michel-Ange.", "f": "Le plafond de la chapelle Sixtine a été peint par Raphaël." } },
+
+    { "ref": "art-010", "difficulty": "easy",
+      "en": { "t": "A sonnet has fourteen lines.", "f": "A sonnet has twenty lines." },
+      "pt-BR": { "t": "Um soneto tem catorze versos.", "f": "Um soneto tem vinte versos." },
+      "fr": { "t": "Un sonnet compte quatorze vers.", "f": "Un sonnet compte vingt vers." } },
+
+    { "ref": "art-011", "difficulty": "easy",
+      "en": { "t": "The novel Dom Casmurro was written by Machado de Assis.", "f": "The novel Dom Casmurro was written by Jorge Amado." },
+      "pt-BR": { "t": "O romance Dom Casmurro foi escrito por Machado de Assis.", "f": "O romance Dom Casmurro foi escrito por Jorge Amado." },
+      "fr": { "t": "Le roman Dom Casmurro a été écrit par Machado de Assis.", "f": "Le roman Dom Casmurro a été écrit par Jorge Amado." } },
+
+    { "ref": "art-012", "difficulty": "easy",
+      "en": { "t": "A violin has four strings.", "f": "A violin has six strings." },
+      "pt-BR": { "t": "O violino tem quatro cordas.", "f": "O violino tem seis cordas." },
+      "fr": { "t": "Le violon a quatre cordes.", "f": "Le violon a six cordes." } },
+
+    { "ref": "art-013", "difficulty": "medium",
+      "en": { "t": "Impressionism emerged in nineteenth-century France.", "f": "Impressionism emerged in sixteenth-century Germany." },
+      "pt-BR": { "t": "O impressionismo surgiu na França do século XIX.", "f": "O impressionismo surgiu na Alemanha do século XVI." },
+      "fr": { "t": "L'impressionnisme est né dans la France du XIXe siècle.", "f": "L'impressionnisme est né dans l'Allemagne du XVIe siècle." } },
+
+    { "ref": "art-014", "difficulty": "medium",
+      "en": { "t": "One Hundred Years of Solitude was written by Gabriel García Márquez.", "f": "One Hundred Years of Solitude was written by Pablo Neruda." },
+      "pt-BR": { "t": "Cem Anos de Solidão foi escrito por Gabriel García Márquez.", "f": "Cem Anos de Solidão foi escrito por Pablo Neruda." },
+      "fr": { "t": "Cent ans de solitude a été écrit par Gabriel García Márquez.", "f": "Cent ans de solitude a été écrit par Pablo Neruda." } },
+
+    { "ref": "art-015", "difficulty": "medium",
+      "en": { "t": "The Divine Comedy was written by Dante Alighieri.", "f": "The Divine Comedy was written by Petrarch." },
+      "pt-BR": { "t": "A Divina Comédia foi escrita por Dante Alighieri.", "f": "A Divina Comédia foi escrita por Petrarca." },
+      "fr": { "t": "La Divine Comédie a été écrite par Dante Alighieri.", "f": "La Divine Comédie a été écrite par Pétrarque." } },
+
+    { "ref": "art-016", "difficulty": "medium",
+      "en": { "t": "Frida Kahlo was a Mexican painter.", "f": "Frida Kahlo was a Peruvian painter." },
+      "pt-BR": { "t": "Frida Kahlo foi uma pintora mexicana.", "f": "Frida Kahlo foi uma pintora peruana." },
+      "fr": { "t": "Frida Kahlo était une peintre mexicaine.", "f": "Frida Kahlo était une peintre péruvienne." } },
+
+    { "ref": "art-017", "difficulty": "medium",
+      "en": { "t": "The Prado Museum is in Madrid.", "f": "The Prado Museum is in Lisbon." },
+      "pt-BR": { "t": "O Museu do Prado fica em Madri.", "f": "O Museu do Prado fica em Lisboa." },
+      "fr": { "t": "Le musée du Prado se trouve à Madrid.", "f": "Le musée du Prado se trouve à Lisbonne." } },
+
+    { "ref": "art-018", "difficulty": "medium",
+      "en": { "t": "Guernica was painted by Pablo Picasso.", "f": "Guernica was painted by Salvador Dalí." },
+      "pt-BR": { "t": "Guernica foi pintada por Pablo Picasso.", "f": "Guernica foi pintada por Salvador Dalí." },
+      "fr": { "t": "Guernica a été peint par Pablo Picasso.", "f": "Guernica a été peint par Salvador Dalí." } },
+
+    { "ref": "art-019", "difficulty": "medium",
+      "en": { "t": "The Lusiads is an epic poem by Luís de Camões.", "f": "The Lusiads is an epic poem by Fernando Pessoa." },
+      "pt-BR": { "t": "Os Lusíadas é um poema épico de Luís de Camões.", "f": "Os Lusíadas é um poema épico de Fernando Pessoa." },
+      "fr": { "t": "Les Lusiades est un poème épique de Luís de Camões.", "f": "Les Lusiades est un poème épique de Fernando Pessoa." } },
+
+    { "ref": "art-020", "difficulty": "medium",
+      "en": { "t": "A fugue is a musical form built on imitation of a theme.", "f": "A fugue is a musical form built on a single sustained note." },
+      "pt-BR": { "t": "A fuga é uma forma musical construída sobre a imitação de um tema.", "f": "A fuga é uma forma musical construída sobre uma única nota sustentada." },
+      "fr": { "t": "La fugue est une forme musicale fondée sur l'imitation d'un thème.", "f": "La fugue est une forme musicale fondée sur une seule note tenue." } },
+
+    { "ref": "art-021", "difficulty": "medium",
+      "en": { "t": "Jane Austen wrote Pride and Prejudice.", "f": "Emily Brontë wrote Pride and Prejudice." },
+      "pt-BR": { "t": "Jane Austen escreveu Orgulho e Preconceito.", "f": "Emily Brontë escreveu Orgulho e Preconceito." },
+      "fr": { "t": "Jane Austen a écrit Orgueil et Préjugés.", "f": "Emily Brontë a écrit Orgueil et Préjugés." } },
+
+    { "ref": "art-022", "difficulty": "medium",
+      "en": { "t": "Art Nouveau is characterised by flowing, organic lines.", "f": "Art Nouveau is characterised by strict geometric grids." },
+      "pt-BR": { "t": "A art nouveau se caracteriza por linhas fluidas e orgânicas.", "f": "A art nouveau se caracteriza por grades geométricas rígidas." },
+      "fr": { "t": "L'Art nouveau se caractérise par des lignes souples et organiques.", "f": "L'Art nouveau se caractérise par des grilles géométriques strictes." } },
+
+    { "ref": "art-023", "difficulty": "medium",
+      "en": { "t": "The Nobel Prize in Literature is awarded in Sweden.", "f": "The Nobel Prize in Literature is awarded in Switzerland." },
+      "pt-BR": { "t": "O Prêmio Nobel de Literatura é concedido na Suécia.", "f": "O Prêmio Nobel de Literatura é concedido na Suíça." },
+      "fr": { "t": "Le prix Nobel de littérature est décerné en Suède.", "f": "Le prix Nobel de littérature est décerné en Suisse." } },
+
+    { "ref": "art-024", "difficulty": "medium",
+      "en": { "t": "Antoni Gaudí designed the Sagrada Família in Barcelona.", "f": "Le Corbusier designed the Sagrada Família in Barcelona." },
+      "pt-BR": { "t": "Antoni Gaudí projetou a Sagrada Família em Barcelona.", "f": "Le Corbusier projetou a Sagrada Família em Barcelona." },
+      "fr": { "t": "Antoni Gaudí a conçu la Sagrada Família à Barcelone.", "f": "Le Corbusier a conçu la Sagrada Família à Barcelone." } },
+
+    { "ref": "art-025", "difficulty": "medium",
+      "en": { "t": "Ballet terminology is largely French.", "f": "Ballet terminology is largely German." },
+      "pt-BR": { "t": "A terminologia do balé é em grande parte francesa.", "f": "A terminologia do balé é em grande parte alemã." },
+      "fr": { "t": "Le vocabulaire du ballet est en grande partie français.", "f": "Le vocabulaire du ballet est en grande partie allemand." } },
+
+    { "ref": "art-026", "difficulty": "medium",
+      "en": { "t": "Franz Kafka wrote The Metamorphosis.", "f": "Thomas Mann wrote The Metamorphosis." },
+      "pt-BR": { "t": "Franz Kafka escreveu A Metamorfose.", "f": "Thomas Mann escreveu A Metamorfose." },
+      "fr": { "t": "Franz Kafka a écrit La Métamorphose.", "f": "Thomas Mann a écrit La Métamorphose." } },
+
+    { "ref": "art-027", "difficulty": "hard",
+      "en": { "t": "The Bauhaus school was founded in Germany.", "f": "The Bauhaus school was founded in the Netherlands." },
+      "pt-BR": { "t": "A escola Bauhaus foi fundada na Alemanha.", "f": "A escola Bauhaus foi fundada nos Países Baixos." },
+      "fr": { "t": "L'école du Bauhaus a été fondée en Allemagne.", "f": "L'école du Bauhaus a été fondée aux Pays-Bas." } },
+
+    { "ref": "art-028", "difficulty": "hard",
+      "en": { "t": "Chiaroscuro refers to the strong contrast of light and shadow.", "f": "Chiaroscuro refers to the use of complementary colours." },
+      "pt-BR": { "t": "O claro-escuro se refere ao forte contraste entre luz e sombra.", "f": "O claro-escuro se refere ao uso de cores complementares." },
+      "fr": { "t": "Le clair-obscur désigne le fort contraste entre lumière et ombre.", "f": "Le clair-obscur désigne l'emploi de couleurs complémentaires." } },
+
+    { "ref": "art-029", "difficulty": "hard",
+      "en": { "t": "Marcel Proust wrote In Search of Lost Time.", "f": "Albert Camus wrote In Search of Lost Time." },
+      "pt-BR": { "t": "Marcel Proust escreveu Em Busca do Tempo Perdido.", "f": "Albert Camus escreveu Em Busca do Tempo Perdido." },
+      "fr": { "t": "Marcel Proust a écrit À la recherche du temps perdu.", "f": "Albert Camus a écrit À la recherche du temps perdu." } },
+
+    { "ref": "art-030", "difficulty": "hard",
+      "en": { "t": "The Rite of Spring was composed by Igor Stravinsky.", "f": "The Rite of Spring was composed by Sergei Rachmaninoff." },
+      "pt-BR": { "t": "A Sagração da Primavera foi composta por Igor Stravinsky.", "f": "A Sagração da Primavera foi composta por Sergei Rachmaninoff." },
+      "fr": { "t": "Le Sacre du printemps a été composé par Igor Stravinsky.", "f": "Le Sacre du printemps a été composé par Sergueï Rachmaninov." } },
+
+    { "ref": "art-031", "difficulty": "hard",
+      "en": { "t": "A triptych is a work made of three panels.", "f": "A triptych is a work made of five panels." },
+      "pt-BR": { "t": "Um tríptico é uma obra composta de três painéis.", "f": "Um tríptico é uma obra composta de cinco painéis." },
+      "fr": { "t": "Un triptyque est une œuvre composée de trois panneaux.", "f": "Un triptyque est une œuvre composée de cinq panneaux." } },
+
+    { "ref": "art-032", "difficulty": "hard",
+      "en": { "t": "The Girl with a Pearl Earring was painted by Johannes Vermeer.", "f": "The Girl with a Pearl Earring was painted by Rembrandt." },
+      "pt-BR": { "t": "Moça com Brinco de Pérola foi pintada por Johannes Vermeer.", "f": "Moça com Brinco de Pérola foi pintada por Rembrandt." },
+      "fr": { "t": "La Jeune Fille à la perle a été peinte par Johannes Vermeer.", "f": "La Jeune Fille à la perle a été peinte par Rembrandt." } },
+
+    { "ref": "art-033", "difficulty": "hard",
+      "en": { "t": "Fernando Pessoa wrote under invented authorial identities he called heteronyms.", "f": "Fernando Pessoa wrote exclusively under his own name." },
+      "pt-BR": { "t": "Fernando Pessoa escreveu sob identidades autorais inventadas que chamou de heterônimos.", "f": "Fernando Pessoa escreveu exclusivamente sob o próprio nome." },
+      "fr": { "t": "Fernando Pessoa a écrit sous des identités d'auteur inventées qu'il appelait hétéronymes.", "f": "Fernando Pessoa a écrit exclusivement sous son propre nom." } },
+
+    { "ref": "art-034", "difficulty": "hard",
+      "en": { "t": "The Uffizi Gallery is in Florence.", "f": "The Uffizi Gallery is in Naples." },
+      "pt-BR": { "t": "A Galeria Uffizi fica em Florença.", "f": "A Galeria Uffizi fica em Nápoles." },
+      "fr": { "t": "La galerie des Offices se trouve à Florence.", "f": "La galerie des Offices se trouve à Naples." } },
+
+    { "ref": "art-035", "difficulty": "hard",
+      "en": { "t": "A cappella singing is performed without instrumental accompaniment.", "f": "A cappella singing is performed with a full string section." },
+      "pt-BR": { "t": "O canto a cappella é executado sem acompanhamento instrumental.", "f": "O canto a cappella é executado com uma seção completa de cordas." },
+      "fr": { "t": "Le chant a cappella se pratique sans accompagnement instrumental.", "f": "Le chant a cappella se pratique avec une section de cordes complète." } },
+
+    { "ref": "art-036", "difficulty": "hard",
+      "en": { "t": "Ukiyo-e is a genre of Japanese woodblock printing.", "f": "Ukiyo-e is a genre of Chinese porcelain painting." },
+      "pt-BR": { "t": "Ukiyo-e é um gênero japonês de xilogravura.", "f": "Ukiyo-e é um gênero chinês de pintura em porcelana." },
+      "fr": { "t": "L'ukiyo-e est un genre japonais d'estampe sur bois.", "f": "L'ukiyo-e est un genre chinois de peinture sur porcelaine." } },
+
+    { "ref": "art-037", "difficulty": "hard",
+      "en": { "t": "The Epic of Gilgamesh is one of the oldest surviving works of literature.", "f": "The Epic of Gilgamesh was written during the European Renaissance." },
+      "pt-BR": { "t": "A Epopeia de Gilgamesh é uma das obras literárias mais antigas que sobreviveram.", "f": "A Epopeia de Gilgamesh foi escrita durante o Renascimento europeu." },
+      "fr": { "t": "L'Épopée de Gilgamesh est l'une des plus anciennes œuvres littéraires conservées.", "f": "L'Épopée de Gilgamesh a été écrite pendant la Renaissance européenne." } },
+
+    { "ref": "art-038", "difficulty": "hard",
+      "en": { "t": "Oscar Niemeyer designed many of the public buildings of Brasília.", "f": "Oscar Niemeyer designed many of the public buildings of Buenos Aires." },
+      "pt-BR": { "t": "Oscar Niemeyer projetou muitos dos edifícios públicos de Brasília.", "f": "Oscar Niemeyer projetou muitos dos edifícios públicos de Buenos Aires." },
+      "fr": { "t": "Oscar Niemeyer a conçu de nombreux bâtiments publics de Brasília.", "f": "Oscar Niemeyer a conçu de nombreux bâtiments publics de Buenos Aires." } },
+
+    { "ref": "art-039", "difficulty": "hard",
+      "en": { "t": "In music, a semitone is the smallest interval in standard Western tuning.", "f": "In music, a semitone is the largest interval in standard Western tuning." },
+      "pt-BR": { "t": "Na música, o semitom é o menor intervalo na afinação ocidental padrão.", "f": "Na música, o semitom é o maior intervalo na afinação ocidental padrão." },
+      "fr": { "t": "En musique, le demi-ton est le plus petit intervalle de la gamme occidentale standard.", "f": "En musique, le demi-ton est le plus grand intervalle de la gamme occidentale standard." } },
+
+    { "ref": "art-040", "difficulty": "hard",
+      "en": { "t": "Virginia Woolf was associated with the Bloomsbury Group.", "f": "Virginia Woolf was associated with the Italian Futurists." },
+      "pt-BR": { "t": "Virginia Woolf esteve associada ao Grupo de Bloomsbury.", "f": "Virginia Woolf esteve associada aos futuristas italianos." },
+      "fr": { "t": "Virginia Woolf était associée au groupe de Bloomsbury.", "f": "Virginia Woolf était associée aux futuristes italiens." } }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "category": {
+    "slug": "science",
+    "name": "Science & Nature"
+  },
+  "license": "CC BY-SA 4.0",
+  "facts": [
+    {
+      "ref": "sci-001",
+      "difficulty": "easy",
+      "en": {
+        "t": "Water freezes at 0 degrees Celsius at sea level.",
+        "f": "Water freezes at 10 degrees Celsius at sea level."
+      },
+      "pt-BR": {
+        "t": "A água congela a 0 grau Celsius ao nível do mar.",
+        "f": "A água congela a 10 graus Celsius ao nível do mar."
+      },
+      "fr": {
+        "t": "L'eau gèle à 0 degré Celsius au niveau de la mer.",
+        "f": "L'eau gèle à 10 degrés Celsius au niveau de la mer."
+      }
+    },
+    {
+      "ref": "sci-002",
+      "difficulty": "easy",
+      "en": {
+        "t": "Plants release oxygen during photosynthesis.",
+        "f": "Plants release nitrogen during photosynthesis."
+      },
+      "pt-BR": {
+        "t": "As plantas liberam oxigênio durante a fotossíntese.",
+        "f": "As plantas liberam nitrogênio durante a fotossíntese."
+      },
+      "fr": {
+        "t": "Les plantes libèrent de l'oxygène pendant la photosynthèse.",
+        "f": "Les plantes libèrent de l'azote pendant la photosynthèse."
+      }
+    },
+    {
+      "ref": "sci-003",
+      "difficulty": "easy",
+      "en": {
+        "t": "The chemical symbol for gold is Au.",
+        "f": "The chemical symbol for gold is Ag."
+      },
+      "pt-BR": {
+        "t": "O símbolo químico do ouro é Au.",
+        "f": "O símbolo químico do ouro é Ag."
+      },
+      "fr": {
+        "t": "Le symbole chimique de l'or est Au.",
+        "f": "Le symbole chimique de l'or est Ag."
+      }
+    },
+    {
+      "ref": "sci-004",
+      "difficulty": "easy",
+      "en": {
+        "t": "Sound travels faster through water than through air.",
+        "f": "Sound travels slower through water than through air."
+      },
+      "pt-BR": {
+        "t": "O som viaja mais rápido na água do que no ar.",
+        "f": "O som viaja mais devagar na água do que no ar."
+      },
+      "fr": {
+        "t": "Le son se propage plus vite dans l'eau que dans l'air.",
+        "f": "Le son se propage moins vite dans l'eau que dans l'air."
+      }
+    },
+    {
+      "ref": "sci-005",
+      "difficulty": "easy",
+      "en": {
+        "t": "Bats are mammals.",
+        "f": "Bats are birds."
+      },
+      "pt-BR": {
+        "t": "Os morcegos são mamíferos.",
+        "f": "Os morcegos são aves."
+      },
+      "fr": {
+        "t": "Les chauves-souris sont des mammifères.",
+        "f": "Les chauves-souris sont des oiseaux."
+      }
+    },
+    {
+      "ref": "sci-006",
+      "difficulty": "easy",
+      "en": {
+        "t": "An adult human body has 206 bones.",
+        "f": "An adult human body has 306 bones."
+      },
+      "pt-BR": {
+        "t": "O corpo humano adulto tem 206 ossos.",
+        "f": "O corpo humano adulto tem 306 ossos."
+      },
+      "fr": {
+        "t": "Le corps humain adulte compte 206 os.",
+        "f": "Le corps humain adulte compte 306 os."
+      }
+    },
+    {
+      "ref": "sci-007",
+      "difficulty": "easy",
+      "en": {
+        "t": "Diamond is a form of carbon.",
+        "f": "Diamond is a form of silicon."
+      },
+      "pt-BR": {
+        "t": "O diamante é uma forma de carbono.",
+        "f": "O diamante é uma forma de silício."
+      },
+      "fr": {
+        "t": "Le diamant est une forme de carbone.",
+        "f": "Le diamant est une forme de silicium."
+      }
+    },
+    {
+      "ref": "sci-008",
+      "difficulty": "easy",
+      "en": {
+        "t": "Spiders have eight legs.",
+        "f": "Spiders have six legs."
+      },
+      "pt-BR": {
+        "t": "As aranhas têm oito patas.",
+        "f": "As aranhas têm seis patas."
+      },
+      "fr": {
+        "t": "Les araignées ont huit pattes.",
+        "f": "Les araignées ont six pattes."
+      }
+    },
+    {
+      "ref": "sci-009",
+      "difficulty": "easy",
+      "en": {
+        "t": "Lightning is a discharge of electricity.",
+        "f": "Lightning is a discharge of compressed air."
+      },
+      "pt-BR": {
+        "t": "O relâmpago é uma descarga de eletricidade.",
+        "f": "O relâmpago é uma descarga de ar comprimido."
+      },
+      "fr": {
+        "t": "L'éclair est une décharge d'électricité.",
+        "f": "L'éclair est une décharge d'air comprimé."
+      }
+    },
+    {
+      "ref": "sci-010",
+      "difficulty": "easy",
+      "en": {
+        "t": "Blood carries oxygen through the body.",
+        "f": "Blood carries helium through the body."
+      },
+      "pt-BR": {
+        "t": "O sangue transporta oxigênio pelo corpo.",
+        "f": "O sangue transporta hélio pelo corpo."
+      },
+      "fr": {
+        "t": "Le sang transporte l'oxygène dans le corps.",
+        "f": "Le sang transporte l'hélium dans le corps."
+      }
+    },
+    {
+      "ref": "sci-011",
+      "difficulty": "easy",
+      "en": {
+        "t": "Whales are mammals that breathe air.",
+        "f": "Whales are fish that breathe through gills."
+      },
+      "pt-BR": {
+        "t": "As baleias são mamíferos que respiram ar.",
+        "f": "As baleias são peixes que respiram por brânquias."
+      },
+      "fr": {
+        "t": "Les baleines sont des mammifères qui respirent de l'air.",
+        "f": "Les baleines sont des poissons qui respirent par des branchies."
+      }
+    },
+    {
+      "ref": "sci-012",
+      "difficulty": "easy",
+      "en": {
+        "t": "Rust forms when iron reacts with oxygen and water.",
+        "f": "Rust forms when iron reacts with nitrogen and salt."
+      },
+      "pt-BR": {
+        "t": "A ferrugem se forma quando o ferro reage com oxigênio e água.",
+        "f": "A ferrugem se forma quando o ferro reage com nitrogênio e sal."
+      },
+      "fr": {
+        "t": "La rouille se forme quand le fer réagit avec l'oxygène et l'eau.",
+        "f": "La rouille se forme quand le fer réagit avec l'azote et le sel."
+      }
+    },
+    {
+      "ref": "sci-013",
+      "difficulty": "medium",
+      "en": {
+        "t": "The human genome is made of DNA.",
+        "f": "The human genome is made of RNA."
+      },
+      "pt-BR": {
+        "t": "O genoma humano é feito de DNA.",
+        "f": "O genoma humano é feito de RNA."
+      },
+      "fr": {
+        "t": "Le génome humain est constitué d'ADN.",
+        "f": "Le génome humain est constitué d'ARN."
+      }
+    },
+    {
+      "ref": "sci-014",
+      "difficulty": "medium",
+      "en": {
+        "t": "Tomatoes are botanically classified as fruits.",
+        "f": "Tomatoes are botanically classified as roots."
+      },
+      "pt-BR": {
+        "t": "O tomate é classificado botanicamente como fruto.",
+        "f": "O tomate é classificado botanicamente como raiz."
+      },
+      "fr": {
+        "t": "La tomate est botaniquement classée parmi les fruits.",
+        "f": "La tomate est botaniquement classée parmi les racines."
+      }
+    },
+    {
+      "ref": "sci-015",
+      "difficulty": "medium",
+      "en": {
+        "t": "The pH scale runs from 0 to 14.",
+        "f": "The pH scale runs from 0 to 100."
+      },
+      "pt-BR": {
+        "t": "A escala de pH vai de 0 a 14.",
+        "f": "A escala de pH vai de 0 a 100."
+      },
+      "fr": {
+        "t": "L'échelle de pH va de 0 à 14.",
+        "f": "L'échelle de pH va de 0 à 100."
+      }
+    },
+    {
+      "ref": "sci-016",
+      "difficulty": "medium",
+      "en": {
+        "t": "Penicillin is an antibiotic.",
+        "f": "Penicillin is an antiviral."
+      },
+      "pt-BR": {
+        "t": "A penicilina é um antibiótico.",
+        "f": "A penicilina é um antiviral."
+      },
+      "fr": {
+        "t": "La pénicilline est un antibiotique.",
+        "f": "La pénicilline est un antiviral."
+      }
+    },
+    {
+      "ref": "sci-017",
+      "difficulty": "medium",
+      "en": {
+        "t": "Helium is lighter than air.",
+        "f": "Helium is heavier than air."
+      },
+      "pt-BR": {
+        "t": "O hélio é mais leve que o ar.",
+        "f": "O hélio é mais pesado que o ar."
+      },
+      "fr": {
+        "t": "L'hélium est plus léger que l'air.",
+        "f": "L'hélium est plus lourd que l'air."
+      }
+    },
+    {
+      "ref": "sci-018",
+      "difficulty": "medium",
+      "en": {
+        "t": "Sharks have skeletons made of cartilage.",
+        "f": "Sharks have skeletons made of bone."
+      },
+      "pt-BR": {
+        "t": "Os tubarões têm esqueleto de cartilagem.",
+        "f": "Os tubarões têm esqueleto de osso."
+      },
+      "fr": {
+        "t": "Les requins ont un squelette en cartilage.",
+        "f": "Les requins ont un squelette en os."
+      }
+    },
+    {
+      "ref": "sci-019",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Richter scale measures earthquake magnitude.",
+        "f": "The Richter scale measures wind speed."
+      },
+      "pt-BR": {
+        "t": "A escala Richter mede a magnitude de terremotos.",
+        "f": "A escala Richter mede a velocidade do vento."
+      },
+      "fr": {
+        "t": "L'échelle de Richter mesure la magnitude des séismes.",
+        "f": "L'échelle de Richter mesure la vitesse du vent."
+      }
+    },
+    {
+      "ref": "sci-020",
+      "difficulty": "medium",
+      "en": {
+        "t": "Insulin is produced in the pancreas.",
+        "f": "Insulin is produced in the liver."
+      },
+      "pt-BR": {
+        "t": "A insulina é produzida no pâncreas.",
+        "f": "A insulina é produzida no fígado."
+      },
+      "fr": {
+        "t": "L'insuline est produite dans le pancréas.",
+        "f": "L'insuline est produite dans le foie."
+      }
+    },
+    {
+      "ref": "sci-021",
+      "difficulty": "medium",
+      "en": {
+        "t": "Graphite and diamond are both made of carbon.",
+        "f": "Graphite and diamond are both made of sulphur."
+      },
+      "pt-BR": {
+        "t": "Grafite e diamante são ambos feitos de carbono.",
+        "f": "Grafite e diamante são ambos feitos de enxofre."
+      },
+      "fr": {
+        "t": "Le graphite et le diamant sont tous deux composés de carbone.",
+        "f": "Le graphite et le diamant sont tous deux composés de soufre."
+      }
+    },
+    {
+      "ref": "sci-022",
+      "difficulty": "medium",
+      "en": {
+        "t": "Amphibians typically begin life in water.",
+        "f": "Amphibians typically begin life underground."
+      },
+      "pt-BR": {
+        "t": "Os anfíbios em geral começam a vida na água.",
+        "f": "Os anfíbios em geral começam a vida no subsolo."
+      },
+      "fr": {
+        "t": "Les amphibiens commencent généralement leur vie dans l'eau.",
+        "f": "Les amphibiens commencent généralement leur vie sous terre."
+      }
+    },
+    {
+      "ref": "sci-023",
+      "difficulty": "medium",
+      "en": {
+        "t": "Ozone in the stratosphere absorbs ultraviolet radiation.",
+        "f": "Ozone in the stratosphere absorbs radio waves."
+      },
+      "pt-BR": {
+        "t": "O ozônio na estratosfera absorve radiação ultravioleta.",
+        "f": "O ozônio na estratosfera absorve ondas de rádio."
+      },
+      "fr": {
+        "t": "L'ozone stratosphérique absorbe le rayonnement ultraviolet.",
+        "f": "L'ozone stratosphérique absorbe les ondes radio."
+      }
+    },
+    {
+      "ref": "sci-024",
+      "difficulty": "medium",
+      "en": {
+        "t": "Octopuses have three hearts.",
+        "f": "Octopuses have one heart."
+      },
+      "pt-BR": {
+        "t": "Os polvos têm três corações.",
+        "f": "Os polvos têm um coração."
+      },
+      "fr": {
+        "t": "Les pieuvres ont trois cœurs.",
+        "f": "Les pieuvres ont un seul cœur."
+      }
+    },
+    {
+      "ref": "sci-025",
+      "difficulty": "medium",
+      "en": {
+        "t": "Table salt is a compound of sodium and chlorine.",
+        "f": "Table salt is a compound of potassium and fluorine."
+      },
+      "pt-BR": {
+        "t": "O sal de cozinha é um composto de sódio e cloro.",
+        "f": "O sal de cozinha é um composto de potássio e flúor."
+      },
+      "fr": {
+        "t": "Le sel de table est un composé de sodium et de chlore.",
+        "f": "Le sel de table est un composé de potassium et de fluor."
+      }
+    },
+    {
+      "ref": "sci-026",
+      "difficulty": "medium",
+      "en": {
+        "t": "Mitochondria generate energy inside cells.",
+        "f": "Mitochondria store genetic material inside cells."
+      },
+      "pt-BR": {
+        "t": "As mitocôndrias geram energia dentro das células.",
+        "f": "As mitocôndrias armazenam material genético dentro das células."
+      },
+      "fr": {
+        "t": "Les mitochondries produisent de l'énergie dans les cellules.",
+        "f": "Les mitochondries stockent le matériel génétique dans les cellules."
+      }
+    },
+    {
+      "ref": "sci-027",
+      "difficulty": "hard",
+      "en": {
+        "t": "Absolute zero is about minus 273 degrees Celsius.",
+        "f": "Absolute zero is about minus 100 degrees Celsius."
+      },
+      "pt-BR": {
+        "t": "O zero absoluto é cerca de 273 graus Celsius negativos.",
+        "f": "O zero absoluto é cerca de 100 graus Celsius negativos."
+      },
+      "fr": {
+        "t": "Le zéro absolu est d'environ moins 273 degrés Celsius.",
+        "f": "Le zéro absolu est d'environ moins 100 degrés Celsius."
+      }
+    },
+    {
+      "ref": "sci-028",
+      "difficulty": "hard",
+      "en": {
+        "t": "Tungsten has the highest melting point of any pure metal.",
+        "f": "Copper has the highest melting point of any pure metal."
+      },
+      "pt-BR": {
+        "t": "O tungstênio tem o ponto de fusão mais alto entre os metais puros.",
+        "f": "O cobre tem o ponto de fusão mais alto entre os metais puros."
+      },
+      "fr": {
+        "t": "Le tungstène a le point de fusion le plus élevé des métaux purs.",
+        "f": "Le cuivre a le point de fusion le plus élevé des métaux purs."
+      }
+    },
+    {
+      "ref": "sci-029",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Krebs cycle takes place in the mitochondria.",
+        "f": "The Krebs cycle takes place in the nucleus."
+      },
+      "pt-BR": {
+        "t": "O ciclo de Krebs ocorre nas mitocôndrias.",
+        "f": "O ciclo de Krebs ocorre no núcleo."
+      },
+      "fr": {
+        "t": "Le cycle de Krebs se déroule dans les mitochondries.",
+        "f": "Le cycle de Krebs se déroule dans le noyau."
+      }
+    },
+    {
+      "ref": "sci-030",
+      "difficulty": "hard",
+      "en": {
+        "t": "Neutrons carry no electric charge.",
+        "f": "Neutrons carry a positive electric charge."
+      },
+      "pt-BR": {
+        "t": "Os nêutrons não têm carga elétrica.",
+        "f": "Os nêutrons têm carga elétrica positiva."
+      },
+      "fr": {
+        "t": "Les neutrons ne portent aucune charge électrique.",
+        "f": "Les neutrons portent une charge électrique positive."
+      }
+    },
+    {
+      "ref": "sci-031",
+      "difficulty": "hard",
+      "en": {
+        "t": "Enzymes are usually proteins.",
+        "f": "Enzymes are usually lipids."
+      },
+      "pt-BR": {
+        "t": "As enzimas geralmente são proteínas.",
+        "f": "As enzimas geralmente são lipídios."
+      },
+      "fr": {
+        "t": "Les enzymes sont généralement des protéines.",
+        "f": "Les enzymes sont généralement des lipides."
+      }
+    },
+    {
+      "ref": "sci-032",
+      "difficulty": "hard",
+      "en": {
+        "t": "The element with atomic number 1 is hydrogen.",
+        "f": "The element with atomic number 1 is helium."
+      },
+      "pt-BR": {
+        "t": "O elemento de número atômico 1 é o hidrogênio.",
+        "f": "O elemento de número atômico 1 é o hélio."
+      },
+      "fr": {
+        "t": "L'élément de numéro atomique 1 est l'hydrogène.",
+        "f": "L'élément de numéro atomique 1 est l'hélium."
+      }
+    },
+    {
+      "ref": "sci-033",
+      "difficulty": "hard",
+      "en": {
+        "t": "Sound cannot travel through a vacuum.",
+        "f": "Sound travels through a vacuum faster than through air."
+      },
+      "pt-BR": {
+        "t": "O som não se propaga no vácuo.",
+        "f": "O som se propaga no vácuo mais rápido do que no ar."
+      },
+      "fr": {
+        "t": "Le son ne peut pas se propager dans le vide.",
+        "f": "Le son se propage dans le vide plus vite que dans l'air."
+      }
+    },
+    {
+      "ref": "sci-034",
+      "difficulty": "hard",
+      "en": {
+        "t": "Photosynthesis uses carbon dioxide as a raw material.",
+        "f": "Photosynthesis uses methane as a raw material."
+      },
+      "pt-BR": {
+        "t": "A fotossíntese usa dióxido de carbono como matéria-prima.",
+        "f": "A fotossíntese usa metano como matéria-prima."
+      },
+      "fr": {
+        "t": "La photosynthèse utilise le dioxyde de carbone comme matière première.",
+        "f": "La photosynthèse utilise le méthane comme matière première."
+      }
+    },
+    {
+      "ref": "sci-035",
+      "difficulty": "hard",
+      "en": {
+        "t": "The speed of light in a vacuum is about 300,000 kilometres per second.",
+        "f": "The speed of light in a vacuum is about 300 kilometres per second."
+      },
+      "pt-BR": {
+        "t": "A velocidade da luz no vácuo é de cerca de 300.000 quilômetros por segundo.",
+        "f": "A velocidade da luz no vácuo é de cerca de 300 quilômetros por segundo."
+      },
+      "fr": {
+        "t": "La vitesse de la lumière dans le vide est d'environ 300 000 kilomètres par seconde.",
+        "f": "La vitesse de la lumière dans le vide est d'environ 300 kilomètres par seconde."
+      }
+    },
+    {
+      "ref": "sci-036",
+      "difficulty": "hard",
+      "en": {
+        "t": "Antibiotics have no effect on viruses.",
+        "f": "Antibiotics kill viruses as effectively as bacteria."
+      },
+      "pt-BR": {
+        "t": "Os antibióticos não têm efeito sobre vírus.",
+        "f": "Os antibióticos matam vírus com a mesma eficácia que bactérias."
+      },
+      "fr": {
+        "t": "Les antibiotiques n'ont aucun effet sur les virus.",
+        "f": "Les antibiotiques tuent les virus aussi efficacement que les bactéries."
+      }
+    },
+    {
+      "ref": "sci-037",
+      "difficulty": "hard",
+      "en": {
+        "t": "Mercury is the only metal that is liquid at room temperature.",
+        "f": "Lead is the only metal that is liquid at room temperature."
+      },
+      "pt-BR": {
+        "t": "O mercúrio é o único metal líquido à temperatura ambiente.",
+        "f": "O chumbo é o único metal líquido à temperatura ambiente."
+      },
+      "fr": {
+        "t": "Le mercure est le seul métal liquide à température ambiante.",
+        "f": "Le plomb est le seul métal liquide à température ambiante."
+      }
+    },
+    {
+      "ref": "sci-038",
+      "difficulty": "hard",
+      "en": {
+        "t": "Chlorophyll gives plants their green colour.",
+        "f": "Keratin gives plants their green colour."
+      },
+      "pt-BR": {
+        "t": "A clorofila dá às plantas sua cor verde.",
+        "f": "A queratina dá às plantas sua cor verde."
+      },
+      "fr": {
+        "t": "La chlorophylle donne aux plantes leur couleur verte.",
+        "f": "La kératine donne aux plantes leur couleur verte."
+      }
+    },
+    {
+      "ref": "sci-039",
+      "difficulty": "hard",
+      "en": {
+        "t": "A catalyst speeds up a reaction without being consumed by it.",
+        "f": "A catalyst speeds up a reaction and is consumed by it."
+      },
+      "pt-BR": {
+        "t": "Um catalisador acelera uma reação sem ser consumido por ela.",
+        "f": "Um catalisador acelera uma reação e é consumido por ela."
+      },
+      "fr": {
+        "t": "Un catalyseur accélère une réaction sans être consommé par elle.",
+        "f": "Un catalyseur accélère une réaction et est consommé par elle."
+      }
+    },
+    {
+      "ref": "sci-040",
+      "difficulty": "hard",
+      "en": {
+        "t": "Ice is less dense than liquid water.",
+        "f": "Ice is denser than liquid water."
+      },
+      "pt-BR": {
+        "t": "O gelo é menos denso que a água líquida.",
+        "f": "O gelo é mais denso que a água líquida."
+      },
+      "fr": {
+        "t": "La glace est moins dense que l'eau liquide.",
+        "f": "La glace est plus dense que l'eau liquide."
+      }
+    },
+    {
+      "ref": "nat-001",
+      "difficulty": "easy",
+      "en": {
+        "t": "Penguins are birds that cannot fly.",
+        "f": "Penguins are birds that migrate by flying."
+      },
+      "pt-BR": {
+        "t": "Os pinguins são aves que não voam.",
+        "f": "Os pinguins são aves que migram voando."
+      },
+      "fr": {
+        "t": "Les manchots sont des oiseaux incapables de voler.",
+        "f": "Les manchots sont des oiseaux qui migrent en volant."
+      }
+    },
+    {
+      "ref": "nat-002",
+      "difficulty": "easy",
+      "en": {
+        "t": "Giraffes are the tallest living land animals.",
+        "f": "Elephants are the tallest living land animals."
+      },
+      "pt-BR": {
+        "t": "As girafas são os animais terrestres vivos mais altos.",
+        "f": "Os elefantes são os animais terrestres vivos mais altos."
+      },
+      "fr": {
+        "t": "Les girafes sont les plus grands animaux terrestres vivants.",
+        "f": "Les éléphants sont les plus grands animaux terrestres vivants."
+      }
+    },
+    {
+      "ref": "nat-003",
+      "difficulty": "easy",
+      "en": {
+        "t": "Bees pollinate flowers.",
+        "f": "Bees digest wood to build their hives."
+      },
+      "pt-BR": {
+        "t": "As abelhas polinizam flores.",
+        "f": "As abelhas digerem madeira para construir suas colmeias."
+      },
+      "fr": {
+        "t": "Les abeilles pollinisent les fleurs.",
+        "f": "Les abeilles digèrent le bois pour bâtir leurs ruches."
+      }
+    },
+    {
+      "ref": "nat-004",
+      "difficulty": "easy",
+      "en": {
+        "t": "Kangaroos are native to Australia.",
+        "f": "Kangaroos are native to South Africa."
+      },
+      "pt-BR": {
+        "t": "Os cangurus são nativos da Austrália.",
+        "f": "Os cangurus são nativos da África do Sul."
+      },
+      "fr": {
+        "t": "Les kangourous sont originaires d'Australie.",
+        "f": "Les kangourous sont originaires d'Afrique du Sud."
+      }
+    },
+    {
+      "ref": "nat-005",
+      "difficulty": "easy",
+      "en": {
+        "t": "The blue whale is the largest animal known to have lived.",
+        "f": "The African elephant is the largest animal known to have lived."
+      },
+      "pt-BR": {
+        "t": "A baleia-azul é o maior animal que se sabe ter existido.",
+        "f": "O elefante africano é o maior animal que se sabe ter existido."
+      },
+      "fr": {
+        "t": "La baleine bleue est le plus grand animal connu ayant jamais vécu.",
+        "f": "L'éléphant d'Afrique est le plus grand animal connu ayant jamais vécu."
+      }
+    },
+    {
+      "ref": "nat-006",
+      "difficulty": "easy",
+      "en": {
+        "t": "Trees absorb carbon dioxide as they grow.",
+        "f": "Trees absorb carbon monoxide as they grow."
+      },
+      "pt-BR": {
+        "t": "As árvores absorvem dióxido de carbono ao crescer.",
+        "f": "As árvores absorvem monóxido de carbono ao crescer."
+      },
+      "fr": {
+        "t": "Les arbres absorbent du dioxyde de carbone en grandissant.",
+        "f": "Les arbres absorbent du monoxyde de carbone en grandissant."
+      }
+    },
+    {
+      "ref": "nat-007",
+      "difficulty": "easy",
+      "en": {
+        "t": "Frogs begin their lives as tadpoles.",
+        "f": "Frogs begin their lives as caterpillars."
+      },
+      "pt-BR": {
+        "t": "Os sapos começam a vida como girinos.",
+        "f": "Os sapos começam a vida como lagartas."
+      },
+      "fr": {
+        "t": "Les grenouilles commencent leur vie sous forme de têtards.",
+        "f": "Les grenouilles commencent leur vie sous forme de chenilles."
+      }
+    },
+    {
+      "ref": "nat-008",
+      "difficulty": "easy",
+      "en": {
+        "t": "The Amazon rainforest is the largest tropical rainforest.",
+        "f": "The Congo rainforest is the largest tropical rainforest."
+      },
+      "pt-BR": {
+        "t": "A Floresta Amazônica é a maior floresta tropical.",
+        "f": "A Floresta do Congo é a maior floresta tropical."
+      },
+      "fr": {
+        "t": "La forêt amazonienne est la plus grande forêt tropicale.",
+        "f": "La forêt du Congo est la plus grande forêt tropicale."
+      }
+    },
+    {
+      "ref": "nat-009",
+      "difficulty": "easy",
+      "en": {
+        "t": "Camels store fat in their humps.",
+        "f": "Camels store water in their humps."
+      },
+      "pt-BR": {
+        "t": "Os camelos armazenam gordura nas corcovas.",
+        "f": "Os camelos armazenam água nas corcovas."
+      },
+      "fr": {
+        "t": "Les chameaux stockent de la graisse dans leurs bosses.",
+        "f": "Les chameaux stockent de l'eau dans leurs bosses."
+      }
+    },
+    {
+      "ref": "nat-010",
+      "difficulty": "easy",
+      "en": {
+        "t": "Coral reefs are built by living organisms.",
+        "f": "Coral reefs are formed purely by wave-shaped rock."
+      },
+      "pt-BR": {
+        "t": "Os recifes de coral são construídos por organismos vivos.",
+        "f": "Os recifes de coral são formados apenas por rocha moldada pelas ondas."
+      },
+      "fr": {
+        "t": "Les récifs coralliens sont bâtis par des organismes vivants.",
+        "f": "Les récifs coralliens sont formés uniquement de roche sculptée par les vagues."
+      }
+    },
+    {
+      "ref": "nat-011",
+      "difficulty": "easy",
+      "en": {
+        "t": "Owls are mostly active at night.",
+        "f": "Owls are mostly active at midday."
+      },
+      "pt-BR": {
+        "t": "As corujas são ativas sobretudo à noite.",
+        "f": "As corujas são ativas sobretudo ao meio-dia."
+      },
+      "fr": {
+        "t": "Les hiboux sont surtout actifs la nuit.",
+        "f": "Les hiboux sont surtout actifs à midi."
+      }
+    },
+    {
+      "ref": "nat-012",
+      "difficulty": "easy",
+      "en": {
+        "t": "Snakes are reptiles.",
+        "f": "Snakes are amphibians."
+      },
+      "pt-BR": {
+        "t": "As cobras são répteis.",
+        "f": "As cobras são anfíbios."
+      },
+      "fr": {
+        "t": "Les serpents sont des reptiles.",
+        "f": "Les serpents sont des amphibiens."
+      }
+    },
+    {
+      "ref": "nat-013",
+      "difficulty": "medium",
+      "en": {
+        "t": "Bats navigate using echolocation.",
+        "f": "Bats navigate by following scent trails."
+      },
+      "pt-BR": {
+        "t": "Os morcegos se orientam por ecolocalização.",
+        "f": "Os morcegos se orientam seguindo rastros de cheiro."
+      },
+      "fr": {
+        "t": "Les chauves-souris s'orientent par écholocalisation.",
+        "f": "Les chauves-souris s'orientent en suivant des pistes olfactives."
+      }
+    },
+    {
+      "ref": "nat-014",
+      "difficulty": "medium",
+      "en": {
+        "t": "Komodo dragons are found in Indonesia.",
+        "f": "Komodo dragons are found in Madagascar."
+      },
+      "pt-BR": {
+        "t": "Os dragões-de-komodo são encontrados na Indonésia.",
+        "f": "Os dragões-de-komodo são encontrados em Madagascar."
+      },
+      "fr": {
+        "t": "Les dragons de Komodo vivent en Indonésie.",
+        "f": "Les dragons de Komodo vivent à Madagascar."
+      }
+    },
+    {
+      "ref": "nat-015",
+      "difficulty": "medium",
+      "en": {
+        "t": "Photosynthesis in the ocean is carried out mainly by plankton.",
+        "f": "Photosynthesis in the ocean is carried out mainly by fish."
+      },
+      "pt-BR": {
+        "t": "A fotossíntese no oceano é feita principalmente pelo plâncton.",
+        "f": "A fotossíntese no oceano é feita principalmente pelos peixes."
+      },
+      "fr": {
+        "t": "La photosynthèse océanique est assurée surtout par le plancton.",
+        "f": "La photosynthèse océanique est assurée surtout par les poissons."
+      }
+    },
+    {
+      "ref": "nat-016",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Galápagos Islands belong to Ecuador.",
+        "f": "The Galápagos Islands belong to Peru."
+      },
+      "pt-BR": {
+        "t": "As Ilhas Galápagos pertencem ao Equador.",
+        "f": "As Ilhas Galápagos pertencem ao Peru."
+      },
+      "fr": {
+        "t": "Les îles Galápagos appartiennent à l'Équateur.",
+        "f": "Les îles Galápagos appartiennent au Pérou."
+      }
+    },
+    {
+      "ref": "nat-017",
+      "difficulty": "medium",
+      "en": {
+        "t": "Polar bears live in the Arctic.",
+        "f": "Polar bears live in Antarctica."
+      },
+      "pt-BR": {
+        "t": "Os ursos-polares vivem no Ártico.",
+        "f": "Os ursos-polares vivem na Antártida."
+      },
+      "fr": {
+        "t": "Les ours polaires vivent en Arctique.",
+        "f": "Les ours polaires vivent en Antarctique."
+      }
+    },
+    {
+      "ref": "nat-018",
+      "difficulty": "medium",
+      "en": {
+        "t": "Bamboo is a type of grass.",
+        "f": "Bamboo is a type of tree."
+      },
+      "pt-BR": {
+        "t": "O bambu é um tipo de gramínea.",
+        "f": "O bambu é um tipo de árvore."
+      },
+      "fr": {
+        "t": "Le bambou est une graminée.",
+        "f": "Le bambou est un arbre."
+      }
+    },
+    {
+      "ref": "nat-019",
+      "difficulty": "medium",
+      "en": {
+        "t": "Deforestation reduces a region's capacity to store carbon.",
+        "f": "Deforestation increases a region's capacity to store carbon."
+      },
+      "pt-BR": {
+        "t": "O desmatamento reduz a capacidade de uma região de armazenar carbono.",
+        "f": "O desmatamento aumenta a capacidade de uma região de armazenar carbono."
+      },
+      "fr": {
+        "t": "La déforestation réduit la capacité d'une région à stocker le carbone.",
+        "f": "La déforestation augmente la capacité d'une région à stocker le carbone."
+      }
+    },
+    {
+      "ref": "nat-020",
+      "difficulty": "medium",
+      "en": {
+        "t": "Hummingbirds can hover in place.",
+        "f": "Hummingbirds must glide continuously to stay airborne."
+      },
+      "pt-BR": {
+        "t": "Os beija-flores conseguem pairar no ar.",
+        "f": "Os beija-flores precisam planar continuamente para se manter no ar."
+      },
+      "fr": {
+        "t": "Les colibris peuvent faire du surplace en vol.",
+        "f": "Les colibris doivent planer sans cesse pour rester en l'air."
+      }
+    },
+    {
+      "ref": "nat-021",
+      "difficulty": "medium",
+      "en": {
+        "t": "The dodo was a flightless bird that became extinct.",
+        "f": "The dodo was a flightless bird that still survives in Mauritius."
+      },
+      "pt-BR": {
+        "t": "O dodô era uma ave que não voava e foi extinta.",
+        "f": "O dodô era uma ave que não voava e ainda sobrevive nas Maurícias."
+      },
+      "fr": {
+        "t": "Le dodo était un oiseau incapable de voler, aujourd'hui éteint.",
+        "f": "Le dodo était un oiseau incapable de voler qui survit encore à Maurice."
+      }
+    },
+    {
+      "ref": "nat-022",
+      "difficulty": "medium",
+      "en": {
+        "t": "Mushrooms belong to the kingdom of fungi.",
+        "f": "Mushrooms belong to the plant kingdom."
+      },
+      "pt-BR": {
+        "t": "Os cogumelos pertencem ao reino dos fungos.",
+        "f": "Os cogumelos pertencem ao reino vegetal."
+      },
+      "fr": {
+        "t": "Les champignons appartiennent au règne fongique.",
+        "f": "Les champignons appartiennent au règne végétal."
+      }
+    },
+    {
+      "ref": "nat-023",
+      "difficulty": "medium",
+      "en": {
+        "t": "Migrating birds often navigate using the Earth's magnetic field.",
+        "f": "Migrating birds navigate exclusively by following rivers."
+      },
+      "pt-BR": {
+        "t": "Aves migratórias muitas vezes se orientam pelo campo magnético da Terra.",
+        "f": "Aves migratórias se orientam exclusivamente seguindo rios."
+      },
+      "fr": {
+        "t": "Les oiseaux migrateurs s'orientent souvent grâce au champ magnétique terrestre.",
+        "f": "Les oiseaux migrateurs s'orientent exclusivement en suivant les rivières."
+      }
+    },
+    {
+      "ref": "nat-024",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Great Barrier Reef lies off the coast of Australia.",
+        "f": "The Great Barrier Reef lies off the coast of Brazil."
+      },
+      "pt-BR": {
+        "t": "A Grande Barreira de Corais fica na costa da Austrália.",
+        "f": "A Grande Barreira de Corais fica na costa do Brasil."
+      },
+      "fr": {
+        "t": "La Grande Barrière de corail se trouve au large de l'Australie.",
+        "f": "La Grande Barrière de corail se trouve au large du Brésil."
+      }
+    },
+    {
+      "ref": "nat-025",
+      "difficulty": "medium",
+      "en": {
+        "t": "Sloths move slowly to conserve energy from a low-calorie diet.",
+        "f": "Sloths move slowly because they lack muscles in their limbs."
+      },
+      "pt-BR": {
+        "t": "As preguiças se movem devagar para poupar energia de uma dieta pobre em calorias.",
+        "f": "As preguiças se movem devagar porque não têm músculos nos membros."
+      },
+      "fr": {
+        "t": "Les paresseux bougent lentement pour économiser l'énergie d'un régime peu calorique.",
+        "f": "Les paresseux bougent lentement parce qu'ils n'ont pas de muscles aux membres."
+      }
+    },
+    {
+      "ref": "nat-026",
+      "difficulty": "medium",
+      "en": {
+        "t": "Antarctica is classified as a desert.",
+        "f": "Antarctica is classified as a wetland."
+      },
+      "pt-BR": {
+        "t": "A Antártida é classificada como deserto.",
+        "f": "A Antártida é classificada como área alagada."
+      },
+      "fr": {
+        "t": "L'Antarctique est classé comme un désert.",
+        "f": "L'Antarctique est classé comme une zone humide."
+      }
+    },
+    {
+      "ref": "nat-027",
+      "difficulty": "hard",
+      "en": {
+        "t": "Tardigrades can survive extreme dehydration.",
+        "f": "Tardigrades die immediately if they lose any water."
+      },
+      "pt-BR": {
+        "t": "Os tardígrados sobrevivem à desidratação extrema.",
+        "f": "Os tardígrados morrem imediatamente se perdem qualquer água."
+      },
+      "fr": {
+        "t": "Les tardigrades survivent à une déshydratation extrême.",
+        "f": "Les tardigrades meurent immédiatement s'ils perdent la moindre eau."
+      }
+    },
+    {
+      "ref": "nat-028",
+      "difficulty": "hard",
+      "en": {
+        "t": "Axolotls can regenerate lost limbs.",
+        "f": "Axolotls lose the ability to move once a limb is damaged."
+      },
+      "pt-BR": {
+        "t": "Os axolotes conseguem regenerar membros perdidos.",
+        "f": "Os axolotes perdem a capacidade de se mover quando um membro é danificado."
+      },
+      "fr": {
+        "t": "Les axolotls peuvent régénérer des membres perdus.",
+        "f": "Les axolotls perdent la capacité de se déplacer dès qu'un membre est abîmé."
+      }
+    },
+    {
+      "ref": "nat-029",
+      "difficulty": "hard",
+      "en": {
+        "t": "The pistol shrimp stuns prey with a collapsing bubble.",
+        "f": "The pistol shrimp stuns prey with an electric discharge."
+      },
+      "pt-BR": {
+        "t": "O camarão-pistola atordoa presas com uma bolha que colapsa.",
+        "f": "O camarão-pistola atordoa presas com uma descarga elétrica."
+      },
+      "fr": {
+        "t": "La crevette-pistolet étourdit ses proies avec une bulle qui implose.",
+        "f": "La crevette-pistolet étourdit ses proies avec une décharge électrique."
+      }
+    },
+    {
+      "ref": "nat-030",
+      "difficulty": "hard",
+      "en": {
+        "t": "Mycorrhizal fungi exchange nutrients with plant roots.",
+        "f": "Mycorrhizal fungi destroy plant roots on contact."
+      },
+      "pt-BR": {
+        "t": "Os fungos micorrízicos trocam nutrientes com as raízes das plantas.",
+        "f": "Os fungos micorrízicos destroem as raízes das plantas ao contato."
+      },
+      "fr": {
+        "t": "Les champignons mycorhiziens échangent des nutriments avec les racines des plantes.",
+        "f": "Les champignons mycorhiziens détruisent les racines des plantes au contact."
+      }
+    },
+    {
+      "ref": "nat-031",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Sahara was much greener several thousand years ago.",
+        "f": "The Sahara has been an unbroken desert for a hundred million years."
+      },
+      "pt-BR": {
+        "t": "O Saara era muito mais verde há alguns milhares de anos.",
+        "f": "O Saara é um deserto ininterrupto há cem milhões de anos."
+      },
+      "fr": {
+        "t": "Le Sahara était bien plus vert il y a quelques milliers d'années.",
+        "f": "Le Sahara est un désert ininterrompu depuis cent millions d'années."
+      }
+    },
+    {
+      "ref": "nat-032",
+      "difficulty": "hard",
+      "en": {
+        "t": "Cephalopods such as octopuses have blue blood.",
+        "f": "Cephalopods such as octopuses have bright red blood."
+      },
+      "pt-BR": {
+        "t": "Cefalópodes como os polvos têm sangue azul.",
+        "f": "Cefalópodes como os polvos têm sangue vermelho vivo."
+      },
+      "fr": {
+        "t": "Les céphalopodes comme la pieuvre ont le sang bleu.",
+        "f": "Les céphalopodes comme la pieuvre ont le sang rouge vif."
+      }
+    },
+    {
+      "ref": "nat-033",
+      "difficulty": "hard",
+      "en": {
+        "t": "Permafrost is ground that stays frozen for at least two consecutive years.",
+        "f": "Permafrost is ground that freezes only during the winter months."
+      },
+      "pt-BR": {
+        "t": "O permafrost é o solo que permanece congelado por pelo menos dois anos consecutivos.",
+        "f": "O permafrost é o solo que congela apenas durante os meses de inverno."
+      },
+      "fr": {
+        "t": "Le pergélisol est un sol gelé pendant au moins deux années consécutives.",
+        "f": "Le pergélisol est un sol qui gèle uniquement pendant les mois d'hiver."
+      }
+    },
+    {
+      "ref": "nat-034",
+      "difficulty": "hard",
+      "en": {
+        "t": "Bioluminescence is light produced by living organisms.",
+        "f": "Bioluminescence is light reflected by mineral deposits."
+      },
+      "pt-BR": {
+        "t": "A bioluminescência é luz produzida por organismos vivos.",
+        "f": "A bioluminescência é luz refletida por depósitos minerais."
+      },
+      "fr": {
+        "t": "La bioluminescence est une lumière produite par des organismes vivants.",
+        "f": "La bioluminescence est une lumière réfléchie par des dépôts minéraux."
+      }
+    },
+    {
+      "ref": "nat-035",
+      "difficulty": "hard",
+      "en": {
+        "t": "Coral bleaching happens when corals expel the algae living in them.",
+        "f": "Coral bleaching happens when corals absorb extra algae."
+      },
+      "pt-BR": {
+        "t": "O branqueamento dos corais ocorre quando eles expulsam as algas que vivem neles.",
+        "f": "O branqueamento dos corais ocorre quando eles absorvem algas extras."
+      },
+      "fr": {
+        "t": "Le blanchissement des coraux survient quand ils expulsent les algues qui les habitent.",
+        "f": "Le blanchissement des coraux survient quand ils absorbent des algues supplémentaires."
+      }
+    },
+    {
+      "ref": "nat-036",
+      "difficulty": "hard",
+      "en": {
+        "t": "Naked mole-rats live in cooperative underground colonies.",
+        "f": "Naked mole-rats live alone and defend solitary territories."
+      },
+      "pt-BR": {
+        "t": "Os ratos-toupeira-pelados vivem em colônias subterrâneas cooperativas.",
+        "f": "Os ratos-toupeira-pelados vivem sozinhos e defendem territórios solitários."
+      },
+      "fr": {
+        "t": "Les rats-taupes nus vivent en colonies souterraines coopératives.",
+        "f": "Les rats-taupes nus vivent seuls et défendent des territoires solitaires."
+      }
+    },
+    {
+      "ref": "nat-037",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Pantanal is one of the world's largest tropical wetlands.",
+        "f": "The Pantanal is one of the world's largest cold deserts."
+      },
+      "pt-BR": {
+        "t": "O Pantanal é uma das maiores áreas úmidas tropicais do mundo.",
+        "f": "O Pantanal é um dos maiores desertos frios do mundo."
+      },
+      "fr": {
+        "t": "Le Pantanal est l'une des plus vastes zones humides tropicales du monde.",
+        "f": "Le Pantanal est l'un des plus vastes déserts froids du monde."
+      }
+    },
+    {
+      "ref": "nat-038",
+      "difficulty": "hard",
+      "en": {
+        "t": "Echidnas and platypuses are mammals that lay eggs.",
+        "f": "Echidnas and platypuses are reptiles that nurse their young."
+      },
+      "pt-BR": {
+        "t": "As équidnas e os ornitorrincos são mamíferos que põem ovos.",
+        "f": "As équidnas e os ornitorrincos são répteis que amamentam os filhotes."
+      },
+      "fr": {
+        "t": "Les échidnés et les ornithorynques sont des mammifères qui pondent des œufs.",
+        "f": "Les échidnés et les ornithorynques sont des reptiles qui allaitent leurs petits."
+      }
+    },
+    {
+      "ref": "nat-039",
+      "difficulty": "hard",
+      "en": {
+        "t": "El Niño is a warming of surface waters in the tropical Pacific.",
+        "f": "El Niño is a cooling of surface waters in the tropical Atlantic."
+      },
+      "pt-BR": {
+        "t": "O El Niño é um aquecimento das águas superficiais do Pacífico tropical.",
+        "f": "O El Niño é um resfriamento das águas superficiais do Atlântico tropical."
+      },
+      "fr": {
+        "t": "El Niño est un réchauffement des eaux de surface du Pacifique tropical.",
+        "f": "El Niño est un refroidissement des eaux de surface de l'Atlantique tropical."
+      }
+    },
+    {
+      "ref": "nat-040",
+      "difficulty": "hard",
+      "en": {
+        "t": "Some jellyfish species can revert to an earlier life stage.",
+        "f": "All jellyfish species die immediately after reproducing once."
+      },
+      "pt-BR": {
+        "t": "Algumas espécies de água-viva podem voltar a um estágio anterior de vida.",
+        "f": "Todas as espécies de água-viva morrem logo após se reproduzir uma vez."
+      },
+      "fr": {
+        "t": "Certaines espèces de méduses peuvent revenir à un stade de vie antérieur.",
+        "f": "Toutes les espèces de méduses meurent aussitôt après s'être reproduites une fois."
+      }
+    }
+  ]
+}

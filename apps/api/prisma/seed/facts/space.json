@@ -1,0 +1,205 @@
+{
+  "category": { "slug": "space", "name": "Space & Astronomy" },
+  "license": "CC BY-SA 4.0",
+  "facts": [
+    { "ref": "spc-001", "difficulty": "easy",
+      "en": { "t": "The Sun is a star.", "f": "The Sun is a planet." },
+      "pt-BR": { "t": "O Sol é uma estrela.", "f": "O Sol é um planeta." },
+      "fr": { "t": "Le Soleil est une étoile.", "f": "Le Soleil est une planète." } },
+
+    { "ref": "spc-002", "difficulty": "easy",
+      "en": { "t": "Mars is known as the red planet.", "f": "Venus is known as the red planet." },
+      "pt-BR": { "t": "Marte é conhecido como o planeta vermelho.", "f": "Vênus é conhecido como o planeta vermelho." },
+      "fr": { "t": "Mars est appelée la planète rouge.", "f": "Vénus est appelée la planète rouge." } },
+
+    { "ref": "spc-003", "difficulty": "easy",
+      "en": { "t": "The Moon orbits the Earth.", "f": "The Moon orbits the Sun directly." },
+      "pt-BR": { "t": "A Lua orbita a Terra.", "f": "A Lua orbita o Sol diretamente." },
+      "fr": { "t": "La Lune orbite autour de la Terre.", "f": "La Lune orbite directement autour du Soleil." } },
+
+    { "ref": "spc-004", "difficulty": "easy",
+      "en": { "t": "Jupiter is the largest planet in the Solar System.", "f": "Saturn is the largest planet in the Solar System." },
+      "pt-BR": { "t": "Júpiter é o maior planeta do Sistema Solar.", "f": "Saturno é o maior planeta do Sistema Solar." },
+      "fr": { "t": "Jupiter est la plus grande planète du Système solaire.", "f": "Saturne est la plus grande planète du Système solaire." } },
+
+    { "ref": "spc-005", "difficulty": "easy",
+      "en": { "t": "Saturn is famous for its ring system.", "f": "Mercury is famous for its ring system." },
+      "pt-BR": { "t": "Saturno é famoso por seu sistema de anéis.", "f": "Mercúrio é famoso por seu sistema de anéis." },
+      "fr": { "t": "Saturne est célèbre pour son système d'anneaux.", "f": "Mercure est célèbre pour son système d'anneaux." } },
+
+    { "ref": "spc-006", "difficulty": "easy",
+      "en": { "t": "The Earth takes about 365 days to orbit the Sun.", "f": "The Earth takes about 100 days to orbit the Sun." },
+      "pt-BR": { "t": "A Terra leva cerca de 365 dias para orbitar o Sol.", "f": "A Terra leva cerca de 100 dias para orbitar o Sol." },
+      "fr": { "t": "La Terre met environ 365 jours pour orbiter autour du Soleil.", "f": "La Terre met environ 100 jours pour orbiter autour du Soleil." } },
+
+    { "ref": "spc-007", "difficulty": "easy",
+      "en": { "t": "Astronauts float in orbit because they are in continuous free fall.", "f": "Astronauts float in orbit because there is no gravity there." },
+      "pt-BR": { "t": "Os astronautas flutuam em órbita porque estão em queda livre contínua.", "f": "Os astronautas flutuam em órbita porque não há gravidade ali." },
+      "fr": { "t": "Les astronautes flottent en orbite parce qu'ils sont en chute libre continue.", "f": "Les astronautes flottent en orbite parce qu'il n'y a pas de gravité là-bas." } },
+
+    { "ref": "spc-008", "difficulty": "easy",
+      "en": { "t": "The first human to travel into space was Yuri Gagarin.", "f": "The first human to travel into space was Neil Armstrong." },
+      "pt-BR": { "t": "O primeiro ser humano a viajar ao espaço foi Yuri Gagarin.", "f": "O primeiro ser humano a viajar ao espaço foi Neil Armstrong." },
+      "fr": { "t": "Le premier humain à voyager dans l'espace fut Youri Gagarine.", "f": "Le premier humain à voyager dans l'espace fut Neil Armstrong." } },
+
+    { "ref": "spc-009", "difficulty": "easy",
+      "en": { "t": "Our galaxy is called the Milky Way.", "f": "Our galaxy is called Andromeda." },
+      "pt-BR": { "t": "Nossa galáxia se chama Via Láctea.", "f": "Nossa galáxia se chama Andrômeda." },
+      "fr": { "t": "Notre galaxie s'appelle la Voie lactée.", "f": "Notre galaxie s'appelle Andromède." } },
+
+    { "ref": "spc-010", "difficulty": "easy",
+      "en": { "t": "A solar eclipse happens when the Moon passes between the Earth and the Sun.", "f": "A solar eclipse happens when the Earth passes between the Moon and the Sun." },
+      "pt-BR": { "t": "Um eclipse solar ocorre quando a Lua passa entre a Terra e o Sol.", "f": "Um eclipse solar ocorre quando a Terra passa entre a Lua e o Sol." },
+      "fr": { "t": "Une éclipse solaire se produit quand la Lune passe entre la Terre et le Soleil.", "f": "Une éclipse solaire se produit quand la Terre passe entre la Lune et le Soleil." } },
+
+    { "ref": "spc-011", "difficulty": "easy",
+      "en": { "t": "Mercury is the closest planet to the Sun.", "f": "Earth is the closest planet to the Sun." },
+      "pt-BR": { "t": "Mercúrio é o planeta mais próximo do Sol.", "f": "A Terra é o planeta mais próximo do Sol." },
+      "fr": { "t": "Mercure est la planète la plus proche du Soleil.", "f": "La Terre est la planète la plus proche du Soleil." } },
+
+    { "ref": "spc-012", "difficulty": "easy",
+      "en": { "t": "Comets develop tails as they approach the Sun.", "f": "Comets develop tails as they move away from the Sun." },
+      "pt-BR": { "t": "Os cometas desenvolvem caudas ao se aproximarem do Sol.", "f": "Os cometas desenvolvem caudas ao se afastarem do Sol." },
+      "fr": { "t": "Les comètes développent une queue en s'approchant du Soleil.", "f": "Les comètes développent une queue en s'éloignant du Soleil." } },
+
+    { "ref": "spc-013", "difficulty": "medium",
+      "en": { "t": "Venus rotates in the opposite direction to most planets.", "f": "Mars rotates in the opposite direction to most planets." },
+      "pt-BR": { "t": "Vênus gira no sentido oposto ao da maioria dos planetas.", "f": "Marte gira no sentido oposto ao da maioria dos planetas." },
+      "fr": { "t": "Vénus tourne dans le sens opposé à la plupart des planètes.", "f": "Mars tourne dans le sens opposé à la plupart des planètes." } },
+
+    { "ref": "spc-014", "difficulty": "medium",
+      "en": { "t": "A light year is a measure of distance.", "f": "A light year is a measure of time." },
+      "pt-BR": { "t": "Um ano-luz é uma medida de distância.", "f": "Um ano-luz é uma medida de tempo." },
+      "fr": { "t": "Une année-lumière est une mesure de distance.", "f": "Une année-lumière est une mesure de temps." } },
+
+    { "ref": "spc-015", "difficulty": "medium",
+      "en": { "t": "The Great Red Spot is a storm on Jupiter.", "f": "The Great Red Spot is a crater on Mars." },
+      "pt-BR": { "t": "A Grande Mancha Vermelha é uma tempestade em Júpiter.", "f": "A Grande Mancha Vermelha é uma cratera em Marte." },
+      "fr": { "t": "La Grande Tache rouge est une tempête sur Jupiter.", "f": "La Grande Tache rouge est un cratère sur Mars." } },
+
+    { "ref": "spc-016", "difficulty": "medium",
+      "en": { "t": "Pluto was reclassified as a dwarf planet in 2006.", "f": "Pluto was reclassified as a moon of Neptune in 2006." },
+      "pt-BR": { "t": "Plutão foi reclassificado como planeta anão em 2006.", "f": "Plutão foi reclassificado como lua de Netuno em 2006." },
+      "fr": { "t": "Pluton a été reclassée comme planète naine en 2006.", "f": "Pluton a été reclassée comme lune de Neptune en 2006." } },
+
+    { "ref": "spc-017", "difficulty": "medium",
+      "en": { "t": "The Sun is mostly hydrogen and helium.", "f": "The Sun is mostly iron and nickel." },
+      "pt-BR": { "t": "O Sol é composto sobretudo de hidrogênio e hélio.", "f": "O Sol é composto sobretudo de ferro e níquel." },
+      "fr": { "t": "Le Soleil est composé surtout d'hydrogène et d'hélium.", "f": "Le Soleil est composé surtout de fer et de nickel." } },
+
+    { "ref": "spc-018", "difficulty": "medium",
+      "en": { "t": "The asteroid belt lies between Mars and Jupiter.", "f": "The asteroid belt lies between Earth and Mars." },
+      "pt-BR": { "t": "O cinturão de asteroides fica entre Marte e Júpiter.", "f": "O cinturão de asteroides fica entre a Terra e Marte." },
+      "fr": { "t": "La ceinture d'astéroïdes se situe entre Mars et Jupiter.", "f": "La ceinture d'astéroïdes se situe entre la Terre et Mars." } },
+
+    { "ref": "spc-019", "difficulty": "medium",
+      "en": { "t": "The Moon always shows the same face to Earth.", "f": "The Moon shows every side to Earth over one orbit." },
+      "pt-BR": { "t": "A Lua mostra sempre a mesma face para a Terra.", "f": "A Lua mostra todos os seus lados para a Terra ao longo de uma órbita." },
+      "fr": { "t": "La Lune montre toujours la même face à la Terre.", "f": "La Lune montre toutes ses faces à la Terre au cours d'une orbite." } },
+
+    { "ref": "spc-020", "difficulty": "medium",
+      "en": { "t": "Neptune is the farthest planet from the Sun.", "f": "Uranus is the farthest planet from the Sun." },
+      "pt-BR": { "t": "Netuno é o planeta mais distante do Sol.", "f": "Urano é o planeta mais distante do Sol." },
+      "fr": { "t": "Neptune est la planète la plus éloignée du Soleil.", "f": "Uranus est la planète la plus éloignée du Soleil." } },
+
+    { "ref": "spc-021", "difficulty": "medium",
+      "en": { "t": "The International Space Station orbits in low Earth orbit.", "f": "The International Space Station orbits around the Moon." },
+      "pt-BR": { "t": "A Estação Espacial Internacional orbita em órbita terrestre baixa.", "f": "A Estação Espacial Internacional orbita ao redor da Lua." },
+      "fr": { "t": "La Station spatiale internationale évolue en orbite terrestre basse.", "f": "La Station spatiale internationale évolue en orbite autour de la Lune." } },
+
+    { "ref": "spc-022", "difficulty": "medium",
+      "en": { "t": "A day on Venus is longer than a year on Venus.", "f": "A day on Venus is shorter than a day on Earth." },
+      "pt-BR": { "t": "Um dia em Vênus é mais longo que um ano em Vênus.", "f": "Um dia em Vênus é mais curto que um dia na Terra." },
+      "fr": { "t": "Un jour sur Vénus est plus long qu'une année sur Vénus.", "f": "Un jour sur Vénus est plus court qu'un jour sur Terre." } },
+
+    { "ref": "spc-023", "difficulty": "medium",
+      "en": { "t": "Titan is a moon of Saturn.", "f": "Titan is a moon of Jupiter." },
+      "pt-BR": { "t": "Titã é uma lua de Saturno.", "f": "Titã é uma lua de Júpiter." },
+      "fr": { "t": "Titan est une lune de Saturne.", "f": "Titan est une lune de Jupiter." } },
+
+    { "ref": "spc-024", "difficulty": "medium",
+      "en": { "t": "The Apollo 11 mission landed humans on the Moon in 1969.", "f": "The Apollo 11 mission landed humans on the Moon in 1959." },
+      "pt-BR": { "t": "A missão Apollo 11 levou seres humanos à Lua em 1969.", "f": "A missão Apollo 11 levou seres humanos à Lua em 1959." },
+      "fr": { "t": "La mission Apollo 11 a posé des humains sur la Lune en 1969.", "f": "La mission Apollo 11 a posé des humains sur la Lune en 1959." } },
+
+    { "ref": "spc-025", "difficulty": "medium",
+      "en": { "t": "Stars twinkle because of turbulence in Earth's atmosphere.", "f": "Stars twinkle because their brightness changes rapidly." },
+      "pt-BR": { "t": "As estrelas cintilam por causa da turbulência na atmosfera da Terra.", "f": "As estrelas cintilam porque seu brilho muda rapidamente." },
+      "fr": { "t": "Les étoiles scintillent à cause des turbulences de l'atmosphère terrestre.", "f": "Les étoiles scintillent parce que leur éclat change rapidement." } },
+
+    { "ref": "spc-026", "difficulty": "medium",
+      "en": { "t": "Mars has two small moons.", "f": "Mars has no moons at all." },
+      "pt-BR": { "t": "Marte tem duas pequenas luas.", "f": "Marte não tem nenhuma lua." },
+      "fr": { "t": "Mars possède deux petites lunes.", "f": "Mars ne possède aucune lune." } },
+
+    { "ref": "spc-027", "difficulty": "hard",
+      "en": { "t": "A black hole's event horizon is the boundary beyond which light cannot escape.", "f": "A black hole's event horizon is the point where its rotation stops." },
+      "pt-BR": { "t": "O horizonte de eventos de um buraco negro é o limite além do qual a luz não escapa.", "f": "O horizonte de eventos de um buraco negro é o ponto em que sua rotação para." },
+      "fr": { "t": "L'horizon des événements d'un trou noir est la limite au-delà de laquelle la lumière ne peut s'échapper.", "f": "L'horizon des événements d'un trou noir est le point où sa rotation s'arrête." } },
+
+    { "ref": "spc-028", "difficulty": "hard",
+      "en": { "t": "The nearest star system to the Sun is Alpha Centauri.", "f": "The nearest star system to the Sun is Sirius." },
+      "pt-BR": { "t": "O sistema estelar mais próximo do Sol é Alfa Centauri.", "f": "O sistema estelar mais próximo do Sol é Sirius." },
+      "fr": { "t": "Le système stellaire le plus proche du Soleil est Alpha du Centaure.", "f": "Le système stellaire le plus proche du Soleil est Sirius." } },
+
+    { "ref": "spc-029", "difficulty": "hard",
+      "en": { "t": "The cosmic microwave background is leftover radiation from the early universe.", "f": "The cosmic microwave background is radiation emitted by the Sun's corona." },
+      "pt-BR": { "t": "A radiação cósmica de fundo é um resquício do universo primitivo.", "f": "A radiação cósmica de fundo é emitida pela coroa solar." },
+      "fr": { "t": "Le fond diffus cosmologique est un rayonnement résiduel de l'univers primitif.", "f": "Le fond diffus cosmologique est émis par la couronne solaire." } },
+
+    { "ref": "spc-030", "difficulty": "hard",
+      "en": { "t": "Olympus Mons, the tallest known volcano in the Solar System, is on Mars.", "f": "Olympus Mons, the tallest known volcano in the Solar System, is on Venus." },
+      "pt-BR": { "t": "O Monte Olimpo, o maior vulcão conhecido do Sistema Solar, fica em Marte.", "f": "O Monte Olimpo, o maior vulcão conhecido do Sistema Solar, fica em Vênus." },
+      "fr": { "t": "Olympus Mons, le plus haut volcan connu du Système solaire, se trouve sur Mars.", "f": "Olympus Mons, le plus haut volcan connu du Système solaire, se trouve sur Vénus." } },
+
+    { "ref": "spc-031", "difficulty": "hard",
+      "en": { "t": "A supernova is the explosion of a massive star.", "f": "A supernova is the collision of two planets." },
+      "pt-BR": { "t": "Uma supernova é a explosão de uma estrela massiva.", "f": "Uma supernova é a colisão de dois planetas." },
+      "fr": { "t": "Une supernova est l'explosion d'une étoile massive.", "f": "Une supernova est la collision de deux planètes." } },
+
+    { "ref": "spc-032", "difficulty": "hard",
+      "en": { "t": "The Hubble Space Telescope observes mainly in visible and ultraviolet light.", "f": "The Hubble Space Telescope observes mainly in radio waves." },
+      "pt-BR": { "t": "O telescópio espacial Hubble observa sobretudo em luz visível e ultravioleta.", "f": "O telescópio espacial Hubble observa sobretudo em ondas de rádio." },
+      "fr": { "t": "Le télescope spatial Hubble observe surtout en lumière visible et ultraviolette.", "f": "Le télescope spatial Hubble observe surtout en ondes radio." } },
+
+    { "ref": "spc-033", "difficulty": "hard",
+      "en": { "t": "Europa, a moon of Jupiter, is believed to hold a subsurface ocean.", "f": "Europa, a moon of Jupiter, is believed to be entirely molten rock." },
+      "pt-BR": { "t": "Acredita-se que Europa, lua de Júpiter, abrigue um oceano subterrâneo.", "f": "Acredita-se que Europa, lua de Júpiter, seja inteiramente de rocha derretida." },
+      "fr": { "t": "On pense qu'Europe, lune de Jupiter, abrite un océan souterrain.", "f": "On pense qu'Europe, lune de Jupiter, est entièrement faite de roche en fusion." } },
+
+    { "ref": "spc-034", "difficulty": "hard",
+      "en": { "t": "The Solar System has eight recognised planets.", "f": "The Solar System has ten recognised planets." },
+      "pt-BR": { "t": "O Sistema Solar tem oito planetas reconhecidos.", "f": "O Sistema Solar tem dez planetas reconhecidos." },
+      "fr": { "t": "Le Système solaire compte huit planètes reconnues.", "f": "Le Système solaire compte dix planètes reconnues." } },
+
+    { "ref": "spc-035", "difficulty": "hard",
+      "en": { "t": "Redshift indicates that a light source is moving away from the observer.", "f": "Redshift indicates that a light source is moving towards the observer." },
+      "pt-BR": { "t": "O desvio para o vermelho indica que a fonte de luz se afasta do observador.", "f": "O desvio para o vermelho indica que a fonte de luz se aproxima do observador." },
+      "fr": { "t": "Le décalage vers le rouge indique qu'une source lumineuse s'éloigne de l'observateur.", "f": "Le décalage vers le rouge indique qu'une source lumineuse se rapproche de l'observateur." } },
+
+    { "ref": "spc-036", "difficulty": "hard",
+      "en": { "t": "Halley's Comet returns to the inner Solar System roughly every 76 years.", "f": "Halley's Comet returns to the inner Solar System roughly every 10 years." },
+      "pt-BR": { "t": "O cometa Halley retorna ao Sistema Solar interior a cada 76 anos, aproximadamente.", "f": "O cometa Halley retorna ao Sistema Solar interior a cada 10 anos, aproximadamente." },
+      "fr": { "t": "La comète de Halley revient dans le Système solaire interne environ tous les 76 ans.", "f": "La comète de Halley revient dans le Système solaire interne environ tous les 10 ans." } },
+
+    { "ref": "spc-037", "difficulty": "hard",
+      "en": { "t": "Neutron stars are the collapsed cores of massive stars.", "f": "Neutron stars are young stars still forming from gas clouds." },
+      "pt-BR": { "t": "As estrelas de nêutrons são os núcleos colapsados de estrelas massivas.", "f": "As estrelas de nêutrons são estrelas jovens ainda se formando a partir de nuvens de gás." },
+      "fr": { "t": "Les étoiles à neutrons sont les cœurs effondrés d'étoiles massives.", "f": "Les étoiles à neutrons sont de jeunes étoiles encore en formation dans des nuages de gaz." } },
+
+    { "ref": "spc-038", "difficulty": "hard",
+      "en": { "t": "The Voyager 1 probe has left the heliosphere.", "f": "The Voyager 1 probe has landed on Neptune." },
+      "pt-BR": { "t": "A sonda Voyager 1 já deixou a heliosfera.", "f": "A sonda Voyager 1 pousou em Netuno." },
+      "fr": { "t": "La sonde Voyager 1 a quitté l'héliosphère.", "f": "La sonde Voyager 1 s'est posée sur Neptune." } },
+
+    { "ref": "spc-039", "difficulty": "hard",
+      "en": { "t": "Uranus rotates on an axis tilted roughly on its side.", "f": "Uranus rotates on an axis almost perfectly upright." },
+      "pt-BR": { "t": "Urano gira sobre um eixo inclinado quase de lado.", "f": "Urano gira sobre um eixo quase perfeitamente vertical." },
+      "fr": { "t": "Uranus tourne sur un axe incliné presque couché.", "f": "Uranus tourne sur un axe presque parfaitement vertical." } },
+
+    { "ref": "spc-040", "difficulty": "hard",
+      "en": { "t": "Sunlight takes about eight minutes to reach the Earth.", "f": "Sunlight takes about eight seconds to reach the Earth." },
+      "pt-BR": { "t": "A luz do Sol leva cerca de oito minutos para chegar à Terra.", "f": "A luz do Sol leva cerca de oito segundos para chegar à Terra." },
+      "fr": { "t": "La lumière du Soleil met environ huit minutes pour atteindre la Terre.", "f": "La lumière du Soleil met environ huit secondes pour atteindre la Terre." } }
+  ]
+}

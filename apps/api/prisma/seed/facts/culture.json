@@ -1,0 +1,649 @@
+{
+  "category": {
+    "slug": "culture",
+    "name": "Society & Culture"
+  },
+  "license": "CC BY-SA 4.0",
+  "facts": [
+    {
+      "ref": "cul-001",
+      "difficulty": "easy",
+      "en": {
+        "t": "The official language of Brazil is Portuguese.",
+        "f": "The official language of Brazil is Spanish."
+      },
+      "pt-BR": {
+        "t": "O idioma oficial do Brasil é o português.",
+        "f": "O idioma oficial do Brasil é o espanhol."
+      },
+      "fr": {
+        "t": "La langue officielle du Brésil est le portugais.",
+        "f": "La langue officielle du Brésil est l'espagnol."
+      }
+    },
+    {
+      "ref": "cul-002",
+      "difficulty": "easy",
+      "en": {
+        "t": "The euro is the currency of France.",
+        "f": "The franc is the currency of France."
+      },
+      "pt-BR": {
+        "t": "O euro é a moeda da França.",
+        "f": "O franco é a moeda da França."
+      },
+      "fr": {
+        "t": "L'euro est la monnaie de la France.",
+        "f": "Le franc est la monnaie de la France."
+      }
+    },
+    {
+      "ref": "cul-003",
+      "difficulty": "easy",
+      "en": {
+        "t": "Sushi is a dish that originated in Japan.",
+        "f": "Sushi is a dish that originated in Thailand."
+      },
+      "pt-BR": {
+        "t": "O sushi é um prato originário do Japão.",
+        "f": "O sushi é um prato originário da Tailândia."
+      },
+      "fr": {
+        "t": "Le sushi est un plat originaire du Japon.",
+        "f": "Le sushi est un plat originaire de Thaïlande."
+      }
+    },
+    {
+      "ref": "cul-004",
+      "difficulty": "easy",
+      "en": {
+        "t": "Carnival in Rio de Janeiro takes place before Lent.",
+        "f": "Carnival in Rio de Janeiro takes place at Christmas."
+      },
+      "pt-BR": {
+        "t": "O Carnaval no Rio de Janeiro acontece antes da Quaresma.",
+        "f": "O Carnaval no Rio de Janeiro acontece no Natal."
+      },
+      "fr": {
+        "t": "Le carnaval de Rio de Janeiro a lieu avant le Carême.",
+        "f": "Le carnaval de Rio de Janeiro a lieu à Noël."
+      }
+    },
+    {
+      "ref": "cul-005",
+      "difficulty": "easy",
+      "en": {
+        "t": "The United Nations has its headquarters in New York.",
+        "f": "The United Nations has its headquarters in London."
+      },
+      "pt-BR": {
+        "t": "A Organização das Nações Unidas tem sede em Nova York.",
+        "f": "A Organização das Nações Unidas tem sede em Londres."
+      },
+      "fr": {
+        "t": "L'Organisation des Nations unies a son siège à New York.",
+        "f": "L'Organisation des Nations unies a son siège à Londres."
+      }
+    },
+    {
+      "ref": "cul-006",
+      "difficulty": "easy",
+      "en": {
+        "t": "Mandarin Chinese is written with characters rather than an alphabet.",
+        "f": "Mandarin Chinese is written with the Cyrillic alphabet."
+      },
+      "pt-BR": {
+        "t": "O chinês mandarim é escrito com caracteres, não com um alfabeto.",
+        "f": "O chinês mandarim é escrito com o alfabeto cirílico."
+      },
+      "fr": {
+        "t": "Le chinois mandarin s'écrit avec des caractères et non un alphabet.",
+        "f": "Le chinois mandarin s'écrit avec l'alphabet cyrillique."
+      }
+    },
+    {
+      "ref": "cul-007",
+      "difficulty": "easy",
+      "en": {
+        "t": "Ramadan is a month of fasting in Islam.",
+        "f": "Ramadan is a month of feasting in Buddhism."
+      },
+      "pt-BR": {
+        "t": "O Ramadã é um mês de jejum no islamismo.",
+        "f": "O Ramadã é um mês de banquetes no budismo."
+      },
+      "fr": {
+        "t": "Le ramadan est un mois de jeûne dans l'islam.",
+        "f": "Le ramadan est un mois de festins dans le bouddhisme."
+      }
+    },
+    {
+      "ref": "cul-008",
+      "difficulty": "easy",
+      "en": {
+        "t": "Tango is a dance strongly associated with Argentina.",
+        "f": "Tango is a dance strongly associated with Ireland."
+      },
+      "pt-BR": {
+        "t": "O tango é uma dança fortemente associada à Argentina.",
+        "f": "O tango é uma dança fortemente associada à Irlanda."
+      },
+      "fr": {
+        "t": "Le tango est une danse fortement associée à l'Argentine.",
+        "f": "Le tango est une danse fortement associée à l'Irlande."
+      }
+    },
+    {
+      "ref": "cul-009",
+      "difficulty": "easy",
+      "en": {
+        "t": "The Cyrillic alphabet is used to write Russian.",
+        "f": "The Cyrillic alphabet is used to write Hungarian."
+      },
+      "pt-BR": {
+        "t": "O alfabeto cirílico é usado para escrever o russo.",
+        "f": "O alfabeto cirílico é usado para escrever o húngaro."
+      },
+      "fr": {
+        "t": "L'alphabet cyrillique sert à écrire le russe.",
+        "f": "L'alphabet cyrillique sert à écrire le hongrois."
+      }
+    },
+    {
+      "ref": "cul-010",
+      "difficulty": "easy",
+      "en": {
+        "t": "A vegetarian diet excludes meat.",
+        "f": "A vegetarian diet excludes only dairy products."
+      },
+      "pt-BR": {
+        "t": "Uma dieta vegetariana exclui carne.",
+        "f": "Uma dieta vegetariana exclui apenas laticínios."
+      },
+      "fr": {
+        "t": "Un régime végétarien exclut la viande.",
+        "f": "Un régime végétarien exclut uniquement les produits laitiers."
+      }
+    },
+    {
+      "ref": "cul-011",
+      "difficulty": "easy",
+      "en": {
+        "t": "The Olympic motto refers to being faster, higher and stronger.",
+        "f": "The Olympic motto refers to being richer, louder and larger."
+      },
+      "pt-BR": {
+        "t": "O lema olímpico fala em ser mais rápido, mais alto e mais forte.",
+        "f": "O lema olímpico fala em ser mais rico, mais barulhento e maior."
+      },
+      "fr": {
+        "t": "La devise olympique parle d'être plus vite, plus haut, plus fort.",
+        "f": "La devise olympique parle d'être plus riche, plus bruyant, plus grand."
+      }
+    },
+    {
+      "ref": "cul-012",
+      "difficulty": "easy",
+      "en": {
+        "t": "Origami is the art of folding paper.",
+        "f": "Origami is the art of carving wood."
+      },
+      "pt-BR": {
+        "t": "O origami é a arte de dobrar papel.",
+        "f": "O origami é a arte de entalhar madeira."
+      },
+      "fr": {
+        "t": "L'origami est l'art de plier le papier.",
+        "f": "L'origami est l'art de sculpter le bois."
+      }
+    },
+    {
+      "ref": "cul-013",
+      "difficulty": "medium",
+      "en": {
+        "t": "Diwali is a festival of lights celebrated in India.",
+        "f": "Diwali is a harvest festival celebrated in Norway."
+      },
+      "pt-BR": {
+        "t": "Diwali é um festival das luzes celebrado na Índia.",
+        "f": "Diwali é um festival da colheita celebrado na Noruega."
+      },
+      "fr": {
+        "t": "Diwali est une fête des lumières célébrée en Inde.",
+        "f": "Diwali est une fête des moissons célébrée en Norvège."
+      }
+    },
+    {
+      "ref": "cul-014",
+      "difficulty": "medium",
+      "en": {
+        "t": "Esperanto is a constructed language.",
+        "f": "Esperanto is an ancient language of the Balkans."
+      },
+      "pt-BR": {
+        "t": "O esperanto é uma língua construída.",
+        "f": "O esperanto é uma língua antiga dos Bálcãs."
+      },
+      "fr": {
+        "t": "L'espéranto est une langue construite.",
+        "f": "L'espéranto est une langue ancienne des Balkans."
+      }
+    },
+    {
+      "ref": "cul-015",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Rosetta Stone is held in the British Museum.",
+        "f": "The Rosetta Stone is held in the Vatican Museums."
+      },
+      "pt-BR": {
+        "t": "A Pedra de Roseta está no Museu Britânico.",
+        "f": "A Pedra de Roseta está nos Museus do Vaticano."
+      },
+      "fr": {
+        "t": "La pierre de Rosette est conservée au British Museum.",
+        "f": "La pierre de Rosette est conservée aux musées du Vatican."
+      }
+    },
+    {
+      "ref": "cul-016",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Gregorian calendar is the one most widely used today.",
+        "f": "The Julian calendar is the one most widely used today."
+      },
+      "pt-BR": {
+        "t": "O calendário gregoriano é o mais usado atualmente.",
+        "f": "O calendário juliano é o mais usado atualmente."
+      },
+      "fr": {
+        "t": "Le calendrier grégorien est le plus utilisé aujourd'hui.",
+        "f": "Le calendrier julien est le plus utilisé aujourd'hui."
+      }
+    },
+    {
+      "ref": "cul-017",
+      "difficulty": "medium",
+      "en": {
+        "t": "Feijoada is a traditional Brazilian bean stew.",
+        "f": "Feijoada is a traditional Brazilian dessert made of coconut."
+      },
+      "pt-BR": {
+        "t": "A feijoada é um tradicional ensopado brasileiro de feijão.",
+        "f": "A feijoada é uma tradicional sobremesa brasileira feita de coco."
+      },
+      "fr": {
+        "t": "La feijoada est un ragoût de haricots traditionnel brésilien.",
+        "f": "La feijoada est un dessert brésilien traditionnel à la noix de coco."
+      }
+    },
+    {
+      "ref": "cul-018",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Nobel Peace Prize is awarded in Norway.",
+        "f": "The Nobel Peace Prize is awarded in Denmark."
+      },
+      "pt-BR": {
+        "t": "O Prêmio Nobel da Paz é concedido na Noruega.",
+        "f": "O Prêmio Nobel da Paz é concedido na Dinamarca."
+      },
+      "fr": {
+        "t": "Le prix Nobel de la paix est décerné en Norvège.",
+        "f": "Le prix Nobel de la paix est décerné au Danemark."
+      }
+    },
+    {
+      "ref": "cul-019",
+      "difficulty": "medium",
+      "en": {
+        "t": "Braille is a writing system read by touch.",
+        "f": "Braille is a writing system read by sound."
+      },
+      "pt-BR": {
+        "t": "O braille é um sistema de escrita lido pelo tato.",
+        "f": "O braille é um sistema de escrita lido pelo som."
+      },
+      "fr": {
+        "t": "Le braille est un système d'écriture lu par le toucher.",
+        "f": "Le braille est un système d'écriture lu par le son."
+      }
+    },
+    {
+      "ref": "cul-020",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Basque language is not related to the Romance languages.",
+        "f": "The Basque language is a close relative of Spanish."
+      },
+      "pt-BR": {
+        "t": "A língua basca não é aparentada às línguas românicas.",
+        "f": "A língua basca é uma parenta próxima do espanhol."
+      },
+      "fr": {
+        "t": "La langue basque n'est pas apparentée aux langues romanes.",
+        "f": "La langue basque est une proche parente de l'espagnol."
+      }
+    },
+    {
+      "ref": "cul-021",
+      "difficulty": "medium",
+      "en": {
+        "t": "Kimchi is a fermented dish from Korea.",
+        "f": "Kimchi is a fermented dish from Mongolia."
+      },
+      "pt-BR": {
+        "t": "O kimchi é um prato fermentado da Coreia.",
+        "f": "O kimchi é um prato fermentado da Mongólia."
+      },
+      "fr": {
+        "t": "Le kimchi est un plat fermenté de Corée.",
+        "f": "Le kimchi est un plat fermenté de Mongolie."
+      }
+    },
+    {
+      "ref": "cul-022",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Louvre's glass pyramid was designed by I. M. Pei.",
+        "f": "The Louvre's glass pyramid was designed by Gustave Eiffel."
+      },
+      "pt-BR": {
+        "t": "A pirâmide de vidro do Louvre foi projetada por I. M. Pei.",
+        "f": "A pirâmide de vidro do Louvre foi projetada por Gustave Eiffel."
+      },
+      "fr": {
+        "t": "La pyramide de verre du Louvre a été conçue par I. M. Pei.",
+        "f": "La pyramide de verre du Louvre a été conçue par Gustave Eiffel."
+      }
+    },
+    {
+      "ref": "cul-023",
+      "difficulty": "medium",
+      "en": {
+        "t": "Hanukkah is a Jewish festival lasting eight nights.",
+        "f": "Hanukkah is a Jewish festival lasting three nights."
+      },
+      "pt-BR": {
+        "t": "O Hanucá é uma festa judaica que dura oito noites.",
+        "f": "O Hanucá é uma festa judaica que dura três noites."
+      },
+      "fr": {
+        "t": "Hanoucca est une fête juive qui dure huit nuits.",
+        "f": "Hanoucca est une fête juive qui dure trois nuits."
+      }
+    },
+    {
+      "ref": "cul-024",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Schengen Area allows passport-free travel between its members.",
+        "f": "The Schengen Area requires a visa for travel between its members."
+      },
+      "pt-BR": {
+        "t": "O Espaço Schengen permite viajar sem passaporte entre seus membros.",
+        "f": "O Espaço Schengen exige visto para viajar entre seus membros."
+      },
+      "fr": {
+        "t": "L'espace Schengen permet de circuler sans passeport entre ses membres.",
+        "f": "L'espace Schengen exige un visa pour circuler entre ses membres."
+      }
+    },
+    {
+      "ref": "cul-025",
+      "difficulty": "medium",
+      "en": {
+        "t": "Flamenco is a musical and dance tradition from southern Spain.",
+        "f": "Flamenco is a musical and dance tradition from southern Italy."
+      },
+      "pt-BR": {
+        "t": "O flamenco é uma tradição musical e de dança do sul da Espanha.",
+        "f": "O flamenco é uma tradição musical e de dança do sul da Itália."
+      },
+      "fr": {
+        "t": "Le flamenco est une tradition musicale et dansée du sud de l'Espagne.",
+        "f": "Le flamenco est une tradition musicale et dansée du sud de l'Italie."
+      }
+    },
+    {
+      "ref": "cul-026",
+      "difficulty": "medium",
+      "en": {
+        "t": "The word robot comes from a Czech play.",
+        "f": "The word robot comes from a Greek myth."
+      },
+      "pt-BR": {
+        "t": "A palavra robô vem de uma peça tcheca.",
+        "f": "A palavra robô vem de um mito grego."
+      },
+      "fr": {
+        "t": "Le mot robot vient d'une pièce de théâtre tchèque.",
+        "f": "Le mot robot vient d'un mythe grec."
+      }
+    },
+    {
+      "ref": "cul-027",
+      "difficulty": "hard",
+      "en": {
+        "t": "In Norse mythology, Yggdrasil is a great tree.",
+        "f": "In Norse mythology, Yggdrasil is a great sea serpent."
+      },
+      "pt-BR": {
+        "t": "Na mitologia nórdica, Yggdrasil é uma grande árvore.",
+        "f": "Na mitologia nórdica, Yggdrasil é uma grande serpente marinha."
+      },
+      "fr": {
+        "t": "Dans la mythologie nordique, Yggdrasil est un grand arbre.",
+        "f": "Dans la mythologie nordique, Yggdrasil est un grand serpent de mer."
+      }
+    },
+    {
+      "ref": "cul-028",
+      "difficulty": "hard",
+      "en": {
+        "t": "In Greek mythology, Athena was the goddess of wisdom.",
+        "f": "In Greek mythology, Athena was the goddess of the sea."
+      },
+      "pt-BR": {
+        "t": "Na mitologia grega, Atena era a deusa da sabedoria.",
+        "f": "Na mitologia grega, Atena era a deusa do mar."
+      },
+      "fr": {
+        "t": "Dans la mythologie grecque, Athéna était la déesse de la sagesse.",
+        "f": "Dans la mythologie grecque, Athéna était la déesse de la mer."
+      }
+    },
+    {
+      "ref": "cul-029",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Ainu are an Indigenous people of northern Japan.",
+        "f": "The Ainu are an Indigenous people of southern India."
+      },
+      "pt-BR": {
+        "t": "Os ainus são um povo indígena do norte do Japão.",
+        "f": "Os ainus são um povo indígena do sul da Índia."
+      },
+      "fr": {
+        "t": "Les Aïnous sont un peuple autochtone du nord du Japon.",
+        "f": "Les Aïnous sont un peuple autochtone du sud de l'Inde."
+      }
+    },
+    {
+      "ref": "cul-030",
+      "difficulty": "hard",
+      "en": {
+        "t": "Quechua is an Indigenous language family of the Andes.",
+        "f": "Quechua is an Indigenous language family of the Caribbean islands."
+      },
+      "pt-BR": {
+        "t": "O quéchua é uma família de línguas indígenas dos Andes.",
+        "f": "O quéchua é uma família de línguas indígenas das ilhas do Caribe."
+      },
+      "fr": {
+        "t": "Le quechua est une famille de langues autochtones des Andes.",
+        "f": "Le quechua est une famille de langues autochtones des îles des Caraïbes."
+      }
+    },
+    {
+      "ref": "cul-031",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Hagia Sophia stands in Istanbul.",
+        "f": "The Hagia Sophia stands in Cairo."
+      },
+      "pt-BR": {
+        "t": "A Hagia Sophia fica em Istambul.",
+        "f": "A Hagia Sophia fica no Cairo."
+      },
+      "fr": {
+        "t": "Sainte-Sophie se dresse à Istanbul.",
+        "f": "Sainte-Sophie se dresse au Caire."
+      }
+    },
+    {
+      "ref": "cul-032",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Maasai are a people of East Africa.",
+        "f": "The Maasai are a people of West Africa."
+      },
+      "pt-BR": {
+        "t": "Os massais são um povo da África Oriental.",
+        "f": "Os massais são um povo da África Ocidental."
+      },
+      "fr": {
+        "t": "Les Maasaï sont un peuple d'Afrique de l'Est.",
+        "f": "Les Maasaï sont un peuple d'Afrique de l'Ouest."
+      }
+    },
+    {
+      "ref": "cul-033",
+      "difficulty": "hard",
+      "en": {
+        "t": "Fado is a Portuguese musical genre.",
+        "f": "Fado is a Romanian musical genre."
+      },
+      "pt-BR": {
+        "t": "O fado é um gênero musical português.",
+        "f": "O fado é um gênero musical romeno."
+      },
+      "fr": {
+        "t": "Le fado est un genre musical portugais.",
+        "f": "Le fado est un genre musical roumain."
+      }
+    },
+    {
+      "ref": "cul-034",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Universal Declaration of Human Rights was adopted in 1948.",
+        "f": "The Universal Declaration of Human Rights was adopted in 1968."
+      },
+      "pt-BR": {
+        "t": "A Declaração Universal dos Direitos Humanos foi adotada em 1948.",
+        "f": "A Declaração Universal dos Direitos Humanos foi adotada em 1968."
+      },
+      "fr": {
+        "t": "La Déclaration universelle des droits de l'homme a été adoptée en 1948.",
+        "f": "La Déclaration universelle des droits de l'homme a été adoptée en 1968."
+      }
+    },
+    {
+      "ref": "cul-035",
+      "difficulty": "hard",
+      "en": {
+        "t": "In Japanese cuisine, umami is described as a savoury taste.",
+        "f": "In Japanese cuisine, umami is described as a sour taste."
+      },
+      "pt-BR": {
+        "t": "Na culinária japonesa, o umami é descrito como um sabor salgado e encorpado.",
+        "f": "Na culinária japonesa, o umami é descrito como um sabor azedo."
+      },
+      "fr": {
+        "t": "Dans la cuisine japonaise, l'umami est décrit comme un goût savoureux.",
+        "f": "Dans la cuisine japonaise, l'umami est décrit comme un goût acide."
+      }
+    },
+    {
+      "ref": "cul-036",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Rosetta Stone carries the same text in three scripts.",
+        "f": "The Rosetta Stone carries three unrelated texts in one script."
+      },
+      "pt-BR": {
+        "t": "A Pedra de Roseta traz o mesmo texto em três escritas.",
+        "f": "A Pedra de Roseta traz três textos sem relação em uma única escrita."
+      },
+      "fr": {
+        "t": "La pierre de Rosette porte le même texte en trois écritures.",
+        "f": "La pierre de Rosette porte trois textes sans lien en une seule écriture."
+      }
+    },
+    {
+      "ref": "cul-037",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Sami are an Indigenous people of northern Scandinavia.",
+        "f": "The Sami are an Indigenous people of the Andes."
+      },
+      "pt-BR": {
+        "t": "Os sámis são um povo indígena do norte da Escandinávia.",
+        "f": "Os sámis são um povo indígena dos Andes."
+      },
+      "fr": {
+        "t": "Les Samis sont un peuple autochtone du nord de la Scandinavie.",
+        "f": "Les Samis sont un peuple autochtone des Andes."
+      }
+    },
+    {
+      "ref": "cul-038",
+      "difficulty": "hard",
+      "en": {
+        "t": "Hieroglyphic writing was used in ancient Egypt for over three thousand years.",
+        "f": "Hieroglyphic writing was used in ancient Egypt for about fifty years."
+      },
+      "pt-BR": {
+        "t": "A escrita hieroglífica foi usada no Egito antigo por mais de três mil anos.",
+        "f": "A escrita hieroglífica foi usada no Egito antigo por cerca de cinquenta anos."
+      },
+      "fr": {
+        "t": "L'écriture hiéroglyphique a été utilisée en Égypte ancienne pendant plus de trois mille ans.",
+        "f": "L'écriture hiéroglyphique a été utilisée en Égypte ancienne pendant une cinquantaine d'années."
+      }
+    },
+    {
+      "ref": "cul-039",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Maldives is a country made up of coral atolls.",
+        "f": "The Maldives is a country made up of volcanic highlands."
+      },
+      "pt-BR": {
+        "t": "As Maldivas são um país formado por atóis de coral.",
+        "f": "As Maldivas são um país formado por planaltos vulcânicos."
+      },
+      "fr": {
+        "t": "Les Maldives sont un pays formé d'atolls coralliens.",
+        "f": "Les Maldives sont un pays formé de hauts plateaux volcaniques."
+      }
+    },
+    {
+      "ref": "cul-040",
+      "difficulty": "hard",
+      "en": {
+        "t": "In Hindu tradition, the Ganges is considered a sacred river.",
+        "f": "In Hindu tradition, the Ganges is considered an ordinary waterway with no religious status."
+      },
+      "pt-BR": {
+        "t": "Na tradição hindu, o Ganges é considerado um rio sagrado.",
+        "f": "Na tradição hindu, o Ganges é considerado um curso d'água comum sem estatuto religioso."
+      },
+      "fr": {
+        "t": "Dans la tradition hindoue, le Gange est considéré comme un fleuve sacré.",
+        "f": "Dans la tradition hindoue, le Gange est considéré comme un cours d'eau ordinaire sans statut religieux."
+      }
+    }
+  ]
+}

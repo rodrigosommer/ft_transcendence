@@ -1,0 +1,649 @@
+{
+  "category": {
+    "slug": "sports",
+    "name": "Sports & Games"
+  },
+  "license": "CC BY-SA 4.0",
+  "facts": [
+    {
+      "ref": "spt-001",
+      "difficulty": "easy",
+      "en": {
+        "t": "A football team fields eleven players.",
+        "f": "A football team fields nine players."
+      },
+      "pt-BR": {
+        "t": "Um time de futebol entra em campo com onze jogadores.",
+        "f": "Um time de futebol entra em campo com nove jogadores."
+      },
+      "fr": {
+        "t": "Une équipe de football aligne onze joueurs.",
+        "f": "Une équipe de football aligne neuf joueurs."
+      }
+    },
+    {
+      "ref": "spt-002",
+      "difficulty": "easy",
+      "en": {
+        "t": "A chess board has 64 squares.",
+        "f": "A chess board has 100 squares."
+      },
+      "pt-BR": {
+        "t": "Um tabuleiro de xadrez tem 64 casas.",
+        "f": "Um tabuleiro de xadrez tem 100 casas."
+      },
+      "fr": {
+        "t": "Un échiquier compte 64 cases.",
+        "f": "Un échiquier compte 100 cases."
+      }
+    },
+    {
+      "ref": "spt-003",
+      "difficulty": "easy",
+      "en": {
+        "t": "The Olympic Games are held every four years.",
+        "f": "The Olympic Games are held every two years."
+      },
+      "pt-BR": {
+        "t": "Os Jogos Olímpicos acontecem a cada quatro anos.",
+        "f": "Os Jogos Olímpicos acontecem a cada dois anos."
+      },
+      "fr": {
+        "t": "Les Jeux olympiques ont lieu tous les quatre ans.",
+        "f": "Les Jeux olympiques ont lieu tous les deux ans."
+      }
+    },
+    {
+      "ref": "spt-004",
+      "difficulty": "easy",
+      "en": {
+        "t": "A basketball team has five players on court.",
+        "f": "A basketball team has seven players on court."
+      },
+      "pt-BR": {
+        "t": "Um time de basquete tem cinco jogadores em quadra.",
+        "f": "Um time de basquete tem sete jogadores em quadra."
+      },
+      "fr": {
+        "t": "Une équipe de basket compte cinq joueurs sur le terrain.",
+        "f": "Une équipe de basket compte sept joueurs sur le terrain."
+      }
+    },
+    {
+      "ref": "spt-005",
+      "difficulty": "easy",
+      "en": {
+        "t": "The Wimbledon tennis tournament is played on grass courts.",
+        "f": "The Wimbledon tennis tournament is played on clay courts."
+      },
+      "pt-BR": {
+        "t": "O torneio de tênis de Wimbledon é disputado em quadras de grama.",
+        "f": "O torneio de tênis de Wimbledon é disputado em quadras de saibro."
+      },
+      "fr": {
+        "t": "Le tournoi de tennis de Wimbledon se joue sur gazon.",
+        "f": "Le tournoi de tennis de Wimbledon se joue sur terre battue."
+      }
+    },
+    {
+      "ref": "spt-006",
+      "difficulty": "easy",
+      "en": {
+        "t": "A marathon is about 42 kilometres long.",
+        "f": "A marathon is about 21 kilometres long."
+      },
+      "pt-BR": {
+        "t": "Uma maratona tem cerca de 42 quilômetros.",
+        "f": "Uma maratona tem cerca de 21 quilômetros."
+      },
+      "fr": {
+        "t": "Un marathon fait environ 42 kilomètres.",
+        "f": "Un marathon fait environ 21 kilomètres."
+      }
+    },
+    {
+      "ref": "spt-007",
+      "difficulty": "easy",
+      "en": {
+        "t": "The Tour de France is a cycling race.",
+        "f": "The Tour de France is a sailing race."
+      },
+      "pt-BR": {
+        "t": "O Tour de France é uma corrida de ciclismo.",
+        "f": "O Tour de France é uma regata de vela."
+      },
+      "fr": {
+        "t": "Le Tour de France est une course cycliste.",
+        "f": "Le Tour de France est une course à la voile."
+      }
+    },
+    {
+      "ref": "spt-008",
+      "difficulty": "easy",
+      "en": {
+        "t": "In chess, the knight moves in an L shape.",
+        "f": "In chess, the knight moves only diagonally."
+      },
+      "pt-BR": {
+        "t": "No xadrez, o cavalo se move em forma de L.",
+        "f": "No xadrez, o cavalo se move apenas na diagonal."
+      },
+      "fr": {
+        "t": "Aux échecs, le cavalier se déplace en L.",
+        "f": "Aux échecs, le cavalier se déplace uniquement en diagonale."
+      }
+    },
+    {
+      "ref": "spt-009",
+      "difficulty": "easy",
+      "en": {
+        "t": "A standard deck of playing cards has 52 cards.",
+        "f": "A standard deck of playing cards has 60 cards."
+      },
+      "pt-BR": {
+        "t": "Um baralho comum tem 52 cartas.",
+        "f": "Um baralho comum tem 60 cartas."
+      },
+      "fr": {
+        "t": "Un jeu de cartes classique compte 52 cartes.",
+        "f": "Un jeu de cartes classique compte 60 cartes."
+      }
+    },
+    {
+      "ref": "spt-010",
+      "difficulty": "easy",
+      "en": {
+        "t": "Volleyball is played with a net dividing the court.",
+        "f": "Volleyball is played without any net."
+      },
+      "pt-BR": {
+        "t": "O vôlei é jogado com uma rede dividindo a quadra.",
+        "f": "O vôlei é jogado sem nenhuma rede."
+      },
+      "fr": {
+        "t": "Le volley-ball se joue avec un filet séparant le terrain.",
+        "f": "Le volley-ball se joue sans aucun filet."
+      }
+    },
+    {
+      "ref": "spt-011",
+      "difficulty": "easy",
+      "en": {
+        "t": "The football World Cup is organised by FIFA.",
+        "f": "The football World Cup is organised by the IOC."
+      },
+      "pt-BR": {
+        "t": "A Copa do Mundo de futebol é organizada pela FIFA.",
+        "f": "A Copa do Mundo de futebol é organizada pelo COI."
+      },
+      "fr": {
+        "t": "La Coupe du monde de football est organisée par la FIFA.",
+        "f": "La Coupe du monde de football est organisée par le CIO."
+      }
+    },
+    {
+      "ref": "spt-012",
+      "difficulty": "easy",
+      "en": {
+        "t": "A dice used in most board games has six faces.",
+        "f": "A dice used in most board games has eight faces."
+      },
+      "pt-BR": {
+        "t": "O dado usado na maioria dos jogos de tabuleiro tem seis faces.",
+        "f": "O dado usado na maioria dos jogos de tabuleiro tem oito faces."
+      },
+      "fr": {
+        "t": "Le dé utilisé dans la plupart des jeux de société a six faces.",
+        "f": "Le dé utilisé dans la plupart des jeux de société a huit faces."
+      }
+    },
+    {
+      "ref": "spt-013",
+      "difficulty": "medium",
+      "en": {
+        "t": "The modern Olympic Games began in 1896.",
+        "f": "The modern Olympic Games began in 1920."
+      },
+      "pt-BR": {
+        "t": "Os Jogos Olímpicos modernos começaram em 1896.",
+        "f": "Os Jogos Olímpicos modernos começaram em 1920."
+      },
+      "fr": {
+        "t": "Les Jeux olympiques modernes ont commencé en 1896.",
+        "f": "Les Jeux olympiques modernes ont commencé en 1920."
+      }
+    },
+    {
+      "ref": "spt-014",
+      "difficulty": "medium",
+      "en": {
+        "t": "In rugby union each team has fifteen players.",
+        "f": "In rugby union each team has eleven players."
+      },
+      "pt-BR": {
+        "t": "No rugby union cada equipe tem quinze jogadores.",
+        "f": "No rugby union cada equipe tem onze jogadores."
+      },
+      "fr": {
+        "t": "Au rugby à XV, chaque équipe compte quinze joueurs.",
+        "f": "Au rugby à XV, chaque équipe compte onze joueurs."
+      }
+    },
+    {
+      "ref": "spt-015",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Olympic flag shows five interlocking rings.",
+        "f": "The Olympic flag shows six interlocking rings."
+      },
+      "pt-BR": {
+        "t": "A bandeira olímpica mostra cinco anéis entrelaçados.",
+        "f": "A bandeira olímpica mostra seis anéis entrelaçados."
+      },
+      "fr": {
+        "t": "Le drapeau olympique montre cinq anneaux entrelacés.",
+        "f": "Le drapeau olympique montre six anneaux entrelacés."
+      }
+    },
+    {
+      "ref": "spt-016",
+      "difficulty": "medium",
+      "en": {
+        "t": "Go is a board game that originated in China.",
+        "f": "Go is a board game that originated in Egypt."
+      },
+      "pt-BR": {
+        "t": "O Go é um jogo de tabuleiro originário da China.",
+        "f": "O Go é um jogo de tabuleiro originário do Egito."
+      },
+      "fr": {
+        "t": "Le go est un jeu de plateau originaire de Chine.",
+        "f": "Le go est un jeu de plateau originaire d'Égypte."
+      }
+    },
+    {
+      "ref": "spt-017",
+      "difficulty": "medium",
+      "en": {
+        "t": "In golf, a birdie is one stroke under par.",
+        "f": "In golf, a birdie is one stroke over par."
+      },
+      "pt-BR": {
+        "t": "No golfe, um birdie é uma tacada abaixo do par.",
+        "f": "No golfe, um birdie é uma tacada acima do par."
+      },
+      "fr": {
+        "t": "Au golf, un birdie est un coup sous le par.",
+        "f": "Au golf, un birdie est un coup au-dessus du par."
+      }
+    },
+    {
+      "ref": "spt-018",
+      "difficulty": "medium",
+      "en": {
+        "t": "Judo originated in Japan.",
+        "f": "Judo originated in Korea."
+      },
+      "pt-BR": {
+        "t": "O judô tem origem no Japão.",
+        "f": "O judô tem origem na Coreia."
+      },
+      "fr": {
+        "t": "Le judo est né au Japon.",
+        "f": "Le judo est né en Corée."
+      }
+    },
+    {
+      "ref": "spt-019",
+      "difficulty": "medium",
+      "en": {
+        "t": "A chess game can end in a draw by stalemate.",
+        "f": "A chess game always ends with a winner."
+      },
+      "pt-BR": {
+        "t": "Uma partida de xadrez pode terminar empatada por afogamento.",
+        "f": "Uma partida de xadrez sempre termina com um vencedor."
+      },
+      "fr": {
+        "t": "Une partie d'échecs peut se terminer par une nulle par pat.",
+        "f": "Une partie d'échecs se termine toujours par un vainqueur."
+      }
+    },
+    {
+      "ref": "spt-020",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Ryder Cup is a golf competition.",
+        "f": "The Ryder Cup is a rowing competition."
+      },
+      "pt-BR": {
+        "t": "A Ryder Cup é uma competição de golfe.",
+        "f": "A Ryder Cup é uma competição de remo."
+      },
+      "fr": {
+        "t": "La Ryder Cup est une compétition de golf.",
+        "f": "La Ryder Cup est une compétition d'aviron."
+      }
+    },
+    {
+      "ref": "spt-021",
+      "difficulty": "medium",
+      "en": {
+        "t": "In a penalty shootout each team takes alternating kicks.",
+        "f": "In a penalty shootout one team takes all its kicks first."
+      },
+      "pt-BR": {
+        "t": "Em uma disputa de pênaltis cada equipe cobra alternadamente.",
+        "f": "Em uma disputa de pênaltis uma equipe cobra todas as suas primeiro."
+      },
+      "fr": {
+        "t": "Lors d'une séance de tirs au but, les équipes tirent en alternance.",
+        "f": "Lors d'une séance de tirs au but, une équipe tire d'abord tous ses tirs."
+      }
+    },
+    {
+      "ref": "spt-022",
+      "difficulty": "medium",
+      "en": {
+        "t": "The Formula One world championship awards points to race finishers.",
+        "f": "The Formula One world championship awards points only to the race winner."
+      },
+      "pt-BR": {
+        "t": "O campeonato mundial de Fórmula 1 dá pontos aos que terminam a corrida.",
+        "f": "O campeonato mundial de Fórmula 1 dá pontos apenas ao vencedor da corrida."
+      },
+      "fr": {
+        "t": "Le championnat du monde de Formule 1 attribue des points aux pilotes classés.",
+        "f": "Le championnat du monde de Formule 1 attribue des points uniquement au vainqueur."
+      }
+    },
+    {
+      "ref": "spt-023",
+      "difficulty": "medium",
+      "en": {
+        "t": "Capoeira combines martial arts, dance and music, and comes from Brazil.",
+        "f": "Capoeira combines martial arts, dance and music, and comes from Cuba."
+      },
+      "pt-BR": {
+        "t": "A capoeira combina luta, dança e música, e vem do Brasil.",
+        "f": "A capoeira combina luta, dança e música, e vem de Cuba."
+      },
+      "fr": {
+        "t": "La capoeira mêle art martial, danse et musique, et vient du Brésil.",
+        "f": "La capoeira mêle art martial, danse et musique, et vient de Cuba."
+      }
+    },
+    {
+      "ref": "spt-024",
+      "difficulty": "medium",
+      "en": {
+        "t": "An Olympic swimming pool is 50 metres long.",
+        "f": "An Olympic swimming pool is 25 metres long."
+      },
+      "pt-BR": {
+        "t": "Uma piscina olímpica tem 50 metros de comprimento.",
+        "f": "Uma piscina olímpica tem 25 metros de comprimento."
+      },
+      "fr": {
+        "t": "Un bassin olympique mesure 50 mètres de long.",
+        "f": "Un bassin olympique mesure 25 mètres de long."
+      }
+    },
+    {
+      "ref": "spt-025",
+      "difficulty": "medium",
+      "en": {
+        "t": "Badminton is played with a shuttlecock.",
+        "f": "Badminton is played with a hollow rubber ball."
+      },
+      "pt-BR": {
+        "t": "O badminton é jogado com uma peteca.",
+        "f": "O badminton é jogado com uma bola oca de borracha."
+      },
+      "fr": {
+        "t": "Le badminton se joue avec un volant.",
+        "f": "Le badminton se joue avec une balle creuse en caoutchouc."
+      }
+    },
+    {
+      "ref": "spt-026",
+      "difficulty": "medium",
+      "en": {
+        "t": "A hat-trick means scoring three goals in a match.",
+        "f": "A hat-trick means scoring five goals in a match."
+      },
+      "pt-BR": {
+        "t": "Um hat-trick significa marcar três gols em uma partida.",
+        "f": "Um hat-trick significa marcar cinco gols em uma partida."
+      },
+      "fr": {
+        "t": "Un coup du chapeau désigne trois buts marqués dans un match.",
+        "f": "Un coup du chapeau désigne cinq buts marqués dans un match."
+      }
+    },
+    {
+      "ref": "spt-027",
+      "difficulty": "hard",
+      "en": {
+        "t": "The first modern Olympic Games were held in Athens.",
+        "f": "The first modern Olympic Games were held in Paris."
+      },
+      "pt-BR": {
+        "t": "Os primeiros Jogos Olímpicos modernos foram realizados em Atenas.",
+        "f": "Os primeiros Jogos Olímpicos modernos foram realizados em Paris."
+      },
+      "fr": {
+        "t": "Les premiers Jeux olympiques modernes se sont tenus à Athènes.",
+        "f": "Les premiers Jeux olympiques modernes se sont tenus à Paris."
+      }
+    },
+    {
+      "ref": "spt-028",
+      "difficulty": "hard",
+      "en": {
+        "t": "In cricket, an over consists of six deliveries.",
+        "f": "In cricket, an over consists of ten deliveries."
+      },
+      "pt-BR": {
+        "t": "No críquete, um over consiste em seis lançamentos.",
+        "f": "No críquete, um over consiste em dez lançamentos."
+      },
+      "fr": {
+        "t": "Au cricket, un over comprend six lancers.",
+        "f": "Au cricket, un over comprend dix lancers."
+      }
+    },
+    {
+      "ref": "spt-029",
+      "difficulty": "hard",
+      "en": {
+        "t": "The chess opening known as the Sicilian Defence begins with a reply to the king's pawn.",
+        "f": "The chess opening known as the Sicilian Defence begins with a reply to the queen's pawn."
+      },
+      "pt-BR": {
+        "t": "A abertura de xadrez chamada Defesa Siciliana começa como resposta ao peão do rei.",
+        "f": "A abertura de xadrez chamada Defesa Siciliana começa como resposta ao peão da dama."
+      },
+      "fr": {
+        "t": "L'ouverture d'échecs dite défense sicilienne répond au pion du roi.",
+        "f": "L'ouverture d'échecs dite défense sicilienne répond au pion de la dame."
+      }
+    },
+    {
+      "ref": "spt-030",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Davis Cup is a men's national team tennis competition.",
+        "f": "The Davis Cup is a men's national team handball competition."
+      },
+      "pt-BR": {
+        "t": "A Copa Davis é uma competição de tênis por equipes nacionais masculinas.",
+        "f": "A Copa Davis é uma competição de handebol por equipes nacionais masculinas."
+      },
+      "fr": {
+        "t": "La Coupe Davis est une compétition de tennis par équipes nationales masculines.",
+        "f": "La Coupe Davis est une compétition de handball par équipes nationales masculines."
+      }
+    },
+    {
+      "ref": "spt-031",
+      "difficulty": "hard",
+      "en": {
+        "t": "Sumo wrestling matches take place in a circular ring.",
+        "f": "Sumo wrestling matches take place in a square ring with ropes."
+      },
+      "pt-BR": {
+        "t": "As lutas de sumô acontecem em um ringue circular.",
+        "f": "As lutas de sumô acontecem em um ringue quadrado com cordas."
+      },
+      "fr": {
+        "t": "Les combats de sumo se déroulent dans un cercle.",
+        "f": "Les combats de sumo se déroulent dans un ring carré avec des cordes."
+      }
+    },
+    {
+      "ref": "spt-032",
+      "difficulty": "hard",
+      "en": {
+        "t": "The America's Cup is a sailing trophy.",
+        "f": "The America's Cup is a motor racing trophy."
+      },
+      "pt-BR": {
+        "t": "A Copa América de vela é um troféu de iatismo.",
+        "f": "A Copa América de vela é um troféu do automobilismo."
+      },
+      "fr": {
+        "t": "La Coupe de l'America est un trophée de voile.",
+        "f": "La Coupe de l'America est un trophée de course automobile."
+      }
+    },
+    {
+      "ref": "spt-033",
+      "difficulty": "hard",
+      "en": {
+        "t": "In archery, the innermost ring of a target scores ten points.",
+        "f": "In archery, the innermost ring of a target scores five points."
+      },
+      "pt-BR": {
+        "t": "No tiro com arco, o anel central do alvo vale dez pontos.",
+        "f": "No tiro com arco, o anel central do alvo vale cinco pontos."
+      },
+      "fr": {
+        "t": "En tir à l'arc, l'anneau central de la cible vaut dix points.",
+        "f": "En tir à l'arc, l'anneau central de la cible vaut cinq points."
+      }
+    },
+    {
+      "ref": "spt-034",
+      "difficulty": "hard",
+      "en": {
+        "t": "A decathlon consists of ten track and field events.",
+        "f": "A decathlon consists of seven track and field events."
+      },
+      "pt-BR": {
+        "t": "O decatlo é composto por dez provas de atletismo.",
+        "f": "O decatlo é composto por sete provas de atletismo."
+      },
+      "fr": {
+        "t": "Le décathlon comprend dix épreuves d'athlétisme.",
+        "f": "Le décathlon comprend sept épreuves d'athlétisme."
+      }
+    },
+    {
+      "ref": "spt-035",
+      "difficulty": "hard",
+      "en": {
+        "t": "Backgammon is played on a board with twenty-four points.",
+        "f": "Backgammon is played on a board with thirty-two points."
+      },
+      "pt-BR": {
+        "t": "O gamão é jogado em um tabuleiro com vinte e quatro casas triangulares.",
+        "f": "O gamão é jogado em um tabuleiro com trinta e duas casas triangulares."
+      },
+      "fr": {
+        "t": "Le backgammon se joue sur un plateau à vingt-quatre flèches.",
+        "f": "Le backgammon se joue sur un plateau à trente-deux flèches."
+      }
+    },
+    {
+      "ref": "spt-036",
+      "difficulty": "hard",
+      "en": {
+        "t": "The Paralympic Games take place after the Olympic Games in the same host city.",
+        "f": "The Paralympic Games take place a year before the Olympic Games in a different city."
+      },
+      "pt-BR": {
+        "t": "Os Jogos Paralímpicos ocorrem depois dos Olímpicos na mesma cidade-sede.",
+        "f": "Os Jogos Paralímpicos ocorrem um ano antes dos Olímpicos em outra cidade."
+      },
+      "fr": {
+        "t": "Les Jeux paralympiques ont lieu après les Jeux olympiques dans la même ville hôte.",
+        "f": "Les Jeux paralympiques ont lieu un an avant les Jeux olympiques dans une autre ville."
+      }
+    },
+    {
+      "ref": "spt-037",
+      "difficulty": "hard",
+      "en": {
+        "t": "In fencing, the épée allows the whole body as a valid target.",
+        "f": "In fencing, the épée allows only the torso as a valid target."
+      },
+      "pt-BR": {
+        "t": "Na esgrima, a espada permite o corpo inteiro como alvo válido.",
+        "f": "Na esgrima, a espada permite apenas o tronco como alvo válido."
+      },
+      "fr": {
+        "t": "En escrime, l'épée autorise tout le corps comme cible valable.",
+        "f": "En escrime, l'épée n'autorise que le torse comme cible valable."
+      }
+    },
+    {
+      "ref": "spt-038",
+      "difficulty": "hard",
+      "en": {
+        "t": "Shogi is a Japanese board game related to chess.",
+        "f": "Shogi is a Japanese card game related to bridge."
+      },
+      "pt-BR": {
+        "t": "O shogi é um jogo de tabuleiro japonês aparentado ao xadrez.",
+        "f": "O shogi é um jogo de cartas japonês aparentado ao bridge."
+      },
+      "fr": {
+        "t": "Le shogi est un jeu de plateau japonais apparenté aux échecs.",
+        "f": "Le shogi est un jeu de cartes japonais apparenté au bridge."
+      }
+    },
+    {
+      "ref": "spt-039",
+      "difficulty": "hard",
+      "en": {
+        "t": "A regulation football match lasts ninety minutes plus stoppage time.",
+        "f": "A regulation football match lasts sixty minutes plus stoppage time."
+      },
+      "pt-BR": {
+        "t": "Uma partida oficial de futebol dura noventa minutos mais os acréscimos.",
+        "f": "Uma partida oficial de futebol dura sessenta minutos mais os acréscimos."
+      },
+      "fr": {
+        "t": "Un match de football réglementaire dure quatre-vingt-dix minutes plus le temps additionnel.",
+        "f": "Un match de football réglementaire dure soixante minutes plus le temps additionnel."
+      }
+    },
+    {
+      "ref": "spt-040",
+      "difficulty": "hard",
+      "en": {
+        "t": "In the game of bridge, each player is dealt thirteen cards.",
+        "f": "In the game of bridge, each player is dealt ten cards."
+      },
+      "pt-BR": {
+        "t": "No bridge, cada jogador recebe treze cartas.",
+        "f": "No bridge, cada jogador recebe dez cartas."
+      },
+      "fr": {
+        "t": "Au bridge, chaque joueur reçoit treize cartes.",
+        "f": "Au bridge, chaque joueur reçoit dix cartes."
+      }
+    }
+  ]
+}

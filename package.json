@@ -1,0 +1,22 @@
+{
+  "name": "wkb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WKB — a real-time multiplayer myth-or-truth card game (42 ft_transcendence)",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "tools/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build:shared": "npm run build -w @wkb/shared",
+    "build": "npm run build:shared && npm run build -w @wkb/api && npm run build -w @wkb/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  }
+}
